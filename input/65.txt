@@ -1,0 +1,23 @@
+Thuốc trước khi nhập viện: chỉ dùng để chống đông máu
+
+2. Bệnh sử hiện tại
+Lý do nhập viện: 3 ngày đại tiện ra máu đỏ tươi gián đoạn
+Thời điểm khởi phát triệu chứng: 3 ngày
+Triệu chứng hiện tại
+- đại tiện ra máu đỏ tươi gián đoạn
+- chóng mặt
+Đặc điểm triệu chứng
+- Vị trí: qua đường hậu môn
+- Màu sắc: đỏ tươi
+- Triệu chứng kèm theo: chóng mặt
+Các sự kiện trước khi nhập viện
+- Bệnh nhân được khám tại phòng cấp cứu
+- inr là 2.0
+Tình trạng ngay trước khi nhập viện
+- nhập viện để đánh giá rối loạn đông máu
+- nhập viện để đánh giá tăng Cr theo phòng cấp cứu
+
+3. Đánh giá tại bệnh viện
+Kết quả xét nghiệm
+- inr là 2.0
+- tăng Cr theo phòng cấp cứu

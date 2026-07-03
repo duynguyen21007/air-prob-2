@@ -1,0 +1,36 @@
+1.  Tiền sử bệnh
+    Các tập tương tự trước đây
+    - Nhập viện khoa Thần kinh từ [Date] với thông não so với chụp cắt lớp vi tính (ct) đầu từ [Date].
+    - Bị tăng đau đầu cải thiện khi nằm ngửa.
+    - Nhập viện khoa Thần kinh vào thời điểm đó để điều trị chứng đau đầu.
+    - Được bác sĩ nhãn khoa khám trong quá trình nhập viện đó và không phát hiện phù gai thị.
+    Bệnh lý mãn tính: não úng thuỷ khác từ thời kỳ sơ sinh
+    Tiền sử phẫu thuật / thủ thuật
+    - Phẫu thuật đặt cảng để điều trị chứng tăng nhãn áp ở thời kỳ sơ sinh
+- Hệ thống dẫn lưu được chỉnh sửa/thay thế khi 3 tháng tuổi
+- Hệ thống dẫn lưu được chỉnh sửa/thay thế lại khi [Số] tuổi
+2.  Tiền sử bệnh hiện tại
+    Lý do nhập viện: đau đầu kéo dài kèm theo mờ mắt
+    Thời điểm khởi phát triệu chứng: nhìn mờ tiến triển trong 2 tuần qua
+    Diễn biến bệnh
+    - Bệnh nhân bị não úng tuỷ từ thời kỳ sơ sinh, được điều trị bằng cách đặt dẫn lưu shunt
+    - Trước đây đã từng nhập viện với chẩn đoán não úng thủy, có biểu hiện tăng đau đầu , triệu chứng cải thiện khi nằm ngửa.
+    - Nhập viện trước đây vào khoa Thần kinh để điều trị chứng đau đầu.
+    - Khám nhãn khoa trong quá trình nhập viện trước đó cho thấy không có phù gai thị.
+    - Đến hôm nay, bệnh nhân bị mờ mắt ở cả hai mắt, bên trái nặng hơn bên phải, tiến triển trong 2 tuần qua.
+    - Đến hôm nay, bệnh nhân bị tăng tần suất đau đầu gián đoạn.
+    Triệu chứng hiện tại
+    - đau đầu kéo dài
+    - nhìn mờ ở cả hai mắt, bên trái nặng hơn bên phải
+    -  cơn  đau đầu nhiều hơn
+    Đặc điểm triệu chứng
+    - nhìn mờ: tiến triển trong 2 tuần qua, bên trái nặng hơn bên phải
+    - đau đầu: nhiều hơn
+    Sự kiện trước khi nhập viện
+    - Được bác sĩ nhãn khoa [Name] khám ngoại trú hôm nay
+    - Được bác sĩ nhãn khoa giới thiệu đến Khoa Cấp cứu vì phù gai thị, bên trái nặng hơn bên phải
+3.  Đánh giá tại bệnh viện
+    Dấu hiệu lâm sàng: Phù gai thị, bên trái nặng hơn bên phải (theo báo cáo của bác sĩ nhãn khoa)
+    Các phát hiện chẩn đoán khác
+    - Tăng nhãn áp so với chụp cắt lớp vi tính (ct) đầu từ [Date] (từ lần nhập viện trước)
+    - Phù gai thị (theo báo cáo của bác sĩ nhãn khoa)

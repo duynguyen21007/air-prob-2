@@ -1,0 +1,37 @@
+1.  Tiền sử bệnh nội khoa
+    Bệnh mãn tính: tiền sử Bệnh túi thừa ở cả ruột non và đại tràng, chưa có biến chứng thủng hoặc áp xe.
+    Thuốc trước khi nhập viện: thường dùng colace
+
+2.  Tiền sử bệnh hiện tại
+    Lý do nhập viện: đau bụng
+    Thời điểm khởi phát triệu chứng: khởi phát đột ngột đau hố chậu
+    Diễn biến bệnh
+    - Bệnh nhân cảm thấy rất táo bón
+    - Bệnh nhân đã ăn quả mận khô
+    - ban đêm, bệnh nhân có thể đi đại tiện vài lần liên tục, phân có vẻ thành khuôn
+    - Sau đó, bệnh nhân nhận thấy khởi phát đột ngột đau hố chậu
+    - gọi cho bác sĩ chăm sóc chính (PCP)
+    - Bác sĩ PCP khuyên dùng tylenol cho đau
+    - bệnh nhân dùng tylenol nhưng phải đến phòng cấp cứu vì đau vẫn tiếp tục
+    Triệu chứng hiện tại
+    - đau bụng
+    - táo bón
+    - buồn nôn
+    Đặc điểm triệu chứng
+    - Vị trí: đau hố chậu
+    - Mức độ nghiêm trọng: cơn đau vẫn tiếp diễn mặc dù đã dùng tylenol
+    - Triệu chứng liên quan: buồn nôn
+    Các sự kiện trước khi nhập viện
+    - đã dùng quả mận khô
+    - đã dùng tylenol
+    - gọi cho bác sĩ PCP
+    - Bác sĩ PCP khuyên dùng tylenol cho đau
+    Tình trạng ngay trước khi nhập viện: đau vẫn tiếp diễn
+
+3.  Đánh giá tại bệnh viện
+    khám thực thể Kết quả: dấu hiệu sinh tồn ban đầu được ghi nhận là T97.8, nhịp tim 84, huyết áp 15670, nhịp thở 20, độ bão hòa oxy 99 khi thở khí trời
+    xét nghiệm Kết quả
+    - thiếu máu hồng cầu nhỏ là 27.2
+    - bun/creatinine
+    Kết quả chẩn đoán hình ảnh: chụp ct bụng, chậu, không thuốc cản quang cho thấy một lượng nhỏ dịch và mỡ bao quanh một quai ruột kết sigma, gợi ý viêm túi mật cấp tính không biến chứng
+    Các kết quả chẩn đoán khác: viêm túi mật cấp tính không biến chứng

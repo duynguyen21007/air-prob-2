@@ -1,0 +1,16 @@
+1.  Tiền sử bệnh
+    Bệnh lý mãn tính: tiền sử lâu dài của tăng huyết áp
+    Tiền sử phẫu thuật / thủ thuật: đã thực hiện R BK-pop đến DP BPG
+
+2.  Tiền sử bệnh hiện tại
+    Triệu chứng hiện tại
+    - khó khăn với hạ huyết áp, không đặc hiệu
+    - khó kiểm soát huyết áp đáng kể
+    - đi khập khiễng cách quãng
+    Sự kiện trước khi nhập viện: chụp cắt lớp vi tính (ct) được thực hiện cho thấy tắc hẹp 80% động mạch thận trái L
+
+3.  Đánh giá tại bệnh viện
+    Kết quả chẩn đoán hình ảnh: chụp cắt lớp vi tính (ct) cho thấy tắc hẹp 80% động mạch thận trái L
+    Thủ thuật thực hiện
+    - chụp mạch máu thận
+    - stent

@@ -1,0 +1,49 @@
+1.  Tiền sử bệnh nội khoa
+    Các bệnh lý mạn tính
+    - Bệnh bạch cầu dòng tủy mãn tính đang dùng gleevec
+    - Tăng huyết áp
+    - tăng lipid máu, không đặc hiệu
+    - Đái tháo đường típ 2
+    - hẹp ống sống
+    - Giả gout
+    - bệnh thận mạn, không đặc hiệu Giai đoạn 4
+    - tăng sản tuyến tiền liệt
+    - Nhiều lần ngã gần đây Ngã
+    - ảo giác
+    Thuốc trước khi nhập viện: gleevec (dừng theo chỉ dẫn sau xuất viện)
+
+2.  Tiền sử bệnh hiện tại
+    Lý do nhập viện
+    - Toàn trạng suy kiệt  kể từ khi xuất viện
+    - ảo giác dai dẳng
+    - Lú lẫn ngày càng nặng
+    Thời điểm khởi phát triệu chứng: Cực kỳ yếu kể từ khi xuất viện
+    Diễn biến bệnh
+    - ảo giác được vợ nhận thấy
+    - Lú lẫn ngày càng nặng được vợ nhận thấy
+    - yếu cơ dẫn đến ngã hôm nay
+    Triệu chứng hiện tại
+    - toàn trạng suy kiệt
+    - ảo giác
+    - Lú lẫn
+    - Ăn uống kém, ăn vào dễ nôn.
+    - Nôn không ra máu, không ra dịch mật
+    Các sự kiện trước khi nhập viện
+    - Vừa được xuất viện sau  chẩn đoán cho ảo giác bình thường
+    - Được hướng dẫn ngừng gleevec
+    Tình trạng ngay trước khi nhập viện
+    - Toàn trạng suy kiệt
+    - trượt ngã xuống sàn do yếu cơ
+    - Ăn uống kém, ăn vào dễ nôn.
+    - Nôn không ra máu, không ra dịch mật
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - bạch cầu tăng là 39.2
+    - creatinin là 3.0
+    - troponin là 0.10
+    - inr là 1.4
+    - Tăng men gan. với alt là 176 và ast là 287
+    - tổng phân tích nước tiểu có đái tháo đườngđái tháo đường
+    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực là bình thường
+    Các phát hiện chẩn đoán khác: đánh giá chuyên khoa huyết học - ung bướu: không nghĩ đây là biến đổi cấp tính và có khả năng đại diện cho cml trong bối cảnh ngừng gleevec

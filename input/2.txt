@@ -1,0 +1,14 @@
+1.  Tiền sử bệnh nội khoa
+    Các bệnh lý mãn tính: nghi ngờ xơ gan do rượu
+    Các yếu tố nguy cơ liên quan: Có tiền sử sử dụng rượu bia
+
+2.  Tiền sử bệnh hiện tại
+    Triệu chứng hiện tại: hội chứng não gan
+    Các sự kiện trước khi nhập viện
+    - đến bệnh viện  với hội chứng não gan
+    - Bệnh nhân được chuyển viện trong tình trạng hội chứng não gan tiến triển, ý thức suy giảm
+    - Bệnh nhân nhập viện vào ngày w tiến triển hội chứng não gan
+    - không thể tự chăm sóc bản thân tại nhà
+
+3.  Đánh giá tại bệnh viện
+    Các thủ thuật đã thực hiện: đặt shunt dẫn lưu tĩnh mạch cửa qua da

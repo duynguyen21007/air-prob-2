@@ -1,0 +1,76 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mạn tính
+    - bệnh Graves
+    - tăng lipid máu, không đặc hiệu
+
+2.  Tiền sử bệnh hiện tại
+    Lý do nhập viện
+    - yếu sức nửa người bên phải
+    - tình trạng tri giác giảm sút
+    - nhìn song thị
+    Thời điểm khởi phát triệu chứng
+    - Thời gian: khoảng 11:00 sáng
+    - Khởi phát cấp tính hay từ từ: Không ghi rõ
+    Diễn biến bệnh
+    - Được con trai phát hiện tại nhà lúc khoảng 11:00 sáng, nằm sải trên sàn.
+    - Than phiền về không thể tự đứng dậy do yếu sức chân phải.
+    - Không nhớ cách mình bị ngã xuống sàn hay lý do tại sao mình bị ngã.
+    - không thể chịu lực ở chân phải, liên tục khuỵu chân khi được giúp đỡ đứng dậy.
+    - Đã được chụp chụp ct sọ não kết quả âm tính.
+    - Đội ngũ y tế tiến hành chọc dò dịch não tủy.
+    - Bị một cơn nhịp tim chậm nặng và hạ huyết áp ngay sau khi study.
+    - Cơn bệnh tự khỏi sau khi dùng intravenous fluids.
+    - Chụp lại chụp ct sọ não, kết quả âm tính.
+    - Chuyển đến bệnh viện để tiếp tục điều trị.
+    - Được gọi là Code tai biến mạch máu não.
+    - Ban đầu tỉnh chậm phản xạ kém.
+    - Dần dần tỉnh táo hơn tỉnh táo và tỉnh khi gọi.
+    - Phủ nhận các bệnh nền lớn tiền sử bệnh hoặc triệu chứng nào khác ngoại trừ nhiễm trùng nhiễm trùng răng miệng gần đây cần dùng kháng sinh.
+    - Phủ nhận tiền sử bị tai biến mạch máu não hoặc co giật.
+    Triệu chứng khi nhập viện
+    - yếu sức nửa người bên phải
+    - tình trạng tri giác giảm sút
+    - nhìn song thị
+    - mệt mỏi
+    Đặc điểm triệu chứng
+    - Vị trí: yếu chân phải
+    - Mức độ nghiêm trọng: Không ghi rõ
+    - Thời gian: Không ghi rõ
+    - Tần suất: Không ghi rõ
+    - Lan tỏa: Không ghi rõ
+    - Các yếu tố làm nặng thêm: Không ghi rõ
+    - Các yếu tố làm giảm bớt: Không ghi rõ
+    - Triệu chứng liên quan: mệt mỏi
+    Các sự kiện trước khi nhập viện
+    - Được con trai phát hiện tại nhà.
+    - Than phiền về yếu sức chân phải.
+    - Đã được chụp chụp ct sọ não kết quả âm tính.
+    - Tiến hành chọc dò dịch não tủy.
+    - Bị nhịp tim chậm nặng và hạ huyết áp, không đặc hiệu.
+    - Cơn bệnh tự khỏi sau khi dùng intravenous fluids.
+    - Chụp lại chụp ct sọ não, kết quả âm tính.
+    - Đã dùng kháng sinh cho nhiễm trùng nhiễm trùng răng miệng gần đây.
+    Tình trạng ngay trước khi nhập viện
+    - Nằm sải trên sàn.
+    - không thể tự đứng dậy do yếu sức chân phải.
+    - không thể chịu lực ở chân phải, liên tục khuỵu chân.
+    - tỉnh chậm, phản xạ kém.
+
+3.  Đánh giá tại bệnh viện
+    Dấu hiệu lâm sàng
+    - yếu nửa người bên phải
+    - suy giảm tri giác
+    - nhìn song thị
+    - nhịp tim chậm
+    - hạ huyết áp, không đặc hiệu
+    - không nhấc chân phải khỏi mặt giường
+    - chân phải liên tục khuỵ xuống
+    - tỉnh chậm, phản xạ kém
+    Kết quả xét nghiệm
+    - Chẩn đoán hình ảnh
+    - chụp ct sọ não: âm tính
+    - Chụp lại chụp ct sọ não: âm tính
+    Các thủ thuật đã thực hiện
+    - chụp ct sọ não
+    - chọc dò dịch não tủy
+    - Truyền dịch tĩnh mạch

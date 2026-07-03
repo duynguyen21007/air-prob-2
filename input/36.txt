@@ -1,0 +1,48 @@
+1.  Tiền sử bệnh
+    *   Bệnh mạn tính:  Bệnh thận đa nang (tiền sử Bệnh thận đa nang)
+    *   Tiền sử phẫu thuật / thủ thuật: phẫu thuật tái tạo niệu quản trái.
+    *   Thuốc trước khi nhập viện
+        *   azathioprine
+        *   prograf (dose decreased from 5mg bid to 1mg bid)
+        *   cellcept (bệnh nhân đang dùng cellcept)
+
+2.  Tiền sử bệnh hiện tại
+    *   Lý do nhập viện: Suy thận ngày càng nặng
+    *   Thời điểm khởi phát triệu chứng: Muộn (creatinine  tăng cao)
+    *   Diễn biến bệnh
+        *   creatinine ổn định ở mức 1.4-1.6 sau khi ghép.
+        *   creatinine bắt đầu tăng muộn.
+        *   Tình trạng tiêu chảy đáng kể khi dùng cellcept và uống kém.
+        *   Tăng creatinine ban đầu được cho là do nguyên nhân prerenal, ít nhất một phần.
+        *   Giai đoạn giữa (pcr là dương tính với virus bk).
+        *   creatinin tăng được cho là do bệnh lý BK.
+        *   prograf dose decreased from 5mg bid to 1mg bid.
+        *   creatinine tiếp tục tăng.
+        *   Lo ngại về đào thải.
+        *   siêu âm thận cho thấy chỉ số kháng trở bình thường.
+        *   sinh thiết ghép thận không có bằng chứng đào thải kháng thể hữu hình cấp tính.
+        *   creatinine là 5.1 hôm nay.
+        *   k là 5.8 hôm nay.
+    *   Triệu chứng khi nhập viện: Suy thận ngày càng nặng
+    *   Các sự kiện trước khi nhập viện
+        *   Tình trạng tiêu chảy đáng kể khi dùng cellcept và uống kém.
+        *   pcr dương tính với virus bk vào giữa.
+        *   prograf dose decreased from 5mg bid to 1mg bid.
+        *   siêu âm thận cho thấy chỉ số kháng trở bình thường.
+        *   sinh thiết ghép thận không có bằng chứng đào thải kháng thể hữu hình cấp tính.
+        *   xét nghiệm được kiểm tra ngoại trú hôm nay cho thấy creatinine 5.1; k 5.8.
+    *   Tình trạng ngay trước khi nhập viện: Nhập viện để đánh giá thêm và sinh thiết thận lại vào buổi sáng.
+
+3.  Đánh giá tại bệnh viện
+    *   Kết quả xét nghiệm
+        *   creatinine 5.1
+        *   k 5.8
+        *   pcr dương tính với virus bk
+    *   Kết quả chẩn đoán hình ảnh: siêu âm thận cho thấy chỉ số kháng trở bình thường
+    *   Thủ thuật đã thực hiện
+        *   Sinh thiết thận (vào chính ngày hôm đó)
+        *   Sinh thiết thận lại vào buổi sáng (dự kiến)
+    *   Các kết quả chẩn đoán khác
+        *   Bệnh lý thận do BK
+        *   Lo ngại về đào thải
+        *   Không có bằng chứng đào thải kháng thể hữu hình cấp tính (trong sinh thiết)

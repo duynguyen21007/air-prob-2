@@ -1,0 +1,26 @@
+1.  Tiền sử bệnh
+    Bệnh lý mãn tính: u cơ trơn tử cung, không đặc hiệu
+    Thuốc trước khi nhập viện: iron
+
+2.  Lịch sử bệnh hiện tại
+    Lý do nhập viện: Bắt đầu đau bụng dưới và chảy máu nhiều
+    Triệu chứng hiện tại
+    - lower abdominal pain
+    - chảy máu nhiều
+    Các sự kiện trước khi nhập viện
+    - siêu âm được thực hiện vào [Date]
+    - huyết cầu tố là 26.1 vào thời điểm đó
+    - Các lựa chọn điều trị được cân nhắc: điều trị bảo tồn, điều trị nội khoa, can thiệp x-quang và điều trị ngoại khoa
+    - Bệnh nhân yêu cầu cắt bỏ u xơ tử cung qua đường bụng
+    - Tất cả các giấy tờ đồng ý đã được ký trước khi vào phòng mổ
+
+3.  Đánh giá tại bệnh viện
+    Kết quả phòng thí nghiệm: huyết cầu tố 26.1
+    Kết quả chẩn đoán hình ảnh
+    - siêu âm tử cung vào [Date] cho thấy:
+    - Tử cung đo 14,2 x 8,8 x 7,5 cm
+    - U cơ trơn lớn nhất ở đoạn dưới của tử cung đo 4,1 x 4,8 x 4,1 cm
+    - Dải nội mạc tử cung không thể xác định được
+    - Cả hai buồng trứng đều có vẻ bình thường
+    - Không thấy dịch tự do trong túi cùng Douglas
+    - Không có giãn bể thận

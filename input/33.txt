@@ -1,0 +1,42 @@
+1.  Tiền sử bệnh
+    Các bệnh lý mãn tính
+    - béo phì
+    - đái tháo đường được kiểm soát bằng chế độ ăn
+    - ngừng thở khi ngủ
+    - tiền sử lâm sàng suy tim, không đặc hiệu
+    Dị ứng: Dị ứng furosemide
+
+2.  Tiền sử bệnh hiện tại
+    Lý do nhập viện: khó thở
+    Thời điểm khởi phát triệu chứng
+    - tiền sử trước vào viện  ba ngày
+    - bắt đầu nhận thấy khó thở khi xem TV lúc 11:00 sáng ba ngày trước
+    Triệu chứng hiện tại
+    - khó thở
+    - khó nằm vào ban đêm để ngủ vì thở
+    - căng cứng vai trái (ngắt quãng, xảy ra vài lần mỗi ngày, kéo dài 5 phút)
+    - tiền sử ho có đờm trắng
+    - chủ quan sốt
+    - phù chi dưới (ổn định)
+    Đặc điểm triệu chứng
+    - Vị trí: căng cứng vai trái
+    - Thời gian: kéo dài 5 phút (căng cứng vai trái)
+    - Tần suất: xảy ra vài lần mỗi ngày (căng cứng vai trái)
+    - Triệu chứng liên quan: khó nằm vào ban đêm để ngủ vì khó thở, ho có đờm trắng, chủ quan sốt, phù chi dưới
+    Các sự kiện trước khi nhập viện
+    - bỏ lỡ 3 ngày dùng một số thuốc vì quên đổ thuốc vào hộp (tuần qua)
+    - gọi EMS
+    - EMS phát hiện bệnh nhân thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời
+    - EMS cho bệnh nhân thở oxy qua mask không hồi phục (NRB)
+    - EMS đưa bệnh nhân đến khoa Cấp cứu
+    Tình trạng ngay trước khi nhập viện: thiếu oxy với độ bão hòa oxy là 86 khi thở khí trời
+
+3.  Đánh giá tại bệnh viện
+    Các thuốc đã thực hiện
+    - được cho bumetanide 2mg iv
+    - được cho vancomycin 1 gram
+    - được cho levofloxacin 750mg iv
+    - được cho aspirin 325mg
+    - được cho albuterolipratropium nebulizer
+    - được cho methylprednisolone 125mg iv
+    - lợi tiểu 600cc

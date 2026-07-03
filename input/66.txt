@@ -1,0 +1,36 @@
+1.  Tiền sử bệnh nội khoa
+    Các bệnh mãn tính
+    - Tiểu đường loại 1 đái tháo đường
+    - tăng huyết áp
+    - tăng lipid máu, không đặc hiệu
+    - béo phì
+    - Nhiễm trùng đường tiết niệu (UTIs) tái phát nhiễm khuẩn đường tiết niệu, vị trí không xác định
+
+2.  Lịch sử bệnh hiện tại
+    Lý do nhập viện: đau bàn chân phải
+    Các triệu chứng hiện tại
+    - đau bàn chân phải
+    - mất thăng bằng khi đi lại
+    Các sự kiện trước khi nhập viện
+    - Gần đây nhập viện vì viêm bể thận và viêm phế quản
+    - Xuất viện về nhà ngày hôm qua
+    - Đang dùng một liệu trình 14 day course of ertapenem
+    Tình trạng ngay trước khi nhập viện
+    - đau bàn chân phải đã hoàn toàn hết
+    - cảm thấy tốt hơn
+    - Vẫn cảm thấy không vững khi đứng
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm xét nghiệm
+    - hct (hematocrit) 8.126.3
+    - tiểu cầu (platelets) 478
+    - hco3- (bicarbonate) 20
+    - ag (anion gap) 13
+    - bun/creatinine (ure/creatinine)
+    - glucose (đường huyết) 316
+    - lactate (acid lactat) 1.3
+    - Kết quả ua (urinalysis - tổng phân tích nước tiểu): 12 bạch cầu, không vi khuẩn, 1 hồng cầu, âm tính nitrite
+    Kết quả chẩn đoán hình ảnh chẩn đoán hình ảnh
+    - chụp x-quang ngực cho thấy dòng picc đã đặt, không có quá trình bệnh lý tim phổi cấp tính
+    - chụp x-quang bàn chân phải không phát hiện gãy xương hoặc viêm xương tủy
+    - Bên phải âm tính với huyết khối tĩnh mạch sâu (DVT)

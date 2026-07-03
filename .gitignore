@@ -1,0 +1,14 @@
+# Plan files
+viettel_ai_race_analysis_2f6b473d.plan.md
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Data outputs (regenerable)
+data/
+output/

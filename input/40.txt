@@ -1,0 +1,46 @@
+1.  Tiền sử bệnh lý
+    Các bệnh lý mạn tính
+    - ho đái tháo đường
+    - tăng huyết áp
+    - béo phì
+    - ngưng thở khi ngủ do tắc nghẽn
+    Thuốc trước khi nhập viện
+    - tylenol
+    - mucinex d
+    - thỉnh thoảng tiêu chảy các thuốc của ông ấy
+
+2.  Tiền sử bệnh hiện tại
+    Lý do nhập viện: ho, thiếu oxy
+    Thời điểm khởi phát triệu chứng: 1 tuần trước khi nhập viện
+    Triệu chứng hiện tại
+    - ho
+    - nghẹt ngực
+    - khó thở nhẹ-vừa khó thở khi gắng sức
+    - mệt mỏi
+    - mệt mỏi
+    - sốt lên đến 101
+    - thỉnh thoảng tiêu chảy các thuốc của ông ấy
+    - đi tiểu nhiều lần vào ban đêm, không có đau buốt khi đi tiểu
+    Đặc điểm triệu chứng
+    - khó thở khi gắng sức bao gồm cảm giác khó thở sau khi đi bộ vài khối
+    - ho đặc như bã theo lời bệnh nhân nhưng ông ấy không khạc nhổ gì
+    - sốt lần cuối sốt là vào ngày
+    - tiêu chảy đã tự khỏi vào buổi sáng hôm sau
+    - Phủ nhận đau ngực
+    - Phủ nhận buồn nôn/nôn
+    - Phủ nhận đổ mồ hôi đêm
+    - Phủ nhận khó thở khi nằm
+    - Phủ nhận khó thở khi nằm đột ngột (paroxysmal nocturnal dyspnea)
+    Sự kiện trước khi nhập viện
+    - Vợ có các triệu chứng tương tự 3 tuần trước, được chẩn đoán là giãn phế quản, phản ứng tốt với azithromycin
+    - Tự điều trị bằng tylenol và mucinex d
+    - Đi khám bác sĩ chăm sóc chính (PCP) vào buổi sáng ngày nhập viện
+    - Bác sĩ PCP ghi nhận spo2 là 90-92% spo2 khi thở khí trời, 93% khi không dùng oxy
+    - Bác sĩ PCP đã gửi bệnh nhân  đến phòng cấp cứu
+
+3.  Đánh giá tại bệnh viện
+    Kết quả xét nghiệm
+    - số lượng bạch cầu là 12.5
+    - tổng phân tích nước tiểu đáng chú ý chỉ có vếtvết protein niệu.  
+    - troponin âm tính x1
+    Kết quả chẩn đoán hình ảnh: chụp x-quang ngực được cho là viêm phổi thùy dưới phải (RLL PNA)

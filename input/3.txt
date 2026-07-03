@@ -1,0 +1,140 @@
+1. Tiền sử bệnh
+Các tập kinh lâm sàng trước đây
+- Tái phát các cơn ngất xỉu trong khoảng vài năm nay.
+- Ban đầu các cơn xảy ra vài lần một năm, tăng tần suất lên hơn một lần một tháng.
+Các bệnh lý nội khoa mạn tính
+- bệnh tim mạch do xơ vữa động mạch
+- tăng huyết áp
+- phình động mạch chủ nhỏ
+Thuốc trước khi nhập viện lần này: không tuân thủ điều trị bằng thuốc
+Các yếu tố nguy cơ liên quan: Hiện đang  hút thuốc
+
+2. Bệnh sử hiện tại
+Lý do nhập viện: cơn ngất xỉu
+Thời điểm khởi phát triệu chứng: Hôm qua
+Các triệu chứng hiện tại
+- ngất xỉu trong xe
+- Tỉnh dậy thấy cháu gái hét lên
+- ước tính mất ý thức có thể trong 30 giây
+- Không có triệu chứng trước đó
+- Cảm thấy khỏe khi thức dậy
+- Không đánh trống ngực
+- Không quầng sáng
+- Không chóng mặt
+- Không buồn nôn
+- Không đổ mồ hôi
+- Không mất kiểm soát đại tiện hoặc tiểu tiện
+- đau chân sau khi đi bộ vài chặng
+- đau ngực
+- khó thở khi gắng sức
+- khó thở về đêm
+- khó thở khi nằm
+- phù mắt cá chân
+- đánh trống ngực
+- ngất xỉu
+- Xỉu trước
+Đặc điểm triệu chứng
+- ngất xỉu
+- Vị trí: N/A
+- Mức độ nghiêm trọng: N/A
+- Thời gian: 30 giây (ước tính)
+- Tần suất: Hơn một lần một tháng
+- Chiếu xạ: N/A
+- Các yếu tố làm nặng thêm: N/A
+- Các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: trước khi xảy ra triệu chứng bệnh nhân cảm thấy khó chịu   cảm thấy khó chịu,không choáng váng, chóng mặt, buồn nôn, đánh trống ngực, hoặc đau ngực. Không cảm nhận được triệu chứng sau cơn ngất.
+- đau chân:
+- Vị trí: Chân
+- Mức độ nghiêm trọng: N/A
+- Thời gian: N/A
+- Tần suất: N/A
+- Chiếu xạ: N/A
+- Các yếu tố làm nặng thêm: Đi bộ vài chặng
+- Các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: N/A
+- đau ngực:
+- Vị trí: Ngực
+- Mức độ nghiêm trọng: N/A
+- Thời gian: N/A
+- Tần suất: N/A
+- Chiếu xạ: N/A
+- các yếu tố làm nặng thêm: N/A
+- các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: N/A
+- **khó thở khi gắng sức:**
+- Vị trí: N/A
+- Mức độ nghiêm trọng: N/A
+- Thời gian: N/A
+- Tần suất: N/A
+- Chiếu xạ: N/A
+- Các yếu tố làm nặng thêm: Gắng sức
+- Các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: N/A
+- **khó thở về đêm:**
+- Vị trí: N/A
+- Mức độ nghiêm trọng: N/A
+- Thời gian: N/A
+- Tần suất: N/A
+- Chiếu xạ: N/A
+- Các yếu tố làm nặng thêm: N/A
+- Các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: N/A
+- **khó thở khi nằm:**
+- Vị trí: N/A
+- Mức độ nghiêm trọng: N/A
+- Thời gian: N/A
+- Tần suất: N/A
+- Chiếu xạ: N/A
+- Các yếu tố làm nặng thêm: N/A
+- Các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: N/A
+- phù mắt cá chân:
+- Vị trí: Mắt cá chân
+- đánh trống ngực:
+- các yếu tố làm nặng thêm: N/A
+- các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: N/A
+- ngất xỉu:
+- Vị trí: N/A
+- Mức độ nghiêm trọng: N/A
+- Thời gian: N/A
+- Tần suất: N/A
+- Chiếu xạ: N/A
+- các yếu tố làm nặng thêm: N/A
+- các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: N/A
+- **Xỉu trước:**
+- Vị trí: N/A
+- Mức độ nghiêm trọng: N/A
+- Thời gian: N/A
+- Tần suất: N/A
+- Chiếu xạ: N/A
+- Các yếu tố làm nặng thêm: N/A
+- Các yếu tố làm giảm: N/A
+- Các triệu chứng liên quan: N/A
+Các sự kiện trước khi nhập viện
+- Được đưa đến một bệnh viện OSH sau khi bị té ngã.
+- dấu hiệu sinh tồn ban đầu là mạch 83, huyết áp 159/72, nhịp thở 20, spo2 (độ bão hòa oxy) 94-95 RA.
+- Phát hiện rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối.
+- điện tâm đồ (ecg) cho thấy bằng chứng có thể là nhồi máu cơ tim vùng dưới cũ và những thay đổi sóng T không đặc hiệu thay đổi sóng t.
+- bảng công thức sinh hóa máu cơ bản, bảng công thức máu, bảng chức năng gan và bản phân tích nước tiểu đều bình thườngbình thườngbình thườngbình thường.
+- troponin 0.01.
+- chụp x-quang ngực cho thấy tim to nhưng không có bất thường nào khác.
+- chụp cắt lớp vi tính sọ não bình thường.
+- Nhập viện khoa Nội.
+- Quyết định rằng cô ấy sẽ được phục vụ tốt hơn bằng cách chuyển đến bệnh viện này để tiếp cận chẩn đoán / thăm dò
+Tình trạng ngay trước khi nhập viện: ổn định và không có phàn nàn khi đến tầng.
+
+3. Đánh giá tại bệnh viện
+Kết quả xét nghiệm
+- bảng công thức sinh hóa máu cơ bản bình thường
+- bảng công thức máu bình thường
+- bảng chức năng gan bình thường
+- bản phân tích nước tiểu bình thường
+- troponin 0.01
+- rung nhĩ kèm đáp ứng thất nhanh mới ở mức 130-150, sau đó là nhịp tim chậm tương đối
+- Có thể là nhồi máu cơ tim vùng dưới cũ (điện tâm đồ (ecg))
+- thay đổi sóng t không đặc hiệu (điện tâm đồ (ecg))
+Kết quả hình ảnh
+- Tim to (chụp x-quang ngực)
+- chụp cắt lớp vi tính sọ não bình thường
