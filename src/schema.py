@@ -24,3 +24,13 @@ class EntityStage2(BaseModel):
 
 class ClassifyResponseStage2(BaseModel):
     entities: List[EntityStage2]
+
+
+class EntityStage3(BaseModel):
+    text: str
+    position: List[int]
+    type: EntityType
+    assertions: List[str]
+
+class AssertionsResponseStage3(BaseModel):
+    entities: List[EntityStage3]

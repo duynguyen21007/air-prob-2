@@ -9,8 +9,12 @@ INPUT_DIR = BASE_DIR / "input"
 DATA_DIR = BASE_DIR / "data"
 STAGE1_DIR = DATA_DIR / "stage1_ner"
 STAGE2_DIR = DATA_DIR / "stage2_classify"
+STAGE3_DIR = DATA_DIR / "stage3_assertions"
 
 VALID_TYPES = {"TRIỆU_CHỨNG", "THUỐC", "CHẨN_ĐOÁN", "TÊN_XÉT_NGHIỆM", "KẾT_QUẢ_XÉT_NGHIỆM"}
+VALID_ASSERTIONS = {"isNegated", "isFamily", "isHistorical"}
+NO_ASSERTION_TYPES = {"TÊN_XÉT_NGHIỆM", "KẾT_QUẢ_XÉT_NGHIỆM"}
+
 
 def review_stage1_file(doc_id: str):
     in_file = INPUT_DIR / f"{doc_id}.txt"
@@ -168,9 +172,117 @@ def review_stage2_summary():
     print(f"Invalid types: {total_invalid}/{total_entities}")
 
 
+def review_stage3_file(doc_id: str):
+    in_file = INPUT_DIR / f"{doc_id}.txt"
+    out_file = STAGE3_DIR / f"{doc_id}.json"
+    
+    if not in_file.exists() or not out_file.exists():
+        print(f"Files for doc {doc_id} not found.")
+        return
+        
+    with open(in_file, "r", encoding="utf-8") as f:
+        source_text = f.read()
+        
+    with open(out_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    entities = data if isinstance(data, list) else data.get("entities", [])
+    
+    print(f"\n=== Record {doc_id} (Stage 3) ===")
+    print(f"Source length: {len(source_text)} chars | Entities: {len(entities)}\n")
+    
+    assertion_issues = 0
+    for ent in entities:
+        text = ent["text"]
+        start, end = ent["position"]
+        etype = ent.get("type", "MISSING")
+        assertions = ent.get("assertions", [])
+        
+        # Check position
+        extracted = source_text[start:end]
+        pos_ok = "✓" if extracted == text else "✗"
+        
+        # Check assertion validity
+        issues = []
+        if etype in NO_ASSERTION_TYPES and assertions:
+            issues.append(f"⚠ {etype} should have empty assertions")
+        for a in assertions:
+            if a not in VALID_ASSERTIONS:
+                issues.append(f"⚠ invalid assertion: {a}")
+        
+        if issues:
+            assertion_issues += 1
+        
+        assertions_str = str(assertions) if assertions else "[]"
+        issue_str = " " + "; ".join(issues) if issues else ""
+        print(f"[{start}:{end}] [{etype}] \"{text}\"  assertions={assertions_str}  pos:{pos_ok}{issue_str}")
+    
+    print(f"\nAssertion issues: {assertion_issues}/{len(entities)}")
+
+
+def review_stage3_summary():
+    if not STAGE3_DIR.exists():
+        print("Stage 3 output directory not found.")
+        return
+        
+    total_entities = 0
+    assertion_counts = Counter()
+    type_assertion_counts = Counter()  # (type, assertion) pairs
+    lab_with_assertions = 0
+    invalid_assertions = 0
+    file_count = 0
+    
+    for file_path in sorted(STAGE3_DIR.glob("*.json")):
+        doc_id = file_path.stem
+        in_file = INPUT_DIR / f"{doc_id}.txt"
+        
+        if not in_file.exists():
+            continue
+        
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        
+        entities = data if isinstance(data, list) else data.get("entities", [])
+        file_count += 1
+        
+        for ent in entities:
+            total_entities += 1
+            etype = ent.get("type", "MISSING")
+            assertions = ent.get("assertions", [])
+            
+            for a in assertions:
+                assertion_counts[a] += 1
+                type_assertion_counts[(etype, a)] += 1
+                if a not in VALID_ASSERTIONS:
+                    invalid_assertions += 1
+            
+            if etype in NO_ASSERTION_TYPES and assertions:
+                lab_with_assertions += 1
+    
+    print(f"\n=== Stage 3 Summary ({file_count} files) ===")
+    print(f"Total entities: {total_entities}")
+    
+    print(f"\n--- Assertion Distribution ---")
+    for a in sorted(assertion_counts.keys()):
+        marker = "  " if a in VALID_ASSERTIONS else "⚠ "
+        print(f"  {marker}{a}: {assertion_counts[a]}")
+    
+    no_assertion = sum(1 for fp in STAGE3_DIR.glob("*.json")
+                       for ent in (json.load(open(fp, encoding="utf-8")) if isinstance(json.load(open(fp, encoding="utf-8")), list) else json.load(open(fp, encoding="utf-8")).get("entities", []))
+                       if not ent.get("assertions", []))
+    print(f"  (no assertions): {no_assertion}")
+    
+    print(f"\n--- Assertions by Type ---")
+    for (t, a) in sorted(type_assertion_counts.keys()):
+        print(f"  {t} + {a}: {type_assertion_counts[(t, a)]}")
+    
+    print(f"\nLab entities with assertions (should be 0): {lab_with_assertions}")
+    print(f"Invalid assertion values: {invalid_assertions}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Review Stage Output")
-    parser.add_argument("--stage", type=int, required=True, help="Stage number to review (e.g. 1, 2)")
+    parser.add_argument("--stage", type=int, required=True, help="Stage number to review (e.g. 1, 2, 3)")
     parser.add_argument("--id", type=str, help="Document ID to review")
     parser.add_argument("--summary", action="store_true", help="Print summary of all processed files")
     
@@ -188,6 +300,13 @@ def main():
             review_stage2_file(args.id)
         elif args.summary:
             review_stage2_summary()
+        else:
+            print("Please provide either --id <doc_id> or --summary")
+    elif args.stage == 3:
+        if args.id:
+            review_stage3_file(args.id)
+        elif args.summary:
+            review_stage3_summary()
         else:
             print("Please provide either --id <doc_id> or --summary")
     else:

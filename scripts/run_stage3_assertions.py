@@ -10,11 +10,16 @@ sys.path.append(str(BASE_DIR))
 
 from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
 from src.gemini_client import generate_structured_response
-from src.schema import ClassifyResponseStage2
-from src.prompts.stage2_classify import STAGE2_SYSTEM_PROMPT, STAGE2_USER_PROMPT_TEMPLATE
+from src.schema import AssertionsResponseStage3
+from src.prompts.stage3_assertions import STAGE3_SYSTEM_PROMPT, STAGE3_USER_PROMPT_TEMPLATE
 
-STAGE1_DIR = DATA_DIR / "stage1_ner"
-STAGE2_OUT_DIR = DATA_DIR / "stage2_classify"
+STAGE2_DIR = DATA_DIR / "stage2_classify"
+STAGE3_OUT_DIR = DATA_DIR / "stage3_assertions"
+
+# Valid assertion values
+VALID_ASSERTIONS = {"isNegated", "isFamily", "isHistorical"}
+# Entity types that should NOT have assertions
+NO_ASSERTION_TYPES = {"TÊN_XÉT_NGHIỆM", "KẾT_QUẢ_XÉT_NGHIỆM"}
 
 
 class CompactPositionEncoder(json.JSONEncoder):
@@ -36,6 +41,9 @@ class CompactPositionEncoder(json.JSONEncoder):
             # Keep short lists of primitives (like position) on one line
             if all(isinstance(item, (int, float)) for item in o):
                 return "[" + ", ".join(json.dumps(item) for item in o) + "]"
+            # Keep short lists of strings (like assertions) on one line
+            if all(isinstance(item, str) for item in o) and len(o) <= 3:
+                return "[" + ", ".join(json.dumps(item, ensure_ascii=False) for item in o) + "]"
             if not o:
                 return "[]"
             items = []
@@ -46,16 +54,16 @@ class CompactPositionEncoder(json.JSONEncoder):
             return json.dumps(o, ensure_ascii=False)
 
 
-def run_stage2():
-    STAGE2_OUT_DIR.mkdir(parents=True, exist_ok=True)
+def run_stage3():
+    STAGE3_OUT_DIR.mkdir(parents=True, exist_ok=True)
     
-    for doc_id in tqdm(SAMPLE_IDS, desc="Processing Stage 2 Classify"):
-        stage1_file = STAGE1_DIR / f"{doc_id}.json"
+    for doc_id in tqdm(SAMPLE_IDS, desc="Processing Stage 3 Assertions"):
+        stage2_file = STAGE2_DIR / f"{doc_id}.json"
         in_file = INPUT_DIR / f"{doc_id}.txt"
-        out_file = STAGE2_OUT_DIR / f"{doc_id}.json"
+        out_file = STAGE3_OUT_DIR / f"{doc_id}.json"
         
-        if not stage1_file.exists():
-            print(f"Warning: Stage 1 output {stage1_file} does not exist. Skipping.")
+        if not stage2_file.exists():
+            print(f"Warning: Stage 2 output {stage2_file} does not exist. Skipping.")
             continue
             
         if not in_file.exists():
@@ -66,16 +74,16 @@ def run_stage2():
             print(f"Skipping {doc_id} as it is already processed.")
             continue
             
-        # Load source text and Stage 1 entities
+        # Load source text and Stage 2 entities
         with open(in_file, "r", encoding="utf-8") as f:
             text = f.read()
             
-        with open(stage1_file, "r", encoding="utf-8") as f:
-            stage1_data = json.load(f)
+        with open(stage2_file, "r", encoding="utf-8") as f:
+            stage2_data = json.load(f)
         
-        entities_json = json.dumps(stage1_data["entities"], ensure_ascii=False, indent=2)
+        entities_json = json.dumps(stage2_data, ensure_ascii=False, indent=2)
         
-        prompt = STAGE2_USER_PROMPT_TEMPLATE.format(
+        prompt = STAGE3_USER_PROMPT_TEMPLATE.format(
             text=text,
             entities_json=entities_json
         )
@@ -84,15 +92,14 @@ def run_stage2():
             # Call Gemini
             parsed_response = generate_structured_response(
                 prompt=prompt,
-                response_schema=ClassifyResponseStage2,
-                system_instruction=STAGE2_SYSTEM_PROMPT
+                response_schema=AssertionsResponseStage3,
+                system_instruction=STAGE3_SYSTEM_PROMPT
             )
             
-            # Build output — keep text/position from Stage 1, add type from Stage 2
-            # Create a lookup from Stage 1 for position integrity
-            stage1_lookup = {
+            # Create lookup from Stage 2 for position/type integrity
+            stage2_lookup = {
                 (ent["text"], tuple(ent["position"])): ent
-                for ent in stage1_data["entities"]
+                for ent in stage2_data
             }
             
             entities = []
@@ -103,17 +110,29 @@ def run_stage2():
                     continue
                 seen.add(key)
                 
-                # Use Stage 1 position if available (trust Stage 1 positions)
-                if key in stage1_lookup:
-                    pos = stage1_lookup[key]["position"]
+                # Use Stage 2 position and type if available (trust earlier stages)
+                if key in stage2_lookup:
+                    s2 = stage2_lookup[key]
+                    pos = s2["position"]
+                    ent_type = s2["type"]
                 else:
                     pos = list(ent.position)
-                    
-                # Build entity dict matching contest output field order
+                    ent_type = ent.type.value
+                
+                # Post-processing: enforce assertion rules
+                if ent_type in NO_ASSERTION_TYPES:
+                    # TÊN_XÉT_NGHIỆM and KẾT_QUẢ_XÉT_NGHIỆM never have assertions
+                    assertions = []
+                else:
+                    # Filter to only valid assertion values, max 3
+                    assertions = [a for a in ent.assertions if a in VALID_ASSERTIONS]
+                    assertions = list(dict.fromkeys(assertions))  # deduplicate preserving order
+                    assertions = assertions[:3]
+                
                 entity_dict = {
                     "text": ent.text,
-                    "type": ent.type.value,
-                    "assertions": [],
+                    "type": ent_type,
+                    "assertions": assertions,
                     "position": pos
                 }
                 entities.append(entity_dict)
@@ -126,4 +145,4 @@ def run_stage2():
             print(f"Error processing document {doc_id}: {e}")
 
 if __name__ == "__main__":
-    run_stage2()
+    run_stage3()

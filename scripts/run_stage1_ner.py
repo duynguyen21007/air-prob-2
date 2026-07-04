@@ -16,6 +16,36 @@ from src.postprocess import fix_position
 
 STAGE1_OUT_DIR = DATA_DIR / "stage1_ner"
 
+
+class CompactPositionEncoder(json.JSONEncoder):
+    """JSON encoder that keeps short lists (like position arrays) on one line."""
+    def encode(self, o):
+        return self._encode(o, indent_level=0)
+
+    def _encode(self, o, indent_level):
+        indent = "  "
+        if isinstance(o, dict):
+            if not o:
+                return "{}"
+            items = []
+            for k, v in o.items():
+                encoded_value = self._encode(v, indent_level + 1)
+                items.append(f'{indent * (indent_level + 1)}"{k}": {encoded_value}')
+            return "{\n" + ",\n".join(items) + "\n" + indent * indent_level + "}"
+        elif isinstance(o, list):
+            # Keep short lists of primitives (like position) on one line
+            if all(isinstance(item, (int, float)) for item in o):
+                return "[" + ", ".join(json.dumps(item) for item in o) + "]"
+            if not o:
+                return "[]"
+            items = []
+            for item in o:
+                items.append(indent * (indent_level + 1) + self._encode(item, indent_level + 1))
+            return "[\n" + ",\n".join(items) + "\n" + indent * indent_level + "]"
+        else:
+            return json.dumps(o, ensure_ascii=False)
+
+
 def run_stage1():
     STAGE1_OUT_DIR.mkdir(parents=True, exist_ok=True)
     
@@ -61,7 +91,7 @@ def run_stage1():
             # Save result
             result = {"entities": entities}
             with open(out_file, "w", encoding="utf-8") as f:
-                json.dump(result, f, ensure_ascii=False, indent=2)
+                f.write(CompactPositionEncoder().encode(result) + "\n")
                 
         except Exception as e:
             print(f"Error processing document {doc_id}: {e}")
