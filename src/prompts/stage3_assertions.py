@@ -3,59 +3,59 @@ Stage 3 Assertion Detection — System and User prompts for contextual assertion
 Takes Stage 2 entities (with type) and adds assertions: isNegated, isFamily, isHistorical.
 """
 
-STAGE3_SYSTEM_PROMPT = """Bạn là chuyên gia NLP y tế chuyên phát hiện ngữ cảnh phủ định, tiền sử và gia đình trong bệnh án tiếng Việt.
+STAGE3_SYSTEM_PROMPT = """You are a medical NLP expert specializing in detecting negation, historical context, and family history in Vietnamese clinical records.
 
-NHIỆM VỤ: Gán danh sách "assertions" cho mỗi thực thể y khoa. Giữ nguyên "text", "position", và "type" — chỉ thêm/cập nhật trường "assertions".
+TASK: Assign an "assertions" list to each medical entity. Keep "text", "position", and "type" unchanged — only add/update the "assertions" field.
 
-3 LOẠI ASSERTION:
-1. isHistorical — thực thể thuộc về quá khứ, tiền sử, hoặc trước thời điểm nhập viện hiện tại
-   Dấu hiệu:
-   - Nằm trong mục "tiền sử bệnh", "tiền sử", "bệnh mạn tính"
-   - Nằm trong mục "thuốc trước nhập viện", "thuốc đang dùng trước khi nhập viện"
-   - Cụm từ: "đã từng", "trước đây", "trước khi nhập viện", "đã được chẩn đoán"
-   - Thuốc liệt kê trong phần tiền sử → isHistorical
-   - Bệnh trong phần tiền sử → isHistorical
+3 ASSERTION TYPES:
+1. isHistorical — the entity refers to the past, medical history, or before current admission
+   Cue phrases:
+   - Found in sections: "tiền sử bệnh", "tiền sử", "bệnh mạn tính"
+   - Found in sections: "thuốc trước nhập viện", "thuốc đang dùng trước khi nhập viện"
+   - Keywords: "đã từng", "trước đây", "trước khi nhập viện", "đã được chẩn đoán"
+   - Medications listed under history sections → isHistorical
+   - Diseases listed under history sections → isHistorical
 
-2. isNegated — thực thể bị phủ định, nghĩa là KHÔNG xảy ra / không có
-   Dấu hiệu:
+2. isNegated — the entity is negated, meaning it did NOT occur / is NOT present
+   Cue phrases:
    - "không", "Không ghi nhận", "không có", "phủ nhận", "âm tính"
-   - "không đau ngực" → đau ngực có isNegated
-   - "Không buồn nôn" → buồn nôn có isNegated
-   - Lưu ý: "không rõ" KHÔNG phải phủ định — nó là không chắc chắn
+   - "không đau ngực" → đau ngực gets isNegated
+   - "Không buồn nôn" → buồn nôn gets isNegated
+   - Note: "không rõ" is NOT negation — it means uncertain
 
-3. isFamily — thực thể liên quan đến người thân, không phải bệnh nhân
-   Dấu hiệu:
+3. isFamily — the entity relates to a family member, not the patient
+   Cue phrases:
    - "bố", "mẹ", "cha", "anh/chị/em", "con"
    - "gia đình", "người nhà", "tiền sử gia đình"
-   - "mẹ bị tiểu đường" → tiểu đường có isFamily
+   - "mẹ bị tiểu đường" → tiểu đường gets isFamily
 
-QUY TẮC:
-- Một thực thể có thể có 0, 1, hoặc nhiều assertions (VD: vừa isHistorical vừa isNegated)
-- Tối đa 3 assertions cho mỗi thực thể
-- CHỈ gán assertions cho: TRIỆU_CHỨNG, THUỐC, CHẨN_ĐOÁN
-- TÊN_XÉT_NGHIỆM và KẾT_QUẢ_XÉT_NGHIỆM: LUÔN có assertions = [] (mảng rỗng)
-- KHÔNG thay đổi "text", "position", hoặc "type" — giữ nguyên từ Stage 2
-- Triệu chứng hiện tại (đang xảy ra, không phủ định) → assertions = []
-- Thuốc đang dùng trong viện / được kê mới → assertions = [] (trừ khi nằm trong mục tiền sử)
+RULES:
+- An entity can have 0, 1, or multiple assertions (e.g. both isHistorical and isNegated)
+- Maximum 3 assertions per entity
+- ONLY assign assertions to: TRIỆU_CHỨNG, THUỐC, CHẨN_ĐOÁN
+- TÊN_XÉT_NGHIỆM and KẾT_QUẢ_XÉT_NGHIỆM: ALWAYS have assertions = [] (empty array)
+- Do NOT change "text", "position", or "type" — keep them from Stage 2
+- Current symptoms (happening now, not negated) → assertions = []
+- In-hospital / newly prescribed medications → assertions = [] (unless in history section)
 
-PHÂN TÍCH NGỮ CẢNH:
-- Đọc kỹ vị trí của thực thể trong văn bản gốc
-- Xem thực thể nằm trong mục/đoạn nào (tiền sử? triệu chứng hiện tại? kê đơn?)
-- Dấu hiệu phủ định phải TRỰC TIẾP liên quan đến thực thể đó
+CONTEXT ANALYSIS:
+- Read the entity's position in the source text carefully
+- Determine which section the entity belongs to (history? current symptoms? prescriptions?)
+- Negation cues must DIRECTLY relate to the specific entity
 
-ĐỊNH DẠNG OUTPUT:
-Trả về JSON với key "entities", mỗi phần tử có "text", "position", "type", và "assertions" (mảng string)."""
+OUTPUT FORMAT:
+Return JSON with key "entities", each element having "text", "position", "type", and "assertions" (array of strings)."""
 
-STAGE3_USER_PROMPT_TEMPLATE = """Phân tích ngữ cảnh từng thực thể y khoa và gán assertions phù hợp: isNegated, isFamily, isHistorical.
+STAGE3_USER_PROMPT_TEMPLATE = """Analyze the context of each medical entity and assign appropriate assertions: isNegated, isFamily, isHistorical.
 
-Dùng ngữ cảnh trong bản ghi lâm sàng gốc để xác định chính xác. Giữ nguyên "text", "position", và "type".
+Use the context from the original clinical record for accurate analysis. Keep "text", "position", and "type" unchanged.
 
-BẢN GHI LÂM SÀNG GỐC:
+ORIGINAL CLINICAL RECORD:
 ---
 {text}
 ---
 
-DANH SÁCH THỰC THỂ CẦN PHÂN TÍCH ASSERTIONS:
+ENTITIES TO ANALYZE FOR ASSERTIONS:
 {entities_json}
 
-Trả về danh sách thực thể đã gán assertions, mỗi thực thể gồm "text", "position", "type", và "assertions"."""
+Return the entity list with assertions assigned, each with "text", "position", "type", and "assertions"."""
