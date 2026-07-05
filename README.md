@@ -40,17 +40,17 @@ temperature: 0.1
 
 | Stage | Task | Script | Output |
 |-------|------|--------|--------|
-| 1 | NER — extract entity text + position | `run_stage1_ner.py` | `data/stage1_ner/` |
+| 1 | NER — extract entity text + position via XML tagging | `run_stage1_ner.py` | `data/stage1_ner/` |
 | 2 | Classify — assign entity type | `run_stage2_classify.py` | `data/stage2_classify/` |
 | 3 | Assertions — negation/family/historical | `run_stage3_assertions.py` | `data/stage3_assertions/` |
-| 4 | RxNorm — drug code linking | *coming soon* | `data/stage4_rxnorm/` |
-| 5 | ICD-10 — diagnosis code linking | *coming soon* | `data/stage5_icd10/` |
-| 6 | Merge — final contest JSON | *coming soon* | `output/` |
+| 4 | RxNorm — drug code linking (hybrid LLM+API) | `run_stage4_rxnorm.py` | `data/stage4_rxnorm/` |
+| 5 | ICD-10 — diagnosis code linking (LLM direct) | `run_stage5_icd10.py` | `data/stage5_icd10/` |
+| 6 | Merge — filter, sort, output final contest JSON | `run_stage6_merge.py` | `output/` |
 
 ## Usage
 
 ```bash
-# Stage 1: Extract entities
+# Stage 1: Extract entities using XML tagging for precise character mapping
 python scripts/run_stage1_ner.py
 
 # Stage 2: Classify entity types
@@ -59,10 +59,18 @@ python scripts/run_stage2_classify.py
 # Stage 3: Detect assertions (negation/family/historical)
 python scripts/run_stage3_assertions.py
 
+# Stage 4: Map THUỐC to RxNorm CUIs
+python scripts/run_stage4_rxnorm.py
+
+# Stage 5: Map CHẨN_ĐOÁN to ICD-10 codes
+python scripts/run_stage5_icd10.py
+
+# Stage 6: Final merge, sort, and cleanup
+python scripts/run_stage6_merge.py
+
 # Review any stage
 python scripts/review_stage.py --stage 1 --id 1
-python scripts/review_stage.py --stage 2 --summary
-python scripts/review_stage.py --stage 3 --id 1
+python scripts/review_stage.py --stage 6 --summary
 ```
 
 ## Entity Types
