@@ -11,6 +11,7 @@ STAGE1_DIR = DATA_DIR / "stage1_ner"
 STAGE2_DIR = DATA_DIR / "stage2_classify"
 STAGE3_DIR = DATA_DIR / "stage3_assertions"
 STAGE4_DIR = DATA_DIR / "stage4_rxnorm"
+STAGE5_DIR = DATA_DIR / "stage5_icd10"
 
 VALID_TYPES = {"TRIỆU_CHỨNG", "THUỐC", "CHẨN_ĐOÁN", "TÊN_XÉT_NGHIỆM", "KẾT_QUẢ_XÉT_NGHIỆM"}
 VALID_ASSERTIONS = {"isNegated", "isFamily", "isHistorical"}
@@ -349,6 +350,72 @@ def review_stage4_summary():
     print(f"Non-THUỐC with candidates (should be 0): {non_thuoc_with_candidates}")
 
 
+def review_stage5_file(doc_id: str):
+    in_file = INPUT_DIR / f"{doc_id}.txt"
+    out_file = STAGE5_DIR / f"{doc_id}.json"
+    
+    if not in_file.exists() or not out_file.exists():
+        print(f"Files for doc {doc_id} not found.")
+        return
+        
+    with open(in_file, "r", encoding="utf-8") as f:
+        source_text = f.read()
+        
+    with open(out_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    entities = data if isinstance(data, list) else data.get("entities", [])
+    
+    print(f"\n=== Record {doc_id} (Stage 5) ===")
+    print(f"Source length: {len(source_text)} chars | Entities: {len(entities)}\n")
+    
+    for ent in entities:
+        text = ent["text"]
+        start, end = ent["position"]
+        etype = ent.get("type", "MISSING")
+        candidates = ent.get("candidates", [])
+        
+        if etype == "CHẨN_ĐOÁN":
+            cand_str = str(candidates) if candidates else "[] (NO MATCH)"
+            print(f"[{start}:{end}] [CHẨN_ĐOÁN] \"{text}\"  icd-10: {cand_str}")
+        elif etype == "THUỐC":
+            # Just print thuốc silently or show it has candidates? Let's just focus on CHẨN_ĐOÁN
+            pass
+        else:
+            if candidates:
+                print(f"[{start}:{end}] [{etype}] \"{text}\"  ⚠ SHOULD NOT HAVE CANDIDATES: {candidates}")
+
+
+def review_stage5_summary():
+    if not STAGE5_DIR.exists():
+        print("Stage 5 output directory not found.")
+        return
+        
+    total_cd = 0
+    cd_with_icd = 0
+    file_count = 0
+    
+    for file_path in sorted(STAGE5_DIR.glob("*.json")):
+        file_count += 1
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        entities = data if isinstance(data, list) else data.get("entities", [])
+        
+        for ent in entities:
+            etype = ent.get("type", "MISSING")
+            candidates = ent.get("candidates", [])
+            if etype == "CHẨN_ĐOÁN":
+                total_cd += 1
+                if candidates:
+                    cd_with_icd += 1
+                    
+    print(f"\n=== Stage 5 Summary ({file_count} files) ===")
+    print(f"Total CHẨN_ĐOÁN entities: {total_cd}")
+    if total_cd > 0:
+        pct = (cd_with_icd / total_cd) * 100
+        print(f"CHẨN_ĐOÁN mapped to ICD-10: {cd_with_icd}/{total_cd} ({pct:.1f}%)")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Review Stage Output")
     parser.add_argument("--stage", type=int, required=True, help="Stage number to review (e.g. 1, 2, 3)")
@@ -383,6 +450,13 @@ def main():
             review_stage4_file(args.id)
         elif args.summary:
             review_stage4_summary()
+        else:
+            print("Please provide either --id <doc_id> or --summary")
+    elif args.stage == 5:
+        if args.id:
+            review_stage5_file(args.id)
+        elif args.summary:
+            review_stage5_summary()
         else:
             print("Please provide either --id <doc_id> or --summary")
     else:

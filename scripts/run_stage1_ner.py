@@ -79,7 +79,7 @@ def run_stage1():
             seen = set()
             for ent in parsed_response.entities:
                 fixed_pos = fix_position(text, ent.text, ent.position)
-                key = (ent.text, tuple(fixed_pos))
+                key = ent.text.lower()
                 if key in seen:
                     continue
                 seen.add(key)

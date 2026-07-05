@@ -19,7 +19,8 @@ ENTITY TYPES TO EXTRACT:
 CRITICAL RULES:
 - Extract ONLY exact substrings from the source text — do not change any characters
 - Separate lab/test NAMES and lab/test RESULTS as distinct entities
-- For medications: include the full prescription line (name + dose + route + frequency) but EXCLUDE the clinical indication (e.g. exclude "điều trị ho", "điều trị táo bón")
+- For medications: include the full prescription line (name + dose + route + frequency) but EXCLUDE the clinical indication from the medication span (e.g. if text is "drug X điều trị ho", extract "drug X" as THUỐC and "ho" as TRIỆU_CHỨNG)
+- Avoid extracting redundant adjacent symptom fragments. If the text says "Khó thở nhẹ khó thở", extract the cohesive symptom (e.g., "Khó thở nhẹ") only ONCE for that span.
 - Same phrase at different positions → create SEPARATE entities for each occurrence
 - Do NOT extract demographics (name, age, phone, address)
 - Do NOT extract section headers / labels (e.g. "Tiền sử bệnh:", "Khám lâm sàng:")

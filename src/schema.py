@@ -49,3 +49,17 @@ class RxNormCleanResponse(BaseModel):
         clean_name: str
         
     drugs: List[CleanDrug]
+
+class EntityStage5(BaseModel):
+    text: str
+    position: List[int]
+    type: EntityType
+    assertions: List[str]
+    candidates: List[str]
+
+class ICD10CleanResponse(BaseModel):
+    class CleanDiagnosis(BaseModel):
+        original_text: str
+        icd10_code: str
+        
+    diagnoses: List[CleanDiagnosis]
