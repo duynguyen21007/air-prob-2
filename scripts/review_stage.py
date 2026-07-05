@@ -10,6 +10,7 @@ DATA_DIR = BASE_DIR / "data"
 STAGE1_DIR = DATA_DIR / "stage1_ner"
 STAGE2_DIR = DATA_DIR / "stage2_classify"
 STAGE3_DIR = DATA_DIR / "stage3_assertions"
+STAGE4_DIR = DATA_DIR / "stage4_rxnorm"
 
 VALID_TYPES = {"TRIỆU_CHỨNG", "THUỐC", "CHẨN_ĐOÁN", "TÊN_XÉT_NGHIỆM", "KẾT_QUẢ_XÉT_NGHIỆM"}
 VALID_ASSERTIONS = {"isNegated", "isFamily", "isHistorical"}
@@ -280,6 +281,74 @@ def review_stage3_summary():
     print(f"Invalid assertion values: {invalid_assertions}")
 
 
+def review_stage4_file(doc_id: str):
+    in_file = INPUT_DIR / f"{doc_id}.txt"
+    out_file = STAGE4_DIR / f"{doc_id}.json"
+    
+    if not in_file.exists() or not out_file.exists():
+        print(f"Files for doc {doc_id} not found.")
+        return
+        
+    with open(in_file, "r", encoding="utf-8") as f:
+        source_text = f.read()
+        
+    with open(out_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    entities = data if isinstance(data, list) else data.get("entities", [])
+    
+    print(f"\n=== Record {doc_id} (Stage 4) ===")
+    print(f"Source length: {len(source_text)} chars | Entities: {len(entities)}\n")
+    
+    for ent in entities:
+        text = ent["text"]
+        start, end = ent["position"]
+        etype = ent.get("type", "MISSING")
+        candidates = ent.get("candidates", [])
+        
+        if etype == "THUỐC":
+            cand_str = str(candidates) if candidates else "[] (NO MATCH)"
+            print(f"[{start}:{end}] [THUỐC] \"{text}\"  rxnorm: {cand_str}")
+        else:
+            if candidates:
+                print(f"[{start}:{end}] [{etype}] \"{text}\"  ⚠ SHOULD NOT HAVE CANDIDATES: {candidates}")
+
+
+def review_stage4_summary():
+    if not STAGE4_DIR.exists():
+        print("Stage 4 output directory not found.")
+        return
+        
+    total_thuoc = 0
+    thuoc_with_rxnorm = 0
+    file_count = 0
+    non_thuoc_with_candidates = 0
+    
+    for file_path in sorted(STAGE4_DIR.glob("*.json")):
+        file_count += 1
+        with open(file_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        entities = data if isinstance(data, list) else data.get("entities", [])
+        
+        for ent in entities:
+            etype = ent.get("type", "MISSING")
+            candidates = ent.get("candidates", [])
+            if etype == "THUỐC":
+                total_thuoc += 1
+                if candidates:
+                    thuoc_with_rxnorm += 1
+            else:
+                if candidates:
+                    non_thuoc_with_candidates += 1
+                    
+    print(f"\n=== Stage 4 Summary ({file_count} files) ===")
+    print(f"Total THUỐC entities: {total_thuoc}")
+    if total_thuoc > 0:
+        pct = (thuoc_with_rxnorm / total_thuoc) * 100
+        print(f"THUỐC mapped to RxNorm: {thuoc_with_rxnorm}/{total_thuoc} ({pct:.1f}%)")
+    print(f"Non-THUỐC with candidates (should be 0): {non_thuoc_with_candidates}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Review Stage Output")
     parser.add_argument("--stage", type=int, required=True, help="Stage number to review (e.g. 1, 2, 3)")
@@ -307,6 +376,13 @@ def main():
             review_stage3_file(args.id)
         elif args.summary:
             review_stage3_summary()
+        else:
+            print("Please provide either --id <doc_id> or --summary")
+    elif args.stage == 4:
+        if args.id:
+            review_stage4_file(args.id)
+        elif args.summary:
+            review_stage4_summary()
         else:
             print("Please provide either --id <doc_id> or --summary")
     else:

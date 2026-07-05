@@ -34,3 +34,18 @@ class EntityStage3(BaseModel):
 
 class AssertionsResponseStage3(BaseModel):
     entities: List[EntityStage3]
+
+
+class EntityStage4(BaseModel):
+    text: str
+    position: List[int]
+    type: EntityType
+    assertions: List[str]
+    candidates: List[str]
+
+class RxNormCleanResponse(BaseModel):
+    class CleanDrug(BaseModel):
+        original_text: str
+        clean_name: str
+        
+    drugs: List[CleanDrug]
