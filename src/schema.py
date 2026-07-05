@@ -2,12 +2,8 @@ from pydantic import BaseModel
 from typing import List
 from enum import Enum
 
-class EntityStage1(BaseModel):
-    text: str
-    position: List[int]
-
 class NERResponseStage1(BaseModel):
-    entities: List[EntityStage1]
+    annotated_text: str
 
 
 class EntityType(str, Enum):

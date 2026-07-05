@@ -12,7 +12,7 @@ from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
 from src.gemini_client import generate_structured_response
 from src.schema import NERResponseStage1
 from src.prompts.stage1_ner import STAGE1_SYSTEM_PROMPT, STAGE1_USER_PROMPT_TEMPLATE
-from src.postprocess import fix_position
+
 
 STAGE1_OUT_DIR = DATA_DIR / "stage1_ner"
 
@@ -62,9 +62,9 @@ def run_stage1():
             continue
             
         with open(in_file, "r", encoding="utf-8") as f:
-            text = f.read()
+            source_text = f.read()
             
-        prompt = STAGE1_USER_PROMPT_TEMPLATE.format(text=text)
+        prompt = STAGE1_USER_PROMPT_TEMPLATE.format(text=source_text)
         
         try:
             # Call Gemini
@@ -74,24 +74,37 @@ def run_stage1():
                 system_instruction=STAGE1_SYSTEM_PROMPT
             )
             
-            # Post-process: fix positions
+            # Extract entities using regex
+            import re
+            annotated_text = parsed_response.annotated_text
+            matches = re.findall(r'<ent>(.*?)</ent>', annotated_text)
+            
             entities = []
             seen = set()
-            for ent in parsed_response.entities:
-                fixed_pos = fix_position(text, ent.text, ent.position)
-                key = ent.text.lower()
+            
+            for entity_text in matches:
+                # 1. Deduplicate by lowercased text
+                key = entity_text.lower()
                 if key in seen:
                     continue
-                seen.add(key)
-                entities.append({
-                    "text": ent.text,
-                    "position": fixed_pos
-                })
-                
-            # Save result
-            result = {"entities": entities}
+                    
+                # 2. Find exact position in source text
+                idx = source_text.find(entity_text)
+                if idx != -1:
+                    seen.add(key)
+                    entities.append({
+                        "text": entity_text,
+                        "position": [idx, idx + len(entity_text)]
+                    })
+                else:
+                    # If LLM slightly hallucinated characters, it won't match exactly.
+                    # We skip it because contest requires exact substrings.
+                    print(f"Warning: Entity '{entity_text}' not found in source text, skipping.")
+            
+            # Format output dictionary
+            output_data = {"entities": entities}
             with open(out_file, "w", encoding="utf-8") as f:
-                f.write(CompactPositionEncoder().encode(result) + "\n")
+                f.write(CompactPositionEncoder().encode(output_data) + "\n")
                 
         except Exception as e:
             print(f"Error processing document {doc_id}: {e}")
