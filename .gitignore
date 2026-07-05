@@ -12,3 +12,4 @@ __pycache__/
 # Data outputs (regenerable)
 data/
 output/
+output-zip/
