@@ -21,3 +21,6 @@ with open(CONFIG_PATH, "r", encoding="utf-8") as f:
 SAMPLE_IDS = config.get("sample_ids", [])
 MODEL_NAME = config.get("model", "gemini-2.5-flash")
 TEMPERATURE = config.get("temperature", 0.1)
+MAX_RETRIES = config.get("max_retries", 3)
+RETRY_BASE_DELAY = config.get("retry_base_delay", 2.0)
+RPM_LIMIT = config.get("rpm_limit", 15)
