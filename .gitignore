@@ -9,9 +9,6 @@ __pycache__/
 *.pyc
 *.pyo
 
-# ICD-10
-data_icds.csv
-
 # Data outputs (regenerable)
 data/
 output/
