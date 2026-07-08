@@ -9,9 +9,7 @@ BASE_DIR = Path(__file__).parent.parent
 sys.path.append(str(BASE_DIR))
 
 from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
-from src.gemini_client import generate_structured_response
-from src.schema import ICD10CleanResponse
-from src.prompts.stage5_icd10 import STAGE5_SYSTEM_PROMPT, STAGE5_USER_PROMPT_TEMPLATE
+from src.retrieval import HybridSearcher
 
 STAGE4_DIR = DATA_DIR / "stage4_rxnorm"
 STAGE5_DIR = DATA_DIR / "stage5_icd10"
@@ -52,6 +50,16 @@ def run_stage5():
         print("Stage 4 output not found. Please run stage 4 first.")
         return
 
+    data_csv_path = BASE_DIR / "data_icds.csv"
+    chroma_persist_dir = DATA_DIR / "chroma_db"
+    
+    if not chroma_persist_dir.exists():
+        print("ChromaDB not found! Please run `python scripts/build_retrieval_index.py` first.")
+        return
+        
+    print("Initializing HybridSearcher...")
+    searcher = HybridSearcher(str(data_csv_path), str(chroma_persist_dir))
+
     # Process files
     for doc_id in tqdm(SAMPLE_IDS, desc="Processing Stage 5 ICD-10"):
         in_file = STAGE4_DIR / f"{doc_id}.json"
@@ -73,25 +81,13 @@ def run_stage5():
             if ent["type"] == "CHẨN_ĐOÁN":
                 diagnoses.add(ent["text"])
                 
-        # 2. Get clean ICD-10 from Gemini
+        # 2. Get clean ICD-10 from HybridSearcher
         lookup = {}
         if diagnoses:
-            diagnoses_list = list(diagnoses)
-            # Batch them into chunks if needed, but usually 10-20 diagnoses fit easily in one prompt
-            prompt = STAGE5_USER_PROMPT_TEMPLATE.format(
-                diagnoses_json=json.dumps(diagnoses_list, ensure_ascii=False, indent=2)
-            )
-            
-            try:
-                parsed_response = generate_structured_response(
-                    prompt=prompt,
-                    response_schema=ICD10CleanResponse,
-                    system_instruction=STAGE5_SYSTEM_PROMPT
-                )
-                for item in parsed_response.diagnoses:
-                    lookup[item.original_text] = item.icd10_code
-            except Exception as e:
-                print(f"Error calling Gemini for document {doc_id}: {e}")
+            for diag in diagnoses:
+                best_icd = searcher.get_best_icd(diag)
+                if best_icd:
+                    lookup[diag] = best_icd
                 
         # 3. Now rebuild entities with candidates
         entities = []
