@@ -29,7 +29,8 @@ def build_index():
             icd_code = row.get("icd", "").strip()
             keyword = row.get("kw", "").strip()
             if icd_code and keyword:
-                docs.append(Document(page_content=keyword, metadata={"icd": icd_code}))
+                # e5 requires 'passage: ' prefix for database texts
+                docs.append(Document(page_content=f"passage: {keyword}", metadata={"icd": icd_code}))
 
     print(f"Loaded {len(docs)} ICD-10 records.")
     

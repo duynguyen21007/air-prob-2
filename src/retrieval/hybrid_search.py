@@ -33,10 +33,10 @@ class HybridSearcher:
         )
         self.chroma_retriever = self.vectorstore.as_retriever(search_kwargs={"k": 5})
         
-        # 4. Setup Ensemble (50/50 weights)
+        # 4. Setup Ensemble (favoring Dense 80%)
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[self.bm25_retriever, self.chroma_retriever],
-            weights=[0.5, 0.5]
+            weights=[0.2, 0.8]
         )
 
     def _load_documents(self) -> list[Document]:
@@ -56,10 +56,9 @@ class HybridSearcher:
         """
         Run the ensemble retriever and return the best single ICD-10 code.
         """
-        # For e5 models, it's often recommended to prepend "query: " for symmetric retrieval 
-        # but LangChain huggingface embeddings handle prefixes or we can just pass the query.
-        # We will pass the raw query since we embedded the raw text.
-        results = self.ensemble_retriever.invoke(query)
+        # For e5 models, it's strictly required to prepend "query: " for queries.
+        e5_query = f"query: {query}"
+        results = self.ensemble_retriever.invoke(e5_query)
         
         if not results:
             return None
