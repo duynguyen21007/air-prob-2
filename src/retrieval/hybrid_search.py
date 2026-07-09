@@ -43,7 +43,7 @@ class HybridSearcher:
         # 4. Setup Ensemble (favoring Dense 80%)
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[self.bm25_retriever, self.chroma_retriever],
-            weights=[0.5, 0.5]
+            weights=[0.2, 0.8]
         )
 
     def _load_documents(self) -> list[Document]:
@@ -56,7 +56,8 @@ class HybridSearcher:
                 icd_code = row.get("icd", "").strip()
                 keyword = row.get("kw", "").strip()
                 if icd_code and keyword:
-                    docs.append(Document(page_content=keyword, metadata={"icd": icd_code}))
+                    # MUST match the exact string used in Chroma to RRF fusion works!
+                    docs.append(Document(page_content=f"passage: {keyword}", metadata={"icd": icd_code}))
         return docs
 
     def get_best_icd(self, query: str) -> str | None:
