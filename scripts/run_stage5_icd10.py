@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).parent.parent
 sys.path.append(str(BASE_DIR))
 
 from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
-from src.retrieval import HybridSearcher
+from src.retrieval import Icd10HybridSearcher
 
 STAGE4_DIR = DATA_DIR / "stage4_rxnorm"
 STAGE5_DIR = DATA_DIR / "stage5_icd10"
@@ -51,14 +51,14 @@ def run_stage5():
         return
 
     data_csv_path = BASE_DIR / "data_icds.csv"
-    chroma_persist_dir = DATA_DIR / "chroma_db"
+    chroma_persist_dir = DATA_DIR / "chroma_icd10_db"
     
     if not chroma_persist_dir.exists():
-        print("ChromaDB not found! Please run `python scripts/build_retrieval_index.py` first.")
+        print("ChromaDB not found! Please run `python scripts/build_icd10_index.py` first.")
         return
         
-    print("Initializing HybridSearcher...")
-    searcher = HybridSearcher(str(data_csv_path), str(chroma_persist_dir))
+    print("Initializing Icd10HybridSearcher...")
+    searcher = Icd10HybridSearcher(str(data_csv_path), str(chroma_persist_dir))
 
     # Process files
     for doc_id in tqdm(SAMPLE_IDS, desc="Processing Stage 5 ICD-10"):
@@ -81,7 +81,7 @@ def run_stage5():
             if ent["type"] == "CHẨN_ĐOÁN":
                 diagnoses.add(ent["text"])
                 
-        # 2. Get clean ICD-10 from HybridSearcher
+        # 2. Get clean ICD-10 from Icd10HybridSearcher
         lookup = {}
         if diagnoses:
             for diag in diagnoses:

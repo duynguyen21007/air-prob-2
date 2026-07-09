@@ -6,14 +6,15 @@ from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 from pyvi import ViTokenizer
+from sentence_transformers import CrossEncoder
 
 def vietnamese_tokenizer(text: str) -> list[str]:
     return ViTokenizer.tokenize(text.lower()).split()
 
-class HybridSearcher:
+class Icd10HybridSearcher:
     def __init__(self, data_csv_path: str, chroma_persist_dir: str):
         """
-        Initialize the HybridSearcher.
+        Initialize the Icd10HybridSearcher.
         It loads the ICD-10 data for BM25 and connects to the existing ChromaDB.
         """
         self.data_csv_path = Path(data_csv_path)
@@ -28,23 +29,26 @@ class HybridSearcher:
             documents,
             preprocess_func=vietnamese_tokenizer
         )
-        self.bm25_retriever.k = 5
+        self.bm25_retriever.k = 20
         
         # 3. Setup Chroma Retriever (Dense) - Top 5
-        # The vector database must be pre-built by build_retrieval_index.py
+        # The vector database must be pre-built by build_icd10_index.py
         embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-base")
         self.vectorstore = Chroma(
             persist_directory=str(self.chroma_persist_dir),
             embedding_function=embeddings,
             collection_name="icd10_collection"
         )
-        self.chroma_retriever = self.vectorstore.as_retriever(search_kwargs={"k": 5})
+        self.chroma_retriever = self.vectorstore.as_retriever(search_kwargs={"k": 20})
         
         # 4. Setup Ensemble (favoring Dense 80%)
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[self.bm25_retriever, self.chroma_retriever],
             weights=[0.2, 0.8]
         )
+        
+        # 5. Setup CrossEncoder Reranker
+        self.reranker = CrossEncoder("BAAI/bge-reranker-v2-m3", max_length=512)
 
     def _load_documents(self) -> list[Document]:
         """Load ICD-10 data into LangChain Documents."""
@@ -66,13 +70,16 @@ class HybridSearcher:
         """
         # For e5 models, it's strictly required to prepend "query: " for queries.
         e5_query = f"query: {query}"
-        results = self.ensemble_retriever.invoke(e5_query)
+        candidates = self.ensemble_retriever.invoke(e5_query)
         
-        if not results:
+        if not candidates:
             return None
             
-        # results are ranked by RRF score. The first one is the best.
-        best_doc = results[0]
+        pairs = [[query, doc.page_content.replace("passage: ", "")] for doc in candidates]
+        scores = self.reranker.predict(pairs)
+        
+        best_idx = max(range(len(scores)), key=lambda i: scores[i])
+        best_doc = candidates[best_idx]
         return best_doc.metadata.get("icd")
 
     def get_top_k_icds(self, query: str, k: int = 5) -> list[str]:
@@ -80,10 +87,19 @@ class HybridSearcher:
         Run the ensemble retriever and return the top K ICD-10 codes with their keywords.
         """
         e5_query = f"query: {query}"
-        results = self.ensemble_retriever.invoke(e5_query)
+        candidates = self.ensemble_retriever.invoke(e5_query)
+        
+        if not candidates:
+            return []
+            
+        pairs = [[query, doc.page_content.replace("passage: ", "")] for doc in candidates]
+        scores = self.reranker.predict(pairs)
+        
+        scored_candidates = list(zip(scores, candidates))
+        scored_candidates.sort(key=lambda x: x[0], reverse=True)
         
         top_k = []
-        for doc in results[:k]:
+        for score, doc in scored_candidates[:k]:
             icd = doc.metadata.get("icd")
             # The page_content has 'passage: ' prefix from the dense index, let's strip it for cleaner review
             content = doc.page_content.replace("passage: ", "")

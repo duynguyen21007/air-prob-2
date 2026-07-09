@@ -15,7 +15,7 @@ from src.config import DATA_DIR
 
 def build_index():
     data_csv_path = BASE_DIR / "data_icds.csv"
-    chroma_persist_dir = DATA_DIR / "chroma_db"
+    chroma_persist_dir = DATA_DIR / "chroma_icd10_db"
     
     if chroma_persist_dir.exists():
         print(f"ChromaDB already exists at {chroma_persist_dir}. If you want to rebuild it, please delete the folder.")

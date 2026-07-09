@@ -1,3 +1,3 @@
-from .hybrid_search import HybridSearcher
+from .icd10_hybrid_search import Icd10HybridSearcher
 
-__all__ = ["HybridSearcher"]
+__all__ = ["Icd10HybridSearcher"]

@@ -9,15 +9,15 @@ BASE_DIR = Path(__file__).parent.parent
 sys.path.append(str(BASE_DIR))
 
 from src.config import SAMPLE_IDS, DATA_DIR
-from src.retrieval.hybrid_search import HybridSearcher
+from src.retrieval.icd10_hybrid_search import Icd10HybridSearcher
 
 def main():
     stage4_dir = DATA_DIR / "stage4_rxnorm"
     data_csv_path = BASE_DIR / "data_icds.csv"
-    chroma_persist_dir = DATA_DIR / "chroma_db"
+    chroma_persist_dir = DATA_DIR / "chroma_icd10_db"
     
-    print("Initializing HybridSearcher...")
-    searcher = HybridSearcher(str(data_csv_path), str(chroma_persist_dir))
+    print("Initializing Icd10HybridSearcher...")
+    searcher = Icd10HybridSearcher(str(data_csv_path), str(chroma_persist_dir))
     
     # 1. Collect all unique CHẨN_ĐOÁN strings
     unique_diagnoses = set()
