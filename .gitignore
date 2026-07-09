@@ -13,4 +13,4 @@ __pycache__/
 data/
 output/
 output-zip/
-example_output.json
+docs-and-utils/
