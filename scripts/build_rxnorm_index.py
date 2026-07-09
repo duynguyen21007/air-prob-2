@@ -24,10 +24,10 @@ from langchain_core.documents import Document
 
 def preprocess_rxnorm_text(text: str) -> str:
     text = text.lower()
-    text = re.sub(r'[@\.\[\],]', ' ', text)
+    text = "".join([c if c.isalpha() or c.isdigit() else " " for c in text])
     text = re.sub(r'(\d)([a-z]+)', r'\1 \2', text)
     text = re.sub(r'([a-z]+)(\d)', r'\1 \2', text)
-    text = re.sub(r'\s+', ' ', text).strip()
+    text = " ".join(text.split())
     return text
 
 def build_index():
