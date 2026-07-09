@@ -11,3 +11,4 @@ chromadb>=0.4.22
 langchain-chroma>=0.1.1
 sentence-transformers>=2.3.0
 rank_bm25>=0.2.2
+pyvi>=0.2.2
