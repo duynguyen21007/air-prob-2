@@ -36,7 +36,7 @@ class HybridSearcher:
         # 4. Setup Ensemble (favoring Dense 80%)
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[self.bm25_retriever, self.chroma_retriever],
-            weights=[0.2, 0.8]
+            weights=[0.5, 0.5]
         )
 
     def _load_documents(self) -> list[Document]:
