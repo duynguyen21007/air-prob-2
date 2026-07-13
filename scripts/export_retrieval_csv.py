@@ -2,6 +2,7 @@ import sys
 import os
 import json
 import csv
+from datetime import datetime
 from pathlib import Path
 from tqdm import tqdm
 
@@ -35,17 +36,25 @@ def main():
     print(f"Found {len(diagnoses_list)} unique diagnosis entities.")
     
     # 2. Write to CSV
-    csv_file = BASE_DIR / "retrieval_result.csv"
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    out_dir = BASE_DIR / "docs-and-utils"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    csv_file = out_dir / f"icd_retrieval_result_{timestamp}.csv"
     with open(csv_file, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["Entity Text", "Candidates"])
         
         for diag in tqdm(diagnoses_list, desc="Retrieving Candidates"):
-            top_5 = searcher.get_top_k_icds(diag, k=5)
+            qualified_icds = searcher.get_qualified_icds(
+                diag,
+                margin=0.05,
+                absolute_threshold=0.5,
+                include_content=True,
+            )
             
             candidates_lines = []
-            for i, res in enumerate(top_5, 1):
-                candidates_lines.append(f"Top {i}: {res}")
+            for i, res in enumerate(qualified_icds, 1):
+                candidates_lines.append(f"Candidate {i}: {res}")
                 
             candidates_str = "\n".join(candidates_lines)
             writer.writerow([diag, candidates_str])

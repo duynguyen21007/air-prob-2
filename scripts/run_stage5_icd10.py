@@ -81,22 +81,26 @@ def run_stage5():
             if ent["type"] == "CHẨN_ĐOÁN":
                 diagnoses.add(ent["text"])
                 
-        # 2. Get clean ICD-10 from Icd10HybridSearcher
+        # 2. Get ICD-10 candidates that pass reranker qualification rules
         lookup = {}
         if diagnoses:
             for diag in diagnoses:
-                best_icd = searcher.get_best_icd(diag)
-                if best_icd:
-                    lookup[diag] = best_icd
+                qualified_icds = searcher.get_qualified_icds(
+                    diag,
+                    margin=0.05,
+                    absolute_threshold=0.5,
+                )
+                if qualified_icds:
+                    lookup[diag] = qualified_icds
                 
         # 3. Now rebuild entities with candidates
         entities = []
         for ent in stage4_data:
             new_ent = dict(ent) # Make a copy
             if new_ent["type"] == "CHẨN_ĐOÁN":
-                icd_code = lookup.get(new_ent["text"])
-                if icd_code:
-                    new_ent["candidates"] = [icd_code]
+                icd_codes = lookup.get(new_ent["text"])
+                if icd_codes:
+                    new_ent["candidates"] = icd_codes
                 else:
                     new_ent["candidates"] = []
             

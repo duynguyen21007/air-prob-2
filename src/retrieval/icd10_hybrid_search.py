@@ -23,15 +23,15 @@ class Icd10HybridSearcher:
         # 1. Load documents for BM25
         documents = self._load_documents()
         
-        # 2. Setup BM25 Retriever (Sparse) - Top 5
+        # 2. Setup BM25 Retriever (Sparse) - oversample before reranking
         # It's fast enough to compute BM25 index on the fly.
         self.bm25_retriever = BM25Retriever.from_documents(
             documents,
             preprocess_func=vietnamese_tokenizer
         )
-        self.bm25_retriever.k = 20
+        self.bm25_retriever.k = 150
         
-        # 3. Setup Chroma Retriever (Dense) - Top 5
+        # 3. Setup Chroma Retriever (Dense) - oversample before reranking
         # The vector database must be pre-built by build_icd10_index.py
         embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-base")
         self.vectorstore = Chroma(
@@ -39,7 +39,7 @@ class Icd10HybridSearcher:
             embedding_function=embeddings,
             collection_name="icd10_collection"
         )
-        self.chroma_retriever = self.vectorstore.as_retriever(search_kwargs={"k": 20})
+        self.chroma_retriever = self.vectorstore.as_retriever(search_kwargs={"k": 150})
         
         # 4. Setup Ensemble (favoring Dense 80%)
         self.ensemble_retriever = EnsembleRetriever(
@@ -81,6 +81,65 @@ class Icd10HybridSearcher:
         best_idx = max(range(len(scores)), key=lambda i: scores[i])
         best_doc = candidates[best_idx]
         return best_doc.metadata.get("icd")
+
+    def get_qualified_icds(
+        self,
+        query: str,
+        margin: float = 0.05,
+        absolute_threshold: float = 0.5,
+        max_candidates: int = 5,
+        include_content: bool = False,
+    ) -> list[str]:
+        """Return ICD-10 codes that pass absolute and relative reranker cutoffs."""
+        e5_query = f"query: {query}"
+        candidates = self.ensemble_retriever.invoke(e5_query)
+
+        if not candidates:
+            return []
+
+        # Keep one representative per code before reranking, so aliases do not
+        # crowd out distinct ICD-10 alternatives.
+        unique_candidates = []
+        seen_icds = set()
+        for doc in candidates:
+            icd = doc.metadata.get("icd")
+            if not icd or icd in seen_icds:
+                continue
+            seen_icds.add(icd)
+            unique_candidates.append(doc)
+            if len(unique_candidates) == 20:
+                break
+
+        if not unique_candidates:
+            return []
+
+        pairs = [
+            [query, doc.page_content.replace("passage: ", "")]
+            for doc in unique_candidates
+        ]
+        scores = self.reranker.predict(pairs)
+        top_score = max(scores)
+
+        if top_score < absolute_threshold:
+            return []
+
+        qualified = []
+        scored_candidates = sorted(
+            zip(scores, unique_candidates), key=lambda item: item[0], reverse=True
+        )
+        for score, doc in scored_candidates:
+            if score < top_score - margin:
+                break
+            icd = doc.metadata["icd"]
+            if include_content:
+                content = doc.page_content.replace("passage: ", "")
+                qualified.append(f"{icd} ({content})")
+            else:
+                qualified.append(icd)
+            if len(qualified) >= max_candidates:
+                break
+
+        return qualified
 
     def get_top_k_icds(self, query: str, k: int = 5) -> list[str]:
         """
