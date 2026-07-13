@@ -12,7 +12,7 @@ sys.path.append(str(BASE_DIR))
 from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
 from src.retrieval.rxnorm_hybrid_search import RxNormHybridSearcher
 
-STAGE3_DIR = DATA_DIR / "stage3_assertions"
+STAGE3_DIR = DATA_DIR / "output_anhTien"
 STAGE4_OUT_DIR = DATA_DIR / "stage4_rxnorm"
 
 
@@ -58,8 +58,9 @@ def run_stage4():
     print("Initializing RxNorm Hybrid Searcher...")
     searcher = RxNormHybridSearcher(str(data_csv_path), str(chroma_persist_dir))
     
-    for doc_id in tqdm(SAMPLE_IDS, desc="Processing Stage 4 RxNorm"):
-        stage3_file = STAGE3_DIR / f"{doc_id}.json"
+    json_files = list(STAGE3_DIR.glob("*.json"))
+    for stage3_file in tqdm(json_files, desc="Processing Stage 4 RxNorm"):
+        doc_id = stage3_file.stem
         out_file = STAGE4_OUT_DIR / f"{doc_id}.json"
         
         if not stage3_file.exists():
@@ -82,9 +83,9 @@ def run_stage4():
             raw_drugs = list(set(raw_drugs))
             
             for drug in raw_drugs:
-                rxcuis = searcher.get_qualified_rxcuis(drug, margin=0.05)
+                rxcuis = searcher.get_qualified_rxcuis(drug, margin=0.05, absolute_threshold=0.5)
                 if rxcuis:
-                    lookup[drug] = rxcuis
+                    lookup[drug] = rxcuis[:5]
                 
         # Now rebuild entities with candidates
         entities = []

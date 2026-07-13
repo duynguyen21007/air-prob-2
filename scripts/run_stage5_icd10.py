@@ -60,9 +60,9 @@ def run_stage5():
     print("Initializing Icd10HybridSearcher...")
     searcher = Icd10HybridSearcher(str(data_csv_path), str(chroma_persist_dir))
 
-    # Process files
-    for doc_id in tqdm(SAMPLE_IDS, desc="Processing Stage 5 ICD-10"):
-        in_file = STAGE4_DIR / f"{doc_id}.json"
+    json_files = list(STAGE4_DIR.glob("*.json"))
+    for in_file in tqdm(json_files, desc="Processing Stage 5 ICD-10"):
+        doc_id = in_file.stem
         out_file = STAGE5_DIR / f"{doc_id}.json"
         
         if not in_file.exists():

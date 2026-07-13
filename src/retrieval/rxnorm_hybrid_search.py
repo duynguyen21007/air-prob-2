@@ -49,10 +49,10 @@ class RxNormHybridSearcher:
         )
         self.chroma_retriever = self.vectorstore.as_retriever(search_kwargs={"k": 150})
         
-        # 4. Setup Ensemble (favoring Dense 80%)
+        # 4. Setup Ensemble (balanced)
         self.ensemble_retriever = EnsembleRetriever(
             retrievers=[self.bm25_retriever, self.chroma_retriever],
-            weights=[0.2, 0.8]
+            weights=[0.5, 0.5]
         )
         
         # 5. Setup CrossEncoder Reranker
@@ -106,10 +106,11 @@ class RxNormHybridSearcher:
             
         return top_k
 
-    def get_qualified_rxcuis(self, query: str, margin: float = 0.05) -> list[str]:
+    def get_qualified_rxcuis(self, query: str, margin: float = 0.05, absolute_threshold: float = 0.0, max_candidates: int = 5, include_content: bool = False) -> list[str]:
         """
         Run the ensemble retriever (oversampled), deduplicate to top 20 unique RXCUIs,
-        rerank them, and return all RXCUIs within the specified margin of the best score.
+        rerank them, and return all RXCUIs within the specified margin of the best score 
+        AND above the absolute threshold.
         """
         clean_query = preprocess_rxnorm_text(query)
         e5_query = f"query: {clean_query}"
@@ -136,10 +137,27 @@ class RxNormHybridSearcher:
         scores = self.reranker.predict(pairs)
         
         top_score = max(scores)
+        
+        # If the best score doesn't pass the absolute threshold, return 0 candidates
+        if top_score < absolute_threshold:
+            return []
+            
         qualified_rxcuis = []
         
-        for score, doc in zip(scores, unique_candidates):
+        # Sort candidates by score descending so we get the best ones first
+        scored_candidates = sorted(zip(scores, unique_candidates), key=lambda x: x[0], reverse=True)
+        
+        for score, doc in scored_candidates:
             if score >= top_score - margin:
-                qualified_rxcuis.append(doc.metadata.get("rxcui"))
+                rxcui = doc.metadata.get("rxcui")
+                if include_content:
+                    content = doc.page_content.replace("passage: ", "")
+                    qualified_rxcuis.append(f"{rxcui} ({content})")
+                else:
+                    qualified_rxcuis.append(rxcui)
+                    
+            # Stop if we hit the maximum number of candidates
+            if len(qualified_rxcuis) >= max_candidates:
+                break
                 
         return qualified_rxcuis
