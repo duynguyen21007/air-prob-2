@@ -7,6 +7,8 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 from sentence_transformers import CrossEncoder
 import re
+from src.config import USE_LLM_RERANKER
+from src.retrieval.llm_reranker import LLMReranker
 
 def preprocess_rxnorm_text(text: str) -> str:
     text = text.lower()
@@ -57,6 +59,9 @@ class RxNormHybridSearcher:
         
         # 5. Setup CrossEncoder Reranker
         self.reranker = CrossEncoder("BAAI/bge-reranker-v2-m3", max_length=512)
+        
+        # 6. Setup LLM Reranker
+        self.llm_reranker = LLMReranker() if USE_LLM_RERANKER else None
 
     def _load_documents(self) -> list[Document]:
         """Load RxNorm data into LangChain Documents."""
@@ -147,15 +152,30 @@ class RxNormHybridSearcher:
         # Sort candidates by score descending so we get the best ones first
         scored_candidates = sorted(zip(scores, unique_candidates), key=lambda x: x[0], reverse=True)
         
+        cross_encoder_top_10 = []
         for score, doc in scored_candidates:
             if score >= top_score - margin:
                 rxcui = doc.metadata.get("rxcui")
-                if include_content:
-                    content = doc.page_content.replace("passage: ", "")
-                    qualified_rxcuis.append(f"{rxcui} ({content})")
-                else:
-                    qualified_rxcuis.append(rxcui)
-                    
+                desc = doc.page_content.replace("passage: ", "")
+                cross_encoder_top_10.append((rxcui, desc))
+            
+            if len(cross_encoder_top_10) >= 10:
+                break
+                
+        if self.llm_reranker and cross_encoder_top_10:
+            final_codes = self.llm_reranker.select_best_candidates(query, cross_encoder_top_10)
+            if include_content:
+                code_to_desc = {rxcui: desc for rxcui, desc in cross_encoder_top_10}
+                return [f"{c} ({code_to_desc[c]})" for c in final_codes if c in code_to_desc][:max_candidates]
+            return final_codes[:max_candidates]
+
+        # If LLM reranker is off or fails, return original cross encoder results
+        for rxcui, desc in cross_encoder_top_10:
+            if include_content:
+                qualified_rxcuis.append(f"{rxcui} ({desc})")
+            else:
+                qualified_rxcuis.append(rxcui)
+                
             # Stop if we hit the maximum number of candidates
             if len(qualified_rxcuis) >= max_candidates:
                 break

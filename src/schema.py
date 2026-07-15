@@ -59,3 +59,6 @@ class ICD10CleanResponse(BaseModel):
         icd10_code: str
         
     diagnoses: List[CleanDiagnosis]
+
+class LLMCandidateSelection(BaseModel):
+    codes: List[str]

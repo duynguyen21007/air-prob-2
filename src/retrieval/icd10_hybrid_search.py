@@ -7,6 +7,8 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 from pyvi import ViTokenizer
 from sentence_transformers import CrossEncoder
+from src.config import USE_LLM_RERANKER
+from src.retrieval.llm_reranker import LLMReranker
 
 def vietnamese_tokenizer(text: str) -> list[str]:
     return ViTokenizer.tokenize(text.lower()).split()
@@ -49,6 +51,9 @@ class Icd10HybridSearcher:
         
         # 5. Setup CrossEncoder Reranker
         self.reranker = CrossEncoder("BAAI/bge-reranker-v2-m3", max_length=512)
+        
+        # 6. Setup LLM Reranker
+        self.llm_reranker = LLMReranker() if USE_LLM_RERANKER else None
 
     def _load_documents(self) -> list[Document]:
         """Load ICD-10 data into LangChain Documents."""
@@ -127,13 +132,28 @@ class Icd10HybridSearcher:
         scored_candidates = sorted(
             zip(scores, unique_candidates), key=lambda item: item[0], reverse=True
         )
+        
+        cross_encoder_top_10 = []
         for score, doc in scored_candidates:
             if score < top_score - margin:
                 break
             icd = doc.metadata["icd"]
+            desc = doc.page_content.replace("passage: ", "")
+            cross_encoder_top_10.append((icd, desc))
+            if len(cross_encoder_top_10) >= 10:
+                break
+                
+        if self.llm_reranker and cross_encoder_top_10:
+            final_codes = self.llm_reranker.select_best_candidates(query, cross_encoder_top_10)
             if include_content:
-                content = doc.page_content.replace("passage: ", "")
-                qualified.append(f"{icd} ({content})")
+                code_to_desc = {icd: desc for icd, desc in cross_encoder_top_10}
+                return [f"{c} ({code_to_desc[c]})" for c in final_codes if c in code_to_desc][:max_candidates]
+            return final_codes[:max_candidates]
+
+        # If LLM reranker is off or fails, return original cross encoder results
+        for icd, desc in cross_encoder_top_10:
+            if include_content:
+                qualified.append(f"{icd} ({desc})")
             else:
                 qualified.append(icd)
             if len(qualified) >= max_candidates:

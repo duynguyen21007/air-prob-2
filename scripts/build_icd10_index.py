@@ -35,12 +35,16 @@ def build_index():
     print(f"Loaded {len(docs)} ICD-10 records.")
     
     print("Initializing HuggingFaceEmbeddings (intfloat/multilingual-e5-base)...")
-    embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-base")
+    embeddings = HuggingFaceEmbeddings(
+        model_name="intfloat/multilingual-e5-base",
+        model_kwargs={'device': 'cuda'},
+        encode_kwargs={'batch_size': 256}
+    )
     
     print("Building Chroma vector store (this will take some time for embedding calculation)...")
     
     # We batch the documents to avoid memory issues and provide progress
-    batch_size = 500
+    batch_size = 5000
     vectorstore = None
     
     # Ensure directory exists
