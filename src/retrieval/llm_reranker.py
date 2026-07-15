@@ -20,7 +20,7 @@ class LLMReranker:
             prompt += f"{code}: {description}\n"
             valid_codes.add(code)
             
-        prompt += "\nSelect 1 to 5 of the most accurate codes for the entity. Return ONLY a valid JSON array of strings containing the codes. Example: [\"CODE1\", \"CODE2\"]"
+        prompt += "\nSelect 1 to 5 of the most accurate codes for the entity. DO NOT output any reasoning, thinking process, or explanation. You must return ONLY a valid JSON array of strings containing the codes. Example: [\"CODE1\", \"CODE2\"]"
         
         try:
             response_text = self.llm.generate_response(prompt)
@@ -29,13 +29,13 @@ class LLMReranker:
             match = re.search(r'\[(.*?)\]', response_text, re.DOTALL)
             if not match:
                 print(f"Warning: Could not parse JSON array from LLM response: {response_text}")
-                return [candidates[0][0]]
+                return []
                 
             json_str = "[" + match.group(1) + "]"
             parsed_codes = json.loads(json_str)
             
             if not isinstance(parsed_codes, list):
-                return [candidates[0][0]]
+                return []
                 
             # Strict Filtering
             filtered_codes = []
@@ -44,10 +44,10 @@ class LLMReranker:
                     filtered_codes.append(str(code))
                     
             if not filtered_codes:
-                return [candidates[0][0]]
+                return []
                 
             return filtered_codes[:5]
             
         except Exception as e:
             print(f"Error during LLM reranking: {e}")
-            return [candidates[0][0]]
+            return []

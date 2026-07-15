@@ -44,7 +44,7 @@ class LocalLLM:
             "text-generation",
             model=self.model,
             tokenizer=self.tokenizer,
-            max_new_tokens=256,
+            max_new_tokens=1024,
             temperature=0.1,
             do_sample=True,
             return_full_text=False
