@@ -1,0 +1,87 @@
+BÁO CÁO NHANH
+Kính gửi: Lãnh đạo bộ phận
+V/v: Tổng hợp hồ sơ trong ca làm việc
+
+Bộ phận chuyên môn ghi nhận thông tin chi tiết từ hồ sơ thứ nhất như sau:
+
+Bệnh nhân là một phụ nữ [age] tuổi với tiền sử tăng huyết áp và rung nhĩ không dùng AC do đột biến gen ức chế plasminogen activator-1, đến khám với [duration] giờ sụp mặt bên trái và thay đổi thị lực. Bệnh nhân và gia đình cho biết bệnh nhân đang trong tình trạng tình trạng sức khỏe thường ngày vào buổi sáng hôm đó, với tình trạng chóng mặt nền của bệnh nhân khiến việc khó khăn khi đi lại trở nên khó khăn. Chồng của bệnh nhân thấy bệnh nhân khỏe vào lúc 10 giờ sáng, sau đó bệnh nhân ngã trong bếp vào khoảng 10:30 sáng và chồng của bệnh nhân nhận thấy có sụp mặt bên trái. Bệnh nhân không báo cáo suy yếu, tê bì, hoặc cảm giác kim châm ở tay và chân. Bệnh nhân cũng phàn nàn rằng thị lực mờ và nhìn đôi. Bệnh nhân đã có tình trạng thị lực ngày càng nặng trong năm qua, khiến bệnh nhân không thể lái xe trong vài tháng qua vì bệnh nhân bị nhìn đôi khi lái xe vào ban đêm. Bệnh nhân cũng nhận thấy khó khăn trong nhận thức độ sâu. Hôm nay vào lúc 10:30 sáng, mắt có vẻ kém hơn và nhìn đôi trở nên rõ rệt hơn. Bệnh nhân được đưa đến phòng cấp cứu, nơi con gái của bệnh nhân mô tả rằng sụp mặt và nhìn đôi đang dao động. Bệnh nhân đã thực hiện cta đầu cổ không cản quang cho kết quả âm tính và được chuyển đến phòng cấp cứu BI.
+
+_________________________________________________
+
+Sau khi hoàn tất hồ sơ trên, hệ thống tiếp tục cập nhật dữ liệu của trường hợp tiếp theo:
+
+Bệnh nhân nữ 72 tuổi vào viện vì yếu nửa người phải 
+Tiền sử: Tăng huyết áp 
+Bệnh sử:  theo lời kể người nhà và bệnh nhân, từ 21h tối 5/7, bệnh nhân có biểu hiện yếu tay chân phải, không đau đầu, khoảng 08h00 ngày 6/7 vào viện bệnh nhân xuất hiện yếu nửa người phải tăng dần lên không cầm nắm, không đi lại được ngoài ra không ho, không sốt vào viện 
+
+Tình trạng lúc vào: 
+Bệnh nhân tỉnh, tiếp xúc được 
+Glasgow 15 điểm 
+Thở khí phòng 
+Đồng tử hai bên kích thước, bên phải 2mm, bên trái 2mm 
+Phản xạ ánh sáng dương tính 
+Liệt 1/2 người  phải
+Cơ lực tay 0/5 
+Cơ lực chân 0/5 
+Liệt VII trung ương kín đáo 
+Không nói khó 
+Tim đều, T1T2 rõ 
+Phổi thông khí được 
+Bụng mềm 
+NIHSS: 10đ 
+Mạch:96. lần /phút ; nhiệt độ 37,°C
+N.thở:19,0 lần/phút  HA: 181 /100 mmHg
+
+Hiện tại khám: 
+
+Khám hiện tại 
+Bệnh nhân tỉnh, tiếp xúc được 
+Glasgow 15 điểm 
+Thở khí phòng 
+Đồng tử hai bên kích thước, bên phải 2mm,  bên trái 2mm 
+Phản xạ ánh sáng dương tính 
+Liệt 1/2 người phải 
+Cơ lực tay 0/5 
+Cơ lực chân 0/5 
+Liệt VII trung ương kín đáo 
+Không nói khó 
+Tim đều, T1T2 rõ 
+Phổi thông khí được 
+Bụng mềm 
+NIHSS: 10đ 
+Mạch:91 lần/phút 
+ HA: 167 /98 mmHg
+Diễn biến CLS:
+ MSCT mạch não: Nhồi  máu não bán cầu trái
+ Chẩn đoán:  Nhồi máu não bán cầu trái,  tăng huyết áp
+ Cerebrolysin 215,2 mg/ml  (Peptid (Cerebrolysin concentrate)) x 1,0 Ống tiêm 01 ống
+ Aspirin Stella 81mg (Aspirin) x 1,0 Viên
+Uống 01 viên
+ Lipitor 20mg (Atorvastatin  (dưới dạng Atorvastatin  Hemi-calci.1,5H2O)) x 2,0 Viên Uống 02 viên
+
+_________________________________________________
+
+Kế tiếp là nội dung trích lục từ hồ sơ của bệnh nhân thứ ba:
+
+Bệnh nhân nam [yo] tuổi được chuyển đến qua máy bay y tế từ Bệnh viện Quận [OSH] với xuất huyết trong não lan rộng. Bệnh nhân ban đầu tỉnh, nhưng lẫn lộn và có mùi rượu. Gia đình cho biết họ nghe thấy tiếng động mạnh vào buổi sáng và phát hiện bệnh nhân nằm trên sàn. Khi đến [địa điểm], bệnh nhân phàn nàn về đau ở ngực và lưng và được ghi nhận có một đợt rung thất kéo dài 4 phút trên đường đến [địa điểm]. Đến [địa điểm], bệnh nhân an thần, đặt nội khí quản, và huyết áp thấp. Bệnh nhân nam [yo] tuổi được chuyển đến qua máy bay y tế từ Bệnh viện Quận [OSH]. Gia đình nghe thấy tiếng động mạnh vào buổi sáng và phát hiện bệnh nhân nằm trên sàn. Sự kiện khởi phát là [mô tả sự kiện]. Ban đầu bệnh nhân tỉnh nhưng lẫn lộn, có mùi rượu. Tại Bệnh viện Quận [OSH], chụp cắt lớp vi tính cho thấy xuất huyết dưới nhện với xuất huyết trong não thất. Chuyển đến [địa điểm], và trên đường đến phàn nàn về đau ngực lưng và có một đợt suy tim ngừng đập do rung thất kéo dài 4 phút. Đến Khoa Cấp cứu [địa điểm], bệnh nhân an thần và đặt nội khí quản, huyết áp thấp nhưng trong nhịp xoang.
+
+_________________________________________________
+
+Tiếp nối quy trình bàn giao, đơn vị thực hiện ghi nhận thông tin của ca bệnh thứ tư:
+
+Bệnh nhân [age] tuổi với tiền sử rối loạn cảm xúc lưỡng cực, phụ thuộc rượu, rối loạn ám ảnh cưỡng chế và chấn thương sọ não cũ tự đến khám với mức cồn trong máu 130 và cố gắng tự sát bằng cách rạch cổ tay trái bằng lưỡi dao cạo, tiếp tục có tư tưởng tự sát hoạt động ngay cả sau khi tỉnh táo về mặt lâm sàng. Bệnh nhân cho biết trầm cảm của mình đã nặng hơn kể từ khi mất việc tại [location]. Bệnh nhân thừa nhận ngủ kém, mất hứng thú, cảm giác tội lỗi, cảm giác vô vọng, thiếu năng lượng, khó tập trung, chán ăn, và tư tưởng tự sát thụ động là không chắc muốn sống tiếp. Gần đây bệnh nhân đã tái phát nghiện rượu trong 7 ngày qua, uống một gallon rượu vodka hàng ngày để điều trị triệu chứng của mình. Bệnh nhân đã có tranh cãi với cha mẹ, trong đó họ từ chối ông. Ông nói rằng hôm nay ông không thể vào được khoa điều trị song bệnh khi gọi từ nhà, và cảm thấy hoàn toàn vô vọng không thể được giúp đỡ và tiến hành rạch cổ tay trong bồn tắm bằng lưỡi dao cạo. Ông nói rằng ý định tự sát và không tự làm hại bản thân, và ông nói rằng ông nằm đó và không gọi giúp đỡ, mong muốn được chết. Ông nói rằng ông đang cai rượu và biết mình đang làm gì khi thực hiện cố gắng tự sát này. Bạn gái tìm thấy ông và đưa ông vào viện. Ông vẫn cảm thấy tư tưởng tự sát hoạt động với nhiều kế hoạch trong đầu tại thời điểm này tại phòng cấp cứu trong khi tỉnh táo về mặt lâm sàng, không cảm thấy an toàn khi trở về nhà. Phủ nhận hỏi bệnh lý tâm thần, hỏi bệnh lý hưng cảm.
+
+_________________________________________________
+
+Tiếp theo, bộ phận chuyên môn tiến hành xem xét và đính kèm dữ liệu của hồ sơ thứ năm:
+
+Bệnh nhân nữ với chẩn đoán gần đây là khối u hố sau vào viện vì vài ngày gần đây có tình trạng buồn nôn. Bệnh nhân khai cảm thấy không khỏe và xuất hiện buồn nôn và nôn dai dẳng, không thể ăn uống được gì. Bệnh nhân cũng ghi nhận đau đầu, buồn nôn và chóng mặt. Bệnh nhân không ghi nhận sốt, ớn lạnh, tiêu chảy, mờ mắt.
+
+_________________________________________________
+
+Cuối cùng, hệ thống ghi nhận thông tin chi tiết của trường hợp thứ sáu để hoàn tất danh sách:
+
+Bệnh nhân là một phụ nữ [age] tuổi với tiền sử hút thuốc lá, rối loạn lipid máu, sp L CEA, hẹp động mạch cảnh phải, suy tuyến thượng thận, borderline suy giáp, đến khám vì yếu tay trái và thay đổi cảm giác trong 2 ngày, được phát hiện có tai biến mạch máu não bán cấp tại bệnh viện địa phương, chuyển đến đây để đánh giá thêm. Bệnh nhân cảm thấy khỏe vào ngày [date], và bà ấy cưỡi ngựa rất vui vẻ vào những ngày đó. Vào ngày [date], bà ấy cảm thấy mệt mỏi, và có một số tiêu chảy, vì vậy đã dành phần lớn cả ngày trên giường. Vào ngày [date], bà ấy cảm thấy bớt kiệt sức nhưng nhận thấy tay trái yếu, và khi bà ấy viết séc bằng tay trái, chữ viết của bà ấy bị sai lệch. Bà ấy cũng có các đợt tê bì tay trái. Các đợt này kéo dài 1 phút, chủ yếu liên quan đến ngón giữa tay trái, mặc dù ít nhất một lần nó lan ra các ngón tay khác và lòng bàn tay. Tay bà ấy đã yếu kể từ đó và chưa hồi phục. Vào ngày [date], bà ấy có 4 đợt tê bì tay trái nữa, tất cả kéo dài 1 phút. Bà ấy tiếp tục cưỡi ngựa trong thời gian này mà không gặp khó khăn. Bà ấy đến [location] nơi chụp cộng hưởng từ (mri) được thực hiện cho thấy nhồi máu bán cấp ở hồi trước trung tâm phải của bà ấy. Bà ấy đã gọi cho bác sĩ phẫu thuật mạch máu của mình, người đã theo dõi bà ấy vì hẹp động mạch cảnh phải 80% của bà ấy, người đã đề nghị bà ấy đến [location] để đánh giá phẫu thuật mạch máu và có thể là CEA. Bà ấy đã được lên kế hoạch phẫu thuật CEA bên phải vào [date].
+
+Trân trọng báo cáo.
+Ngày ... tháng ... năm ...

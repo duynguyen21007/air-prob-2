@@ -1,0 +1,103 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ......
+Người xuất: ......
+
+
+BIÊN BẢN BÀN GIAO NGƯỜI BỆNH
+
+
+Hồ sơ thứ 1
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân nam, [age] tuổi, có tiền sử sa sút trí tuệ, tai biến mạch máu não, và tăng huyết áp, đến khám vì chảy máu cam và phân có máu. Bệnh nhân đang trong tình trạng tình trạng sức khỏe thông thường vào sáng nay khi bắt đầu có chảy máu cam vào khoảng 6:30 sáng. Không có nguyên nhân khởi phát rõ ràng, bao gồm không có chấn thương mặt gần đây và không có viêm xoang gần đây. Bệnh nhân có ho khan trong vài ngày qua. Không có tiền sử chảy máu cam hoặc dễ chảy máu, và không dùng thuốc chống đông máu. chảy máu nhiều và xuất phát từ lỗ mũi trái. lượng máu chảy đủ lớn khiến vợ bệnh nhân ban đầu nghĩ rằng bệnh nhân cũng đang chảy máu từ miệng. chảy máu kéo dài 1 giờ bất chấp việc đã đặt gạc và cho bệnh nhân nằm ngửa, khiến vợ bệnh nhân gọi cấp cứu. Khi nhân viên cấp cứu đến, khoảng 2 giờ sau khi bắt đầu chảy máu cam, bệnh nhân có phân đáng chú ý là phân màu nâu sẫm. Không có đau bụng, buồn nôn, nôn, tiêu chảy hoặc táo bón gần đây. Không có nôn ra máu, đi ngoài ra máu đỏ tươi, hoặc phân đen gần đây.
+
+
+Hồ sơ thứ 2
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân nam, tuổi [yo], có tiền sử đái tháo đường típ 1, bệnh mạch vành, bệnh cơ tim thiếu máu, bệnh thận mạn, và khớp Charcot với tiền sử nhiễm trùng tái phát nhiễm trùng, nhập viện từ [location] vì loét lòng bàn chân phải chạm đến xương. Khoa Chẩn đoán hình ảnh lên kế hoạch phẫu thuật cắt bỏ mô chết vào cuối tuần này. Khoa Nội đã được tham vấn để đánh giá nguy cơ trước phẫu thuật và quản lý đồng thời các bệnh lý của bệnh nhân. Sau đó, bệnh nhân có một đợt rối loạn nhịp tim thất không bền vững và được chuyển đến khoa Nội. Bệnh nhân cho biết vết thương ở chân phải đã xuất hiện khoảng 2 tuần, nhưng phủ nhận đau và cho biết bệnh nhân không cảm thấy chân. Bệnh nhân phủ nhận sốt, run rẩy, hoặc đổ mồ hôi tại nhà. Bệnh nhân phủ nhận đau ngực hoặc khó thở khi gắng sức. Tương đương cơn đau thắt ngực của bệnh nhân không phải là đau ở ngực, cánh tay, hoặc hàm và bệnh nhân chỉ có thể mô tả nó là cảm giác lạ. Bệnh nhân chưa từng trải qua tương đương đau thắt ngực này kể từ khi bị nhồi máu cơ tim vào [date]. Bệnh nhân phủ nhận thay đổi cân nặng. Bệnh nhân đã có nhiều phân lỏng kể từ khi bắt đầu dùng kháng sinh.
+
+
+Hồ sơ thứ 3
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân là nam giới da trắng trẻ tuổi, tự khai có tiền sử trầm cảm nặng và rối loạn sử dụng rượu, đã không rõ ràng (cần thêm thông tin) sau khi được phát hiện nằm bất động trên đường và ngộ độc. Chụp cắt lớp vi tính (CT) đầu, cổ, cột sống cho thấy kết quả mãn tính. Khoa Tâm thần được mời tư vấn vì khi bệnh nhân còn tỉnh táo hơn, bệnh nhân đã báo cáo rằng mình có ý định tự sát. Khi đánh giá, bệnh nhân chỉ hợp tác và không thể hoặc không chịu cung cấp bệnh sử rõ ràng, mạch lạc, cũng không cung cấp bất kỳ thông tin liên lạc nào, trả lời hầu hết các câu hỏi bằng "Tôi không nhớ". Bệnh nhân báo cáo rằng gần đây đã ở và và bị đưa ra khỏi xe buýt sau khi ông ta cố gắng tự sát bằng cách uống một gallon Bourbon và uống một nắm thuốc. Ông ta báo cáo rằng đã nhập viện trong 2 ngày, được cho xuất viện và lên xe buýt trở lại. Ông ta báo cáo rằng sống một mình tại, làm nghề và đang làm việc tại. Ông ta nói "Họ đưa tôi ra khỏi xe buýt trong tình trạng mất ý thức". Tôi cảm thấy nếu tôi không nhận được sự giúp đỡ sớm, tôi sẽ không còn ở đây nữa. Ông ta báo cáo rằng đã được chẩn đoán trầm cảm cách đây nhiều năm sau khi mẹ ông ta tử vong tại và nói rằng ông ta sống một mình và không có gia đình nào khác. Bây giờ ông ta báo cáo rằng mình trầm cảm, có ý định tự sát, với rối loạn giấc ngủ nặng trong nhiều năm, chán ăn, mệt mỏi, thiếu năng lượng và cảm thấy mình cần giúp đỡ.
+
+
+Hồ sơ thứ 4
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân nam trẻ tuổi với tiền sử polyp đại tràng và sự phát triển quá mức của vi khuẩn sau một năm dùng kháng sinh, nhập viện để đánh giá thêm về khối bụng. Bệnh nhân bắt đầu có đau cơ thể và đau vùng thượng vị khoảng 7 ngày trước khi nhập viện. Bệnh nhân đã thử nhiều loại thuốc không kê đơn nhưng không không hiệu quả. Bệnh nhân đi nghỉ dưỡng vào cuối tuần này và bệnh nhân báo cáo có một lần có lẫn máu, phân rắn. Sau đó, khoảng giữa trưa, bệnh nhân có máu từ trực tràng. Phủ nhận triệu chứng tiền ngất rõ ràng. Sau đó, bệnh nhân lái xe đến nơi chẩn đoán hình ảnh cho thấy một khối đại tràng lên với giãn manh tràng và sợi hóa nhẹ. Sau đó, bệnh nhân được chuyển đến để đánh giá thêm đánh giá ban đầu.. Bệnh nhân hiện tại phàn nàn về cứng nhẹ ở vùng thượng vị. Phủ nhận nôn. Đang xì hơi nhưng chưa có phân trong 24 giờ. Lần phân cuối cùng của bệnh nhân nhỏ và bán rắn với một ít máu. Bệnh nhân phủ nhận đi lại, nhịp tim. Đánh giá các cơ quan khác (ROS) 10 điểm âm tính, ngoại trừ như đã nêu ở trên.
+
+
+Hồ sơ thứ 5
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+ệnh nhân nam, 40 tuổi, vào viện với lý do chán ăn, sợ mỡ, vàng da, bụng to nhanh. Bệnh diễn biến 3 năm nay. Quá trình bệnh diễn biến với các triệu chứng và hội chứng sau:
+HC suy chức năng gan:
+Mệt mỏi, khả năng tập trung công việc giảm, mất ngủ, gầy sút cân (khoảng 3kg/tháng)
+ Da sạm, vàng, củng mạc mắt vàng, tóc dễ gãy và rụng, nước tiểu vàng, hiện tại số lượng 2000ml/ngày (sử dụng 1 viên lasix + 4 viên aldactol/ngày)
+Sao mạch, bàn tay son, phù 2 chi dưới: phù mềm, trắng, ấn lõm.
+RLTH: chán ăn, sợ mỡ, bụng âm ách khó tiêu, phân lỏng.
+ Xét nghiệm: CTM
+ HC: 3,35T/l; HST: 95 g/l; BC: 2,78 G/l; TC: 90 G/l
+SHM: 
+Protein: 58g/l;         Abumin 23.2 g/l                                         Bilirubin tp 120 umol/l;                 Bilirubin tt 90 umol/l; 
+Bilirubin gt 30 micromol/l 
+AST (GOT) 340 U/l;         ALT (GPT) 78 U/l
+ HC tăng áp lực tĩnh mạch cửa:
+Lách to dưới bờ sườn 3cm, bờ sắc, bề mặt nhẵn, mật độ chắc
+Tuần hoàn bàng hệ trên rốn
+Cổ trướng ít
+Xét nghiệm dịch cổ trướng: dịch thấm: không màu, trong, Protein: 18,4 g/l; Rivalta (-)
+Siêu âm: tĩnh mạch cửa:1.5 cm; lách khá lớn.
+  Triệu chứng thay đổi hình thái gan:
+Gan không sờ thấy
+Siêu âm: nhu mô gan không đồng nhất, bề mặt nhấp nhô, gan teo
+ Tiền sử bản thân:
+Phát hiện HBsAg (+) năm 2018
+Uống rượu ít, không thường xuyên
+Hiện tại ngày thứ 6 sau khi vào viện: còn mệt mỏi, ăn kém, da vàng, bụng nhỏ lại, nước tiểu màu vàng số lượng 2000ml/24h, đại tiện phân lỏng, mach 80 lần/phút, HA: 120/70mmHg, tần số thở 18 lần/phút, nhiệt độ: 36 độ 6.
+Chẩn đoán: Xơ gan Chil C do viêm gan B.
+Hướng điều trị: 
+Dextrose 5% x 500ml, truyền TM XL giọt/ phút 
+Philpovin 5g x 2 ống, pha vào glucose 5%, truyền TM XL giọt/ phút. 
+RB 25 x 4 viên, uống sáng 2 viên, chiều 2 viên. 
+Human albumin 20% x 50ml, truyền TM XX giọt/ phút, dùng đến khi xét nghiệm Albumin máu > 30g/l 
+Lasix 40mg x 1 viên, uống sáng, dùng đến khi hết phù và hết cổ trướng 
+Aldacton 25mg x 4 viên, uống sáng 2 viên, chiều 2 viên, dùng đến khi hết phù và hết cổ trướng 
+
+
+Hồ sơ thứ 6
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân nam với tiền sử ung thư túi mật được phát hiện trong quá trình nội soi cắt polyp đại tràng (CCY) thực hiện vì viêm túi mật, hiện tại có vàng da và tắc nghẽn đường mật và nhập viện để theo dõi sau khi thực hiện nội soi tiêu hóa trên (EGD) và nội soi cắt túi mật qua nội soi đường tiêu hóa trên (ERCP). Bệnh nhân cho biết sau CCY, bệnh nhân cảm thấy cảm thấy khỏe cho đến khoảng 1.5 tháng trước khi nhận thấy nước tiểu sẫm màu hơn. Bệnh nhân bắt đầu có mệt mỏi và chán ăn ngày càng tăng, kèm theo sụt cân với số lượng không rõ ràng. Bệnh nhân đã gặp bác sĩ chăm sóc chính (PCP) và được làm xét nghiệm, ghi nhận tăng bilirubin. chẩn đoán hình ảnh tiếp theo cho thấy tắc nghẽn đường mật và bệnh nhân được giới thiệu đến. Vào ngày nhập viện, bệnh nhân đã trải qua EGD với giãn bóng vòng nối thực quản-dạ dày và ERCP với cắt cơ vòng, giãn hẹp, và đặt hai stent kim loại. Hiện tại, bệnh nhân báo cáo khó chịu vùng bụng tương tự như những gì bệnh nhân đã trải qua trong một tháng rưỡi qua, nhưng không có đau hoặc buồn nôn tăng lên. Không có sốt, run rẩy, đau ngực, hoặc khó thở.
+
+
+Hồ sơ thứ 7
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân nam, tuổi, đến phòng cấp cứu vì than phiền về đau họng và nôn ói cho thấy khối u thanh quản. Tại phòng cấp cứu, bệnh nhân cho biết đã có cảm giác nghẹn ở cổ họng trong cổ họng trong 3 tháng qua. Ban đầu 3 tuần trước, bệnh nhân bắt đầu nhận thấy khàn tiếng và có khó nuốt thức ăn đặc qua đường miệng. Kể từ đó, bệnh nhân chỉ có thể ăn thức ăn dạng sệt cho trẻ sơ sinh và sữa chua. Bệnh nhân phủ nhận khó thở, khó nuốt, chảy nước dãi, khó ngủ hoặc nằm ngửa, hoặc bất kỳ các triệu chứng khác nào. Khi đến nơi, khoa Tai Mũi Họng được tư vấn và bệnh nhân đã trải qua nội soi sợi quang, cho thấy trong thanh quản có một khối khối u sùi lớn dọc vùng thanh môn và trên thanh môn liên quan đến thanh thiệt. Bệnh nhân cũng trải qua chụp cắt lớp vi tính (ct) cổ cho thấy một tổn thương mô mềm không đều tổn thương mô mềm tăng tín hiệu kích thước 3.0 x 2.7 x 5.0 cm trong tiền đình thanh quản liên quan đến thanh môn, dưới thanh môn và khí quản trên cũng như hạ họng dưới cho thấy khả năng xâm lấn vào sụn giáp phải, liên lụy sụn nhẫn và liên lụy vòng quanh ở mức sụn giáp dẫn đến hẹp đường thở nghiêm trọng. Do các phát hiện này, bệnh nhân đã được đưa vào phòng mổ tối nay. Bệnh nhân đã trải qua nội soi thanh quản trực tiếp, sinh thiết và mở khí quản khi còn tỉnh táo. Bệnh nhân hiện đang được nhập vào SICU để theo dõi sau mổ theo dõi đường thở.
+
+
+Xác nhận bàn giao:
+Đơn vị bàn giao: ......
+Đơn vị tiếp nhận: ......
+
+
+Báo cáo được trích xuất tự động từ hệ thống
+Người in báo cáo: ......

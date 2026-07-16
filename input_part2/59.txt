@@ -1,0 +1,65 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+
+GHI CHÉP TÓM TẮT CỦA BÁC SĨ TRƯỞNG ĐƠN VỊ
+
+
+Phần I: Nhóm hồ sơ đợt 1
+
+    1.1. Ghi nhận trường hợp thứ nhất:
+
+    Bệnh nhân có tiền sử bệnh bạch cầu dòng tủy cấp tính, tăng huyết áp và rung nhĩ vào khoa Cấp cứu vì chóng mặt. Bệnh nhân đã được khám tại phòng khám ngày hôm trước, ghi nhận tụt huyết áp tư thế, được truyền 1,5 L dịch tĩnh mạch, cảm thấy đỡ hơn và được cho về. chóng mặt tái phát hôm nay, nên bệnh nhân đến khoa Cấp cứu. Bệnh nhân ghi nhận còn chóng mặt nhưng không có hoa mắt hay cảm giác chóng mặt như phòng quay. Tình trạng nặng nhất vào buổi sáng sau khi dùng venetoclax, không phải lúc nào cũng liên quan đến thay đổi tư thế mà xuất hiện cả khi gắng sức lẫn khi nghỉ ngơi. Bệnh nhân không ghi nhận thâm hụt thần kinh khu trú, sốt, ớn lạnh, đau xoang, chảy nước mũi, đau họng, đau ngực hay đánh trống ngực. Bệnh nhân không ghi nhận mất nước và đã ngừng dùng lisinoprilatenolol như đã được kê đơn, nhưng triệu chứng vẫn còn. 
+
+Tại khoa Cấp cứu, dấu hiệu sinh tồn ban đầu lần lượt là 96,6; 75; 198/99; 16; SpO₂ 100% khí phòng. Xét nghiệm cận lâm sàng cho thấy bạch cầu 3.7, hemoglobin 9.8, tiểu cầu 214, bnp 274, chức năng gan bình thường, hóa chất (xét nghiệm) với creatinin 1.0, troponin 0.02 sau đó 0.03 ở lần lặp lại, điện tâm đồ không thay đổi so với thời điểm ban đầu, lactat 1.3 và phân tích nước tiểu âm tính.
+
+    1.2. Ghi nhận trường hợp thứ hai:
+
+    Trong tình trạng sức khỏe bình thường bệnh nhân yếu ở tay phải trong hai ngày. Báo cáo một đợt tương tự hai tháng trước, bệnh nhân nhớ lại mất cảm giác ở tay và cẳng tay phải. Tình trạng này tự khỏi mà không có di chứng. triệu chứng bắt đầu như một tê bì kéo dài đến tê bì tay. Không có triệu chứng thêm bao gồm đau đầu, thay đổi thị lực, chóng mặt hoặc chóng mặt. Vào buổi sáng, bệnh nhân nhận thấy yếu nặng ở cánh tay, thúc đẩy việc nhập viện. Đáng chú ý, bệnh nhân đã từng có tiền sử xuất huyết trong não vùng đỉnh phải. nghiên cứu chụp mạch máu âm tính với bất kỳ dị dạng động tĩnh mạch nào. Nguyên nhân có thể liên quan đến tăng huyết áp không kiểm soát. Khi xuất viện, bệnh nhân không tái khám và điều trị. Bệnh nhân tiếp tục hút thuốc lá và quyết định không dùng thuốc chống tăng huyết áp nữa. Bệnh nhân phủ nhận đau đầu, mất thị lực, mờ mắt, rối loạn phát âm, khó nuốt, chóng mặt, chóng mặt, hoặc ù tai. Phủ nhận thêm yếu khu trú, tê, tê bì ngoài những triệu chứng trên. Không có rối loạn đại tiểu tiện tiểu không tự chủ hoặc bí tiểu. Phủ nhận khó khăn khi đi lại. Không có sốt, đau ngực, khó thở.
+
+    1.3. Ghi nhận trường hợp thứ ba:
+
+    Bệnh nhân nữ 55 tuổi, tiền sử mổ sỏi mật 3 lần. Vào viện vì đau bụng vùng hạ sườn phải, kèm sốt 38.5 độ. Qua thăm khám
+phát hiện các hội chứng và triệu chứng sau: 
+Tỉnh, tiếp xúc tốt, GCS 15.
+Sốt 38.5 độ, da vàng, củng mạc mắt vàng.
+Đau bụng vùng HSP, đau thành cơn, lan ra sau lưng, lên vai trái,
+Tiểu tiện nước tiểu màu vàng sậm, đại tiện bình thường. 
+Cận lâm sàng:
+CTM: HC 4.2T/L, HST 122g/L, PLT 195G/L.
+BC: 15G/L, NE: 83%.
+Sinh hóa máu: Bil TT/TP: 35/42 umol/L                      AST/ALT: 220/130 U/L                              
+Siêu âm: Túi mật đã cắt, đường mật trong gan 2 bên có sỏi kích thước lớn nhất 16x15mm. Ống mật chủ giãn đường kính 21mm.
+MRI: túi mật đã cắt, sỏi trong gan 2 bên, đường kính lớn nhất 16x18mm. 
+Ống mật chủ giãn, đường kính 21mm.
+Chẩn đoán: Nhiễm trùng đường mật do sỏi đường mật trong gan 2 bên/ Bệnh nhân đã mổ sỏi mật 3 lần.
+Hướng điều trị:
+Kháng sinh phối hợp.
+Giảm đau.
+Mổ nội sỏi tán sỏi đường mật.
+Đơn thuốc: 
+1. NaCl 0,9% 500ml x 02 chai, truyền tĩnh mạch 50 giọt/phút.
+2. Sulbactam  x 02 lọ, pha truyền tĩnh mạch.
+3. Ciprofloxaxin x 01 chai, truyền tĩnh mạch 30 giọt/phút.
+4. Glucose 500ml x 02 chai, truyền tĩnh mạch 50 giọt/phút.
+5. Papaverin x 02 ống, pha truyền tĩnh mạch.
+6. Paracetamol 500mg x 01 chai, truyền tĩnh mạch 60 giọt/phút, khi sốt >38.5 độ.
+
+
+
+Phần II: Nhóm hồ sơ đợt 2
+
+    2.1. Cập nhật hồ sơ thứ tư:
+
+    Bệnh nhân nam có tiền sử thoát vị đĩa đệm L5-S1 bên L5-S1 cách đây nhiều năm, phẫu thuật viễn thám L5-S1 bên phải lần trước do bệnh lý rễ thần kinh S1 nặng tái phát, không đáp ứng với thuốc, nay phẫu thuật lại hemilaminotomy bên phải L5-S1, phát hiện và sửa chữa rách màng cứng trong mổ, nhập viện vì đau đầu, sốt và buồn nôn và nôn ngày càng nặng. Bệnh nhân trong tình trạng tình trạng sức khỏe thông thường cho đến chiều ngày trước khi nhập viện thì xuất hiện đau thắt lưng nặng hơn tại vết mổ. Bệnh nhân phủ nhận có chấn thương mới hoặc sự kiện khởi phát. Bệnh nhân phủ nhận dịch tiết từ vết mổ. Sau đó, bệnh nhân xuất hiện đau đầu nặng dần trong đêm. Vào lúc 3:00 sáng ngày nhập viện, bệnh nhân trở nên rất buồn nôn và phát triển nôn không kiểm soát được. đau đầu của bệnh nhân rất nặng, kèm theo sợ ánh sáng và sợ tiếng động. nhiệt độ tại nhà vào thời điểm đó là. Bệnh nhân đến phòng cấp cứu để đánh giá thêm. Bệnh nhân phủ nhận tê bì, dị cảm hoặc yếu sức ở các chi. Bệnh nhân phủ nhận tiểu không tự chủ hoặc tiểu không tự chủ. Bệnh nhân phủ nhận đau ngực, khó thở, tiêu chảy hoặc thay đổi thị lực.
+
+    2.2. Cập nhật hồ sơ thứ năm:
+
+    Bệnh nhân nam, thuận tay phải, đến khám với các triệu chứng nêu trên trên nền tăng huyết áp và tiền sử gia đình có tai biến mạch máu não. Ba ngày trước, bệnh nhân đang được con gái tết tóc. Bệnh nhân cũng đã sử dụng cần sa ngay trước đó, một điếu duy nhất, mà bệnh nhân nghĩ là không bị trộn thêm chất gì. Đột nhiên, bệnh nhân nhận thấy phòng quay cuồng và lời nói không rõ ràng. Bệnh nhân cho rằng điều này là do cần sa. Bệnh nhân bắt đầu nấu ăn sau đó đi xuống cầu thang, bệnh nhân bị khó khăn ngay trên cầu thang, nói rằng chân phải cứ bị tuột ra khỏi người. Bệnh nhân cảm thấy chóng mặt và cần phải vịn vào tường để đi xuống cầu thang. Bệnh nhân cũng cảm thấy buồn ngủ. Nghĩ rằng đây có thể là do cần sa, bệnh nhân quyết định chờ đợi triệu chứng qua đi. Bệnh nhân ngủ bình thường, nhưng cảm thấy buồn ngủ khi thức dậy. Hôm nay, bệnh nhân phát triển đau ngực bên trái, dữ dội, lan tỏa đến cánh tay trái, như thể có ai đó đang ấn vào ngực, cùng với đau đầu nhẹ. Bệnh nhân quyết định đến phòng cấp cứu. Thăm khám các hệ cơ quan khác không ghi nhận bất thường ngoại trừ các triệu chứng nêu trên. Cụ thể, không có đau ngực khi khởi phát triệu chứng. Không có triệu chứng gần đây của nhiễm trùng. Không có sử dụng ma túy nào khác. Bệnh nhân đã dùng tất cả các loại thuốc theo chỉ định mà không bỏ liều, bất chấp việc sử dụng cần sa. đau ngực và đau đầu đã cải thiện sau khi điều trị tăng huyết áp.
+
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

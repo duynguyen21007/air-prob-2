@@ -8,6 +8,8 @@ viettel_ai_race_analysis_2f6b473d.plan.md
 __pycache__/
 *.pyc
 *.pyo
+.venv
+
 
 # Data outputs (regenerable)
 data/

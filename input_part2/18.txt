@@ -1,0 +1,72 @@
+Hệ thống Quản lý Bệnh viện 
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+- Thông tin hồ sơ 1:
+
+Tiền sử: Sa sút trí tuệ - parkinson -  tổn thương não chất trắng - rối loạn giấc ngủ đang điều trị.
+Bệnh sử: 
+Theo lời con gái bệnh nhân kể đợt này bệnh nhân có buồn chán về bệnh tật. Khoảng 7 h sáng ngày vào viện gia đình phát hiện bệnh nhân nằm trên giường, đại tiểu tiện không 
+tự chủ, gọi hỏi không trả lời gia đình tự gọi  nhân viên y tế xã đến khám sau đó khoảng
+8h30 bệnh nhân có nôn ra thức ăn có mùi  lạ nghi giống thuốc trừ sâu, gia đình kiểm tra thấy có 2 gói thuốc ( Thuốc chuột hiệu 666 thành phần wafarin 2% và thuốc trừ  sâu  nhãn betox 5EC hoạt chất  Alpha-Cypermethrin 50g/L) chỉ còn vỏ ở dưới chân giường, kiểm tra cốc nước bệnh nhân uống có mùi nghi thuốc trừ sâu ở đầu giường sau đó bệnh nhân ý thức cải thiện dần con gái hỏi bệnh nhân có khai uống các gói thuốc trên vào khoảng 00h vào viện,
+Khám lúc vào
+Bệnh nhân G 14 điểm 
+Tiếp xúc được. 
+Không phù, không xuất huyết dưới da 
+Da, niêm mạc hồng. 
+Da, môi khô. 
+Tự thở đều, nhịp thở 18 l/p 
+tim đều T1 T2 rõ 
+Phổi rì rào phế nang  rõ 
+Bụng mềm. 
+Đồng tử 2 bên đều, phản xạ ánh sáng  dương tính. 
+Không có dấu hiệu thần kinh khu trú. 
+Mạch:93 lần/phút N.độ: 36,50°C
+N.thở:18,0 lần/phút  HA: 155 /91 mmHg
+
+Diễn biến CLS:  
+BC: 5.5 G/L   
+NEUT% : 63.1 % 
+ LYM% : 29.9 % 
+ RBC : 4.57 T/L     HGB : 143 g/L   HCT :  0.425 L/L 
+ PLT : 253 G/L 
+ APTT (s): 34.4 giây 
+ PT - INR *: 2.47   
+ PT :74 => 31 % 
+ Fibrinogen : 2.97 g/L  AST : 21 U/L  ALT : 20 U/mL 
+ Kali (+): 3.2 mmol 
+ Điện giải đồ (Na, K, Cl)  Clo: 107 mmol 
+ Natri +: 143 mmol 
+ Urê [Máu]: 3.7 mmol
+Chẩn đoán: Ngộ độc thuốc chuột thành phần warfarin 2%, thuốc trừ sâu thành phần Alpha - Cypermethrin
+Điều trị : Phytok 40mg/2ml  (Phytomenadion (Phytonadion)) x 2,0 Ống Uống 1/2 ống  (1ml) /lần : 9h30-18h -05h 
+ Mirzaten 30mg (Mirtazapin) x 1,0 Viên Ngày uống 1/2 viên buổi tối 20h 
+ 
+Seroquel XR 50mg (Quetiapin  (dưới dạng Quetiapin fumarat)) x 1,0 Viên Ngày uống 1 viên buổi tối 20h 
+
+..................................................
+- Thông tin hồ sơ 2:
+
+Bệnh nhân nam, [age] tuổi, có tiền sử Tăng huyết áp, Tăng lipid máu, Nhồi máu cơ tim vào [date], Nhồi máu cơ tim không ST chênh lên với DES đến RCA, nhập viện vì khó chịu vùng họng. Bệnh nhân cho biết, với tiền sử Nhồi máu cơ tim trước đây, đau họng của ông là tương đương đau thắt ngực, mặc dù ông mô tả cảm giác trước đó là dữ dội, lan tỏa đến hàm, không liên tục, xuất hiện khi gắng sức và giảm khi nghỉ ngơi. đau họng của ông cũng từng liên quan đến tê ngón cái trái trong quá khứ. khó chịu hiện tại nhẹ hơn, liên tục, không liên quan đến gắng sức, không có tê ngón cái và cảm giác như đau họng hoặc dị ứng lần này. Ông cũng báo cáo nghẹt mũi trong vài đêm qua và một mụn rộp môi đơn độc trên môi. đau họng bắt đầu 4 ngày trước khi nhập viện. Bác sĩ tim mạch của ông khuyên nên chờ đợi để cải thiện, nhưng khi khó chịu không thuyên giảm sau vài ngày, ông đã giới thiệu bệnh nhân đến khoa cấp cứu. Bệnh nhân phủ nhận bất kỳ đau ngực, khó thở, buồn nôn hoặc vã mồ hôi rõ ràng nào. Ông báo cáo cảm thấy lo lắng.
+
+..................................................
+- Thông tin hồ sơ 3:
+
+Bệnh nhân cho biết trong vài tháng qua, bệnh nhân sử dụng cocaine và heroin tiêm tĩnh mạch hầu hết các ngày, chi 140 cho cocaine và 70 cho heroin mỗi ngày. Bệnh nhân báo cáo rằng việc sử dụng của mình trở nên trầm trọng hơn sau khi mất bảo hiểm và không thể dùng thuốc điều trị rối loạn lưỡng cực, cho biết cần một thứ gì đó thay thế. Bệnh nhân có phần thái độ phòng thủ, né tránh về hoàn cảnh đưa bệnh nhân vào phòng cấp cứu vào đêm nhập viện, cho biết đã liên quan đến một vụ va chạm nhỏ dẫn đến việc bị cảnh sát bắt vì lái xe khi đang chịu ảnh hưởng của chất kích thích và bị đưa vào đồn. Bệnh nhân trở nên bất an và mặc dù phủ nhận có bất kỳ phát ngôn tự sát, bệnh nhân đã được đưa vào phòng cấp cứu dưới sự giám sát của cảnh sát để đánh giá tư tưởng tự sát. Giữa cuộc phỏng vấn, bệnh nhân được tại ngoại và ngày ra tòa được ấn định. Bệnh nhân báo cáo tư tưởng tự sát mãn tính và cho biết nếu tôi có có ý định tự sát, tôi sẽ làm điều đó, nhưng tôi bị còng tay hầu hết thời gian. Bệnh nhân báo cáo rất bất an về vụ bắt giữ này, vì đây là lần bắt giữ của bệnh nhân và hiện đang trong quá trình cố gắng khôi phục giấy phép hành nghề luật sư của mình. Bệnh nhân cho biết đã bực bội và chán nản về vụ bắt giữ, vì nó khiến mục tiêu khôi phục giấy phép và quay trở lại làm việc trở nên không thể. Khi được hỏi sẽ làm gì nếu được xuất viện khỏi bệnh viện, bệnh nhân trả lời tôi không biết, có lẽ sẽ nhảy xuống tàu. Bệnh nhân báo cáo đã cảm giác trầm cảm về tình huống cuộc sống của mình, thất nghiệp, tái phát sử dụng heroin và cocaine, gây thất vọng cho gia đình. Bệnh nhân không thể xác định bất kỳ sự hỗ trợ nào; cho biết không thể gặp bác sĩ tâm thần của mình, Bác sĩ, tại, do thay đổi bảo hiểm. Mặc dù khó phân biệt liệu triệu chứng của bệnh nhân có phải do sử dụng chất kích thích hay không, bệnh nhân báo cáo ngủ kém, ăn uống bình thường, thiếu năng lượng, cảm giác tội lỗi liên tục, mãn tính tự sát, và đôi khi vô vọng. Bệnh nhân có tiên lượng tương lai ảm đạm, vì cảm thấy tại thời điểm này, đây là sự kết thúc của những nỗ lực khôi phục giấy phép của mình. Bệnh nhân trả lời tôi không biết khi được hỏi sẽ làm gì tiếp theo về vụ bắt giữ. Trong Hỏi bệnh theo hệ cơ quan (ROS), bệnh nhân báo cáo tư tưởng hoang tưởng, cũng như ảo giác thị giác; bệnh nhân phủ nhận bất kỳ triệu chứng hưng cảm nào hiện tại.
+
+..................................................
+- Thông tin hồ sơ 4:
+
+Bà là một phụ nữ có tiền sử gần đây về thay đổi trạng thái tinh thần và ngã đến khám sau một ngã được chứng kiến tại cơ sở chăm sóc người cao tuổi của bà. Khi được hỏi, bệnh nhân cho biết bà vấp nhưng không nhớ liệu bà có đang đứng hay đi bộ vào thời điểm đó hay không. Tuy nhiên, bà đưa ra các lời kể khác nhau cho các nhà cung cấp khác nhau. Theo nhân viên tại tại, bệnh nhân đang đi bộ với một người trợ lý khi bà nói rằng tôi cảm giác lạ và ngã ngửa, va đầu. Theo báo cáo của nhân viên, bà không bị mất ý thức và có thể vận động được tất cả các chi. Không có báo cáo về tiểu không tự chủ, co giật, hoặc hậu co giật. Sau ngã, bà tỉnh táo và phương hướng tốt và phủ nhận đau. Bà được đưa đến phòng cấp cứu bằng xe cứu thương để đánh giá do chấn thương đầu. Đáng chú ý, bệnh nhân đã được nhập viện tại tại vì máu tụ dưới màng cứng do chấn thương. Người quản lý ca của Chăm sóc Người cao tuổi của bệnh nhân cho biết bệnh nhân gần đây đã có một số thay đổi hành vi và trạng thái tinh thần: bà chuyển đến mà không nói cho người thân biết và không bao giờ dỡ đồ đạc, vứt quần áo thay vì giặt, và ngày càng hay quên.
+
+..................................................
+- Thông tin hồ sơ 5:
+
+Bệnh nhân mắc thiếu máu do thiếu sắt và không tuân thủ điều trị với iron pills.
+
+..................................................
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

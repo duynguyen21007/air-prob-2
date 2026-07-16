@@ -1,0 +1,77 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+Hệ thống ghi nhận thông tin chi tiết về trường hợp đầu tiên như sau:
+
+Bệnh nhân là nữ, đái tháo đường típ 2, tăng huyết áp, và bệnh mạch máu ngoại biên, gần đây nhập viện vì nhiễm trùng huyết thứ phát do viêm túi mật, đến phòng khám với chẩn đoán hình ảnh cho thấy tắc ống túi mật mặc dù ống dẫn lưu đặt đúng vị trí, nhập viện sau ERCP theo kế hoạch. Trong lần nhập viện gần đây, bệnh nhân có đau bụng và được chẩn đoán viêm túi mật. Bệnh nhân và gia đình đồng ý không can thiệp phẫu thuật nhưng bệnh nhân đã được đặt dẫn lưu cholecystostomy qua da. Kể từ đó, bệnh nhân nhập viện một lần vì ống bị lệch vị trí cần thay thế. Bệnh nhân đến phòng khám từ trung tâm phục hồi chức năng vì lo ngại ống dẫn lưu bị tuột lần nữa. x-quang tăng sáng cho thấy ống dẫn lưu ở vị trí đúng nhưng vẫn tiếp tục tắc ống túi mật. Bệnh nhân được giới thiệu đến ERCP để điều trị thêm. ERCP được thực hiện, nhưng không thể đặt ống thông vào ống mật chủ nên thủ thuật bị hủy bỏ. Đề nghị tư vấn đặt dẫn lưu cholecystostomy qua da. Khi đến khoa, bệnh nhân cho biết cảm thấy tương đối khỏe. Bệnh nhân phủ nhận đau bụng, buồn nôn, nôn, tiêu chảy, táo bón.
+
+Sau khi hoàn tất hồ sơ trên, bộ phận chuyên môn tiếp tục trích lục dữ liệu của ca bệnh tiếp theo:
+
+..................................................
+
+Tiếp nối quy trình cập nhật, hệ thống hiển thị nội dung của hồ sơ thứ hai:
+
+Đây là một phụ nữ đã trải qua thay thế động mạch chủ lên cho tình trạng bóc tách loại A, người đã quay trở lại chăm sóc y tế của mình để theo dõi trong nhiều năm qua. Bệnh nhân đến khám với đau bụng đột ngột. Bệnh nhân đến phòng cấp cứu, nơi phát hiện có phình động mạch chủ ngực bụng với bầm máu xung quanh, và bệnh nhân được chuyển đến. Một ct mạch máu có tiêm thuốc cản quang cho thấy cung động mạch chủ lớn lớn hơn 5 cm. thắt lại ở động mạch chủ ngực xuống, nhưng ở động mạch chủ ngực xuống xa, nó giãn lên lại đến 5 cm, và có một bầm máu xung quanh động mạch chủ mà không có bằng chứng về rò rỉ thuốc cản quang hoạt động. động mạch chủ giãn qua đoạn tạng và động mạch chủ dưới thận thắt lại một phần ở xa. Có một bóc tách xuyên suốt. bóc tách lan xuống các động mạch chậu, cũng có phần phình. Do khu vực vỡ nằm ở đoạn động mạch chủ ngực xuống xa-tạng và có những vùng gần như bình thường phía trên và dưới vùng này, chúng tôi đã quyết định tiến hành sửa chữa phẫu thuật mở khẩn cấp động mạch chủ ngực-bụng, thay thế đoạn bị mất này. Do sự phức tạp của thủ thuật này, các bác sĩ phẫu thuật từ cả phẫu thuật mạch máu và phẫu thuật tim mạch đã được yêu cầu.
+
+Kế tiếp là thông tin chi tiết được ghi nhận cho trường hợp thứ ba:
+
+..................................................
+
+Tiếp tục xem xét các dữ liệu trong hệ thống, đơn vị ghi nhận nội dung của hồ sơ sau:
+
+nam giới có tiền sử đái tháo đường và biến dạng Charcot hai bên sau phẫu thuật tái tạo Charcot bên phải, biến chứng bởi nhiễm trùng cần nhiều lần phẫu thuật bởi khoa chỉnh hình bàn chân, đến khám với đau chân phải. Bệnh nhân đi lại được vào hôm qua khi đột ngột cảm thấy có gì đó không ổn ở chân phải. Bệnh nhân đang đi ủng đi bộ và dùng nạng, vì vậy bệnh nhân tiếp tục đi lại không chịu lực và đến phòng khám, nơi chụp chụp x-quang cho thấy gãy xương gần ở phần cứng tái tạo charcot trước đây. Hiện tại bệnh nhân phủ nhận đau khi nghỉ ngơi, nhưng có đau khi vận động và không thể chịu lực. Bệnh nhân phủ nhận đau ở chân hoặc cổ chân trước đó, sốt hoặc run rẩy. 3 tuần trước, bệnh nhân đã cắt bỏ ung thư biểu mô tế bào đáy ở cẳng chân trước bên phải với bờ âm tính, đang được điều trị bằng chăm sóc vết thương tại chỗ. Tiền sử phẫu thuật như sau: 1. Cắt bỏ một phần xương bàn chân thứ năm bên phải. 2. Cắt bỏ lại một phần xương bàn chân thứ năm do viêm tủy xương. 3. Đặt xi măng kháng sinh. 4. Cắt bỏ và làm sạch loét hở. 1. Cắt gân, gân cơ chày trước. 2. Cắt gân, gân cơ chày sau. 3. Phẫu thuật cố định khớp cổ chân. 4. Phẫu thuật cố định khớp dưới đồi chày. 5. Cắt xương và cố định giữa bàn chân-đồi chày. 6. Áp dụng khung Ilizarov ngoài. 1. Tháo tấm đế khung Ilizarov dưới. 2. Rạch và dẫn lưu bàn chân trong, nhiều khoang. 3. Rạch và dẫn lưu bàn chân ngoài, một khoang. 4. Rạch và dẫn lưu và rửa qua vết rạch cổ chân trước. 1. Rạch và dẫn lưu, mặt trong bàn chân phải, nhiều khoang. 2. Rạch và dẫn lưu bàn chân phải ngoài, nhiều khoang. Không gạc garô. 3. Sinh thiết xương mở bàn chân trong. Nhiều lần sinh thiết xương, bàn chân phải: xương thuyền, xương nêm giữa, xương sên, xương gót và xương mác. Phẫu thuật cố định lại khớp cổ chân và khớp dưới đồi chày, tháo phần cứng, áp dụng khung. 1. Tháo khung khỏi bàn chân và cẳng chân phải. 2. Làm sạch xương, xương chày phải. 3. Cắt bỏ mô xương, bàn chân phải
+
+Sau đó, quy trình bàn giao tiếp tục với thông tin của ca bệnh thứ tư:
+
+..................................................
+
+Hệ thống tiếp tục trích xuất dữ liệu liên quan đến hồ sơ thứ năm:
+
+Bệnh nhân đã được điều trị phình động mạch chủ chủ động, hiện gặp tình trạng tiểu không tự chủ và đến khám để được đánh giá về tình trạng động mạch chủ bụng bị phình.
+
+Nối tiếp trình tự cập nhật, bộ phận chuyên môn ghi nhận thông tin của trường hợp tiếp theo:
+
+..................................................
+
+Dữ liệu được trích lục cho hồ sơ thứ sáu được hiển thị như sau:
+
+Bà là một phụ nữ rất dễ chịu với tiền sử suy giáp do phẫu thuật, phẫu thuật thần kinh vùng hố sau không rõ loại, tăng huyết áp, tăng lipid máu, và trầm cảm, nhập viện chuyển từ sau khi phát hiện tai biến mạch máu não mới được ghi nhận trên. Thông tin bệnh sử được cung cấp bởi con trai bà, người đã ở bên cạnh giường bệnh. Những gì ông mô tả là mẹ ông là một phụ nữ rất tự chủ hoàn toàn trong sinh hoạt hàng ngày sống một mình. Bà dành buổi sáng để chăm sóc cháu trai tự kỷ nhẹ của mình. Cháu trai được con trai bà đưa đến nhà bà sáng nay vào khoảng 8 giờ sáng, tại thời điểm đó bà được ghi nhận là ở trạng thái tình trạng ban đầu. Vào khoảng 10 giờ 45 phút, con trai thứ hai của bà đến kiểm tra bà. Ông nhận thấy bà không thể gọi tên các vật dụng trong tủ lạnh. Bà không thể nói tên vật thể dưới lớp giấy bạc là bánh. Bà nói những điều kỳ lạ như 'bạn đang đi đâu'. Bà phủ nhận rằng có gì đó không ổn với cô ấy. Sau đó vào buổi sáng, anh trai cũng gọi cho mẹ mình và nhận thấy bà không phải là chính mình. Cuối cùng, vào khoảng 2 giờ chiều khi bà vẫn không hành xử như bình thường, họ đã gọi cho bác sĩ chăm sóc chính (PCP) của bệnh nhân, người đã giới thiệu họ đến phòng cấp cứu gần nhất. chức năng ngôn ngữ không cải thiện vào thời điểm đó. Ông cũng báo cáo rằng ông có thể đã thấy bên phải khuôn mặt của bà hơi sụp mí mắt. Con trai bà chỉ ra rằng bà không phải là người bỏ lỡ các cuộc hẹn của bác sĩ, và bà không tránh né các bác sĩ. Bà thường là người đi khám bác sĩ khi có vấn đề mới, đó là lý do tại sao ông thấy lạ khi bà không muốn tìm kiếm sự chăm sóc y tế vào sáng nay. Cuối cùng, bà đã được đưa đến phòng cấp cứu bằng xe cứu thương. Tại đó, bà được đánh giá là có thay đổi tình trạng tinh thần ban đầu được cho là do bệnh não do nhiễm độc chuyển hóa có thể xảy ra. Nhưng do thành phần mất ngôn ngữ áp đảo mà họ tìm thấy trên khám bệnh của mình, bà đã được chụp chụp cắt lớp vi tính não có tiêm thuốc cản quang. Kết quả này đã được tải lên hệ thống của chúng tôi, và nó cho thấy một vùng nhuyễn hóa não đáng kể ở thùy trán dưới bên phải gợi ý một tai biến mạch máu não trước đó. Ngoài ra, theo đánh giá của tôi, nó cho thấy một vùng giảm tỷ trọng ở đảo trái, có thể liên quan đến triệu chứng mới của bà hôm nay.
+
+Cuối cùng, hệ thống hoàn tất việc trích xuất thông tin cho ca bệnh cuối cùng trong danh sách:
+
+..................................................
+
+Chi tiết nội dung của hồ sơ thứ bảy được đính kèm dưới đây:
+
+Bệnh nhân nam 35 tuổi, làm nhân viên ngân hàng, tiền sử viêm dạ dày điều trị ổn định từng đợt, vào viện vì đau bụng đột ngột, dữ dội, liên tục vùng thượng vị. Qua thăm khám phát hiện các hội chứng, triệu chứng sau: 
+        Tỉnh tiếp xúc tốt, GCS 15 điểm. 
+        Da và niêm mạc hồng.
+        Không phù, sốt 39.5 độ,
+        Đại tiểu tiện bình thường.
+        Bụng sờ cứng như gỗ.
+        Dấu hiệu cảm ứng phúc mạc (+).
+   Xét nghiệm: 
+CTM: HC 4.2 T/L, HST: 120 g/L, HCT: 0.46 L/L.
+        BC: 12.3 G/l, NE: 78%
+Sinh hóa máu: Trong giới hạn bình thường.
+X- Quang ổ bụng: Hình ảnh liềm hơi dưới vòm hoành.
+Bụng chướng hơi nhẹ.
+Chẩn đoán: Viêm phúc mạc do thủng tạng rỗng nghi do thủng ổ loét dạ dày tá tràng.
+Hướng điều trị: 
+Phẫu thuật khâu lỗ thủng dạ dày.
+Điều trị tích cực trước, trong và sau mổ.
+Bù dịch và điện giải.
+Kháng sinh phòng nhiễm trùng ổ bụng thứ phát.
+
+
+..................................................
+
+Thông tin bổ sung cho trường hợp cuối cùng được cập nhật như sau:
+
+Đây là một sinh viên đại học năm trầm cảm từ với tiền sử trầm cảm từ tuổi sp 2 lần nhập viện và 1 rối loạn lo âu xã hội bằng cách cắt, người đến khám với tình trạng triệu chứng trầm cảm cấp tính trên nền mãn tính và thường học tại nhưng hiện đang trong học kỳ trao đổi và thấy chương trình học khác biệt nhiều so với hệ thống mà cô ấy đã quen. Cô ấy cho biết đã gặp khó khăn trong việc cân bằng nhiều bài tập và thời hạn mỗi học kỳ và thậm chí trượt kỳ thi gần đây. Cô ấy đã nói chuyện với giáo sư của mình về vấn đề này hôm nay và nhận được lời khuyên về cách cải thiện điểm số nhưng sau khi rời cuộc họp, cô ấy mất kiểm soát và không thể ngừng khóc vì cảm thấy rất trầm cảm, vô vọng, và tội lỗi. Cô ấy đến văn phòng y tế sinh viên và công an đưa cô ấy đến phòng cấp cứu. Điểm số của cô ấy trong học kỳ này chủ yếu là C, thấp hơn mức trung bình thường xuyên của cô ấy. Cô ấy nói rằng tôi cảm thấy tội lỗi. Tôi tự trách mình. Cô ấy lưu ý rằng khả năng tập trung bị suy giảm của cô ấy bị ảnh hưởng bởi mối quan hệ tan vỡ gần đây với bạn trai. Cô ấy nói rằng cô ấy đã không thể tập trung vào việc học trong vài tuần qua và cũng bị khó ngủ - cả mất ngủ ban đầu và cuối cùng. Bệnh nhân cũng báo cáo mất khả năng cảm nhận niềm vui và giảm năng lượng và động lực đáng kể nhưng đáng chú ý là cô ấy có thể giả vờ mạnh mẽ trước bạn bè, những người không biết nhiều về tiền sử tâm thần của cô ấy hoặc mức độ nghiêm trọng của triệu chứng gần đây của cô ấy. Cô ấy cho biết cô ấy gần như hoàn toàn dựa vào cha mẹ để được hỗ trợ và thường xuyên nói chuyện với họ. Đáng chú ý là bệnh nhân có tiền sử một lần rối loạn lo âu xã hội bằng cách cắt ở tuổi nhưng gần đây không có hành vi tự làm hại bản thân nào. Tuy nhiên, cô ấy đã nghĩ đến việc đứng ở giữa đường và để xe đâm vào mình. Cô ấy chưa đi xa đến mức lên kế hoạch hoặc thực hiện nó.. Cô ấy nói rằng cô ấy không muốn chết vì khi cô ấy cảm thấy muốn tự sát cô ấy nghĩ đến cha mẹ và bám víu lấy họ, nhưng cô ấy thường ước mình có thể thoát khỏi tất cả.
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

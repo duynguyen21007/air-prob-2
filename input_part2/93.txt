@@ -1,0 +1,83 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+BÁO CÁO CÁC TRƯỜNG HỢP BỆNH 
+
+Hệ thống ghi nhận thông tin chi tiết của trường hợp đầu tiên như sau.
+
+Bệnh nhân có rối loạn hoang mang kèm theo tăng huyết áp, lạm dụng đa chất, lạm dụng rượu, rối loạn phân ly cảm xúc đến khoa cấp cứu với triệu chứng chính là bệnh nhân bị co giật. Sau đó, khoa Thần kinh được gọi. Bệnh nhân không nhớ rõ tiền sử bệnh của mình. Bệnh nhân gần đây đã nhập viện để đánh giá hoặc hội chứng cai rượu và đã được xuất viện đến cơ sở phục hồi chức năng. Bệnh nhân khai rằng hôm qua đang ngồi ngoài tường thì có 2 đợt co giật. Khi được hỏi điều gì đã xảy ra, bệnh nhân nói không biết và không có ai chứng kiến. Bệnh nhân thừa nhận cảm thấy lơ đãng và lơ đãng. Bệnh nhân cũng thừa nhận có một số tiểu không tự chủ không liên tục trong vài ngày qua. Bệnh nhân cảm thấy mệt mỏi và ngủ gật. Bệnh nhân không cung cấp thêm chi tiết nào khác ngoài những điều này. Bệnh nhân không nhớ tên bác sĩ thần kinh hoặc bác sĩ chăm sóc chính của mình. Bệnh nhân không biết số điện thoại của mẹ mình. Bệnh nhân phủ nhận bất kỳ sự kiện tương tự té ngã nào trong quá khứ hoặc bất kỳ thay đổi thuốc nào gần đây.
+
+_________________________________________________
+
+Sau khi hoàn tất hồ sơ trên, bộ phận chuyên môn tiếp tục trích lục dữ liệu của ca bệnh tiếp theo.
+
+Bệnh nhân Mang thai lần 2, đỡ đẻ lần 0 đã được xuất viện khỏi khoa Phụ sản sau khi nhập viện vì lo ngại chấn thương ruột từ thủ thuật LEEP 5 ngày trước khi nhập viện. Ban đầu, bệnh nhân đến khám với buồn nôn, nôn và đau bụng. Bệnh nhân được điều trị bảo tồn tại bệnh viện, cải thiện lâm sàng và được xuất viện về nhà trong tình trạng tình trạng tốt. Bệnh nhân đã phẫu thuật cắt tử cung trên cổ tử cung và có một vùng mô màu hồng sáng bóng đáng ngờ tại đỉnh âm đạo sau khi lấy một trong các mẫu bệnh phẩm. Bệnh nhân đến phòng cấp cứu vì đau lưng bên trái dữ dội, nhói và liên tục. Bệnh nhân mô tả cơn đau như bị đâm. Bệnh nhân có một số khó chịu vùng bụng dưới, nhưng không thay đổi so với khi xuất viện về nhà vào ngày trước khi nhập viện. Có xì hơi, không có đi tiêu, không có buồn nôn và nôn. Phủ nhận sốt rét. chán ăn. Bệnh nhân phủ nhận bất kỳ tiết dịch hoặc dẫn lưu âm đạo nào. Khoa Phụ sản được tham vấn vì trong quá trình khám khám bằng mỏ vịt của bác sĩ nội trú phòng cấp cứu, bệnh nhân được ghi nhận có chất phân trong âm đạo và rỉ dịch từ cổ tử cung. Bệnh nhân cũng đã thực hiện chụp cắt lớp vi tính có tiêm thuốc cản quang có sự thay đổi nhẹ về hình ảnh so với chụp cắt lớp vi tính trước đó vài ngày và cho thấy thay đổi đáng lo ngại cho một chấn thương ruột.
+
+_________________________________________________
+
+Kế tiếp là thông tin của hồ sơ thứ ba được cập nhật từ hệ thống.
+
+Bệnh nhân nữ đến khám với đau vùng thượng vị và hạ sườn phải bắt đầu vào tối qua khoảng 7 giờ tối, sau bữa tối. đau ngày càng nặng hơn, mức độ đau khi bệnh nhân đến khám vào khoảng 11 giờ sáng nay. đau tiếp tục nặng hơn lên mức đau, giảm trong thời gian ngắn xuống đau với thuốc giảm đau opioid. đau là sắc, liên tục và co thắt. Không lan tỏa. Bệnh nhân không ghi nhận yếu tố làm nặng thêm. Thuốc giảm đau opioid là thứ duy nhất làm giảm bớt khó chịu. Bệnh nhân cảm thấy hơi buồn nôn, nhưng không nôn. Bệnh nhân phủ nhận sốt hoặc run rẩy. Bệnh nhân có phân đều đặn và phủ nhận tiền sử phân. Bệnh nhân cũng ghi nhận đã đi tiểu ra một ít cục máu đông trong nước tiểu nhỏ vào sáng nay. Bệnh nhân phủ nhận tiểu khó. Bệnh nhân không có tiền sử nhiễm trùng đường tiết niệu trong nhiều năm. Bệnh nhân phủ nhận tiền sử sỏi thận. Bệnh nhân cảm thấy khỏe mạnh trước khi triệu chứng bắt đầu vào tối qua. Bệnh nhân phủ nhận mệt mỏi, sức khỏe kém, hoặc sụt cân gần đây. Bệnh nhân chưa bao giờ có đau tương tự như thế này về cường độ hoặc vị trí.
+
+_________________________________________________
+
+Tiếp nối danh sách, đơn vị bàn giao nội dung chi tiết của trường hợp thứ tư.
+
+Bệnh nhân nam, [age] tuổi, có tiền sử tăng huyết áp, rối loạn lipid máu, suy giáp, và ung thư lưỡi điều trị bằng xạ phẫu thuật, biến chứng hẹp động mạch cảnh hai bên, đã được đặt stent động mạch cảnh trái và phải, đến khám để thực hiện chụp động mạch cảnh và đặt stent. Liên quan đến tiền sử đặt stent, bệnh nhân đã được đặt stent động mạch cảnh trong trái (L ICA), động mạch cảnh trong phải (R ICA), và nong bóng động mạch cảnh chung trái (L CCA) do hẹp tái phát trong stent động mạch cảnh trong trái (L ICA). Bệnh nhân đã thực hiện siêu âm động mạch cảnh cho thấy hẹp mức độ cao hẹp lại cục bộ trong stent động mạch cảnh trái. Bệnh nhân đến hôm nay để thực hiện chụp mạch máu lần hai. Bệnh nhân đã được thực hiện chụp động mạch cảnh cho thấy động mạch cảnh chung trái (left CCA) có stent thông rộng rãi, mặc dù có hẹp hẹp cục bộ 80% ở bờ gần. Stent đã được đặt trong động mạch cảnh chung trái. Khám thần kinh ổn định trong và sau thủ thuật. Đường vào qua bẹn phải (R groin). Bệnh nhân được đưa vào VICU để theo dõi khám thần kinh thường xuyên. Cần lưu ý, bệnh nhân có rối loạn thị giác, theo bác sĩ [Doctor's Name], không có vẻ là mù lòa, và được khuyên đi khám bác sĩ nhãn khoa. Khi đến khoa, dấu hiệu sinh tồn của bệnh nhân là: 98.2 12656 82 18 99RA. Tổng thể bệnh nhân cảm thấy khỏe. Phủ nhận đau cổ, đau đầu, thay đổi thị lực, hoặc đau bẹn. Không có khiếu nại.
+
+_________________________________________________
+
+Tiếp theo, hệ thống cung cấp dữ liệu liên quan đến hồ sơ thứ năm.
+
+Bệnh nhân nam 70 tuổi, vào viện ngày 22/03/2012 với lý do đau ngực, khó thở khi gắng sức. Quá trình bệnh diễn biến với các triệu chứng và hội chứng sau: 
+	Bệnh xuất hiện cách đây 4 năm, đặt stent ĐM vành năm 2011. 
+	Cơn đau thắt ngực: đau ngực, đau một vùng sau xương ức, lan lên vai trái rồi lan xuống mặt trong tay trái, có lúc xuống tận các ngón tay 4, 5. Xuất hiện sau gắng sức (đi lại), đau kiểu thắt bóp.
+	HC suy tim: 
+	Yếu và mệt mỏi
+	Khó thở: Ban đầu khó thở khi gắng sức nhiều (khi leo cầu thang từ tầng 1 lên tầng 2 bệnh nhân xuất hiện khó thở), nghỉ ngơi khỏe lại, sau đó khó thở xuất hiện ngay cả khi gắng sức rất ít (đi bộ vài chục bước đã thấy khó thở), ban đêm có khi đang ngủ phải ngồi dậy để thở. Hiện tại không khó thở 
+	Khó thở kèm theo đau đầu, cảm giác chân nặng về buổi chiều khi đứng lâu. Phù 2 chi dưới, phù mềm, ấn lõm. 
+	Gan to dưới bờ sườn 3cm, bờ tù, mật độ mềm, ấn đau tức
+	Phản hồi gan tĩnh mạch cảnh (+), tĩnh mạch cổ nổi.
+	XQ: bóng tim to, chỉ số tim/LN > 1/2. 
+	 Chẩn đoán: Cơn đau thắt ngực, suy tim độ III đã đặt stent ĐM vành năm thứ 1. 
+	3/ Hướng điều trị:
+	Làm thêm các xét nghiệm: CTM, sinh hóa máu, sinh hóa nước tiểu, điện tim. Siêu âm tim 
+Chống kết tập tiểu cầu, Nitrate, giảm mỡ máu, lợi tiểu, UCMC, Vastarel, cân bằng nước và điện giải. 
+Nâng đỡ cơ thể: nuôi dưỡng tốt bằng đường tiêu hóa. 
+	4/ Đơn cụ thể: 
+	Aspirin 81 mg x 1 viên, uống sáng sau ăn 
+	Plavix 75mg x 1 viên, uống sáng sau ăn 
+	Nitromint 2,6 mg x 2 viên, uống sáng 1 viên, chiều 1 viên 
+	Lipitor 10mg x 1 viên, uống chiều. 
+Lasix 20mg x 1 ống, tĩnh mạch chậm, sáng 
+Panangin x 4 viên, uống sáng 2 viên, chiều 2 viên. 
+	Zestril 5mg x 1 viên, uống sáng. 
+	Vastarel MR 35mg x 2 viên, uống sáng 1 viên, tối 1 viên. 
+	Rotunda 30mg x 2 viên, uống tối lúc 9h. 
+
+
+
+
+_________________________________________________
+
+Nội dung tiếp theo được ghi nhận cho ca bệnh thứ sáu trong danh sách xem xét.
+
+Bệnh nhân nữ với tiền sử bệnh mãn tính đau bụng và đã biết viêm túi mật trước đó đang chờ phẫu thuật cắt túi mật theo kế hoạch, sỏi thận không gây tắc nghẽn, và nhiễm Helicobacter pylori. Bệnh nhân trong tình trạng tình trạng sức khỏe thông thường cho đến đầu ngày khi phát triển đau hạ sườn phải tiến triển và đau lưng hai bên liên quan đến sốt lên đến 101, chán ăn, và buồn nôn kèm theo nôn không chủ ý và không ra máu và tiểu khó tiểu ra máu. đau hạ sườn phải liên tục, nặng hơn khi ăn đồ béo. Theo lời khai của bệnh nhân, triệu chứng phù hợp với lần trước. chụp cắt lớp vi tính ổ bụng trước đó đã cho thấy sỏi mật mà không có viêm túi mật và sỏi thận không gây tắc nghẽn. Trong lần nhập viện gần đây vào đầu tháng, siêu âm ổ bụng xác nhận sỏi mật mà không có viêm túi mật và sỏi thận không gây tắc nghẽn. Khoa Phẫu thuật được tư vấn và không thấy chỉ định can thiệp phẫu thuật cấp cứu. Bệnh nhân được điều trị nội khoa và cho về nhà với kế hoạch quay lại để phẫu thuật cắt túi mật nội soi. Bệnh nhân đã quay lại nhập viện lần này vào ngày để thực hiện thủ thuật đã đề cập.
+
+_________________________________________________
+
+Tiếp tục quy trình trích xuất, bộ phận chuyên môn đính kèm thông tin của hồ sơ thứ bảy.
+
+với tiền sử giảm thính lực, CCY từ xa nhiều năm trước, tăng huyết áp nhập viện từ trung tâm chăm sóc người cao tuổi với tình trạng vàng da không đau và ngứa trong 1 tuần. Bệnh sử được thu thập từ con trai và con dâu tại giường bệnh, và xem xét hồ sơ khoa cấp cứu, bệnh nhân giảm thính lực. Y tá từ đã gọi cho ông ấy vào khoảng với báo cáo rằng bệnh nhân có vẻ vàng da. bà ấy gặp ông ấy mỗi hai ngày một lần, chưa ghi nhận vàng da, nhưng nhận thấy rằng ông ấy có xu hướng gặp bà ấy vào buổi tối, khi ánh sáng khá mờ. Bà ấy chưa báo cáo đau. Không có báo cáo về sốt, thay đổi về nước tiểu hoặc phân. Ông ấy chưa từng có vàng da trước đây. Con dâu nhận thấy rằng bà ấy đã xạ trị mũi cho ung thư biểu mô tế bào vảy và tự hỏi liệu điều này có liên quan đến vàng da mới không. không tin rằng sụt cân của bà ấy, không có báo cáo về nôn. Bình thường, bà ấy đi lại bằng khung tập đi. Thích các bữa ăn của mình. Trong mùa hè, bà ấy có thể đi lại một mình bên ngoài trên lối lái xe tròn. Bà ấy rất khó nghe, máy trợ thính không giúp ích nhiều, nhưng có thể trả lời phù hợp khi được nói to, cách tai phải vài inch. nói rằng bà ấy không tương tác nhiều mất thính lực, nhưng bà ấy có vẻ nhận thức bình thường, thường định hướng về không gian, có thể định hướng về thời gian, và nhận ra cháu của mình trong tuần qua. Bà ấy sống tại, đi ăn tại phòng ăn, có cần giúp đỡ trong sinh hoạt hàng ngày - tắm rửa, chuẩn bị đi ngủ, v.v. Bệnh nhân đã được bác sĩ chăm sóc chính (PCP) đánh giá vào ngày nhập viện vì vàng da không đau với ngứa. Đáng chú ý, bệnh nhân là DNARDNI không nhập viện - theo ghi chú của PCP, đã có cuộc thảo luận kéo dài về việc giảm nhẹ tiềm năng cho ngứa của ông ấy bằng ERCP và giảm bớt tắc nghẽn đường mật được cho là có. Do khó chịu của ông ấy liên quan đến ngứa, có lẽ do tắc nghẽn ống dẫn do ác tính, bệnh nhân và gia đình đã đồng ý nhập viện để có khả năng thực hiện ERCP. Bệnh nhân đã được nhập viện trực tiếp vào khoa nội. Khi đến tầng, bệnh sử trên được thu thậpxác nhận chi tiết. Bệnh nhân xác nhận ngứa dai dẳng, phủ nhận đau bụng.
+
+_________________________________________________
+
+Cuối cùng, hệ thống cập nhật dữ liệu của trường hợp thứ tám để hoàn tất báo cáo.
+
+Rất vui được gặp bệnh nhân hôm nay cùng người bạn đồng hành, do phát hiện gần đây khối phụ bộ hai bên. Như quý vị đã biết, bệnh nhân là một phụ nữ đáng mến, người gần đây đã được ghi nhận trong quá trình khám phụ khoa có cảm giác đầy, sau đó được theo dõi bằng siêu âm vùng chậu. siêu âm vùng chậu được thực hiện tại Diagnostic Ultrasound Associates cho thấy một tử cung kích thước bình thường với một u xơ tử cung 1.5 cm. Cả hai buồng trứng đều đáng chú ý phì đại với khối phức tạp. Buồng trứng phải có một khối khối đặc phần lớn, kích thước 5.1 x 3 cm và có thùy. Buồng trứng trái bao gồm một khối khối phức tạp với thành phần đặc, kích thước 9 x 5 cm. Các khối phù hợp với ung thư buồng trứng hai bên và một lượng vừa phải dịch được thấy trong túi cùng Douglas. Bệnh nhân báo cáo các than phiền về bụng không đặc hiệu tại thời điểm này, đặc biệt liên quan đến đau vùng chậu sâu, mà bệnh nhân ghi nhận khi có đi tiêu hoặc tiểu tiện. Bệnh nhân cảm thấy mệt mỏi và bệnh nhân có những gì bệnh nhân tin là đi tiêu thường xuyên hơn và nhỏ hơn. Chúng không thay đổi về đường kính. Bệnh nhân phủ nhận bất kỳ tiểu ra máu hoặc đi ngoài ra máu đỏ tươi. Bệnh nhân có một số triệu chứng tiêu hóa, mà bệnh nhân nghĩ là do dải Lap Band được đặt từ nhiều năm trước. Bệnh nhân sụt mất 75 pound với điều này. Bệnh nhân không có triệu chứng gợi ý bệnh vùng chậu tiến triển vượt quá các triệu chứng không đặc hiệu này. Cụ thể, bệnh nhân phủ nhận bất kỳ chướng bụng hoặc chướng ở bụng. Bệnh nhân phủ nhận bất kỳ khó thở.
+
+Báo cáo được trích xuất tự động từ hệ thống.
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

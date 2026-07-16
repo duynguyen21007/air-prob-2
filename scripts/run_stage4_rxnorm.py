@@ -12,8 +12,11 @@ sys.path.append(str(BASE_DIR))
 from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
 from src.retrieval.rxnorm_hybrid_search import RxNormHybridSearcher
 
-STAGE3_DIR = DATA_DIR / "output_anhTien"
-STAGE4_OUT_DIR = DATA_DIR / "stage4_rxnorm"
+#STAGE3_DIR = DATA_DIR / "output_anhTien"
+#STAGE3_DIR = DATA_DIR.parent / "find_entities" 
+STAGE3_DIR = DATA_DIR.parent / "data" / "stage5_icd10_llm"
+STAGE4_OUT_DIR = DATA_DIR / "stage4_rxnorm_llm"
+
 
 
 class CompactPositionEncoder(json.JSONEncoder):
@@ -59,6 +62,8 @@ def run_stage4():
     searcher = RxNormHybridSearcher(str(data_csv_path), str(chroma_persist_dir))
     
     json_files = list(STAGE3_DIR.glob("*.json"))
+    print('json_files', json_files)
+    lookup = {}
     for stage3_file in tqdm(json_files, desc="Processing Stage 4 RxNorm"):
         doc_id = stage3_file.stem
         out_file = STAGE4_OUT_DIR / f"{doc_id}.json"
@@ -77,13 +82,15 @@ def run_stage4():
         # Extract THUỐC entities
         thuoc_entities = [ent for ent in stage3_data if ent["type"] == "THUỐC"]
         
-        lookup = {}
         if thuoc_entities:
             raw_drugs = [ent["text"] for ent in thuoc_entities]
             raw_drugs = list(set(raw_drugs))
             
             for drug in raw_drugs:
-                rxcuis = searcher.get_qualified_rxcuis(drug, margin=0.05, absolute_threshold=0.5)
+                #rxcuis = searcher.get_qualified_rxcuis(drug, margin=0.05, absolute_threshold=0.5)
+                if drug in lookup:
+                    continue
+                rxcuis = searcher.get_qualified_rxcuis_v2(drug)
                 if rxcuis:
                     lookup[drug] = rxcuis[:5]
                 

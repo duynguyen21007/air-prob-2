@@ -1,0 +1,57 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+Danh sách trích lục thông tin bệnh nhân tại đơn vị
+
+Hệ thống ghi nhận thông tin chi tiết cho trường hợp đầu tiên như sau:
+
+Bệnh nhân là nữ, tuổi, hút thuốc lá, được chuyển đến Khoa Cấp cứu từ để đánh giá phình động mạch chủ ngực bụng có triệu chứng. Bệnh nhân cho biết khởi phát đau vùng thượng vị và hai hông khoảng 1 tuần trước. đau liên tục và tăng dần về mức độ nghiêm trọng kể từ khi khởi phát. Bệnh nhân phủ nhận các triệu chứng liên quan đến tiêu hóa hoặc tiết niệu và đã ăn uống được mà không có vấn đề. Bệnh nhân chưa từng có đau như thế này trước đây. Ban đầu, bệnh nhân đến để đánh giá sáng nay, nơi chẩn đoán hình ảnh của bệnh nhân cho thấy một phình động mạch chủ ngực-bụng 6cm. khám và xét nghiệm của bệnh nhân, bao gồm đánh giá viêm tụy, sỏi mật, sỏi thận, hoặc hội chứng mạch vành cấp không phát hiện bất thường khác. Bệnh nhân được chuyển đến để đánh giá phẫu thuật mạch máu. Tại Khoa Cấp cứu, bệnh nhân không sốt và huyết động ổn định. Bệnh nhân tiếp tục báo cáo đau vùng thượng vị. Khám thực thể, bệnh nhân đau khi ấn vùng thượng vị và có một khối khối phồng mạch có thể sờ thấy. chẩn đoán hình ảnh của bệnh nhân tại bệnh viện trước đó đã được xem xét với khoa Chẩn đoán hình ảnh, những người đồng ý rằng không có dấu hiệu đáng lo ngại về sắp vỡ.
+
+Sau khi hoàn tất hồ sơ trên, bộ phận chuyên môn tiếp tục cập nhật dữ liệu cho bệnh nhân tiếp theo:
+
+Bệnh nhân có tăng lipid máu, không đặc hiệu mức độ nhẹ, tiền sử nang đơn vú, và đã từng bị vỡ u nang buồng trứng trước đây dẫn đến thiếu máu trong bối cảnh bị  thai ngoài tử cung khác.
+
+Kế tiếp là nội dung trích lục liên quan đến ca bệnh thứ ba trong danh sách:
+
+là nam giới có tiền sử CABG, phụ thuộc máy tạo nhịp, chẩn đoán gần đây hội chứng suy tĩnh mạch trên hiện đang điều trị; đến khám vì phù mặt ngày càng nặng và lo ngại về hội chứng suy tĩnh mạch trên và được phát hiện có thể có vật lạ trong SVC kèm theo cục máu đông. Nhập viện để đánh giá ban đầu thêm và có thể lấy dị vật bởi. Bệnh nhân nhập viện vài tuần trước vì phù mặt và được chẩn đoán hội chứng suy tĩnh mạch trên. Ông đã được xuất viện và được khuyên theo dõi với bác sĩ phẫu thuật mạch máu. Ông không thể đặt lịch hẹn trong vài tháng. Gia đình đưa ông đến để xin ý kiến thứ hai. Họ đang cố gắng tìm kiếm sự chăm sóc theo dõi thêm tại đây, tuy nhiên, sáng nay bệnh nhân thức dậy và nhận thấy khuôn mặt của ông sưng sưng hơn và gia đình lo lắng rằng tình trạng đã trở nên tồi tệ hơn nên ông được đưa đến phòng cấp cứu để đánh giá thêm. Ngoài ra, ông đã không triệu chứng không có sốt rét, khó thở, đau ngực, đau đầu, thay đổi thị lực, nhìn đôi, nôn. Bệnh nhân cho biết ông cảm thấy không triệu chứng.
+
+Tiếp nối quy trình bàn giao, hệ thống hiển thị thông tin của hồ sơ thứ tư:
+
+Bệnh nhân nữ 50 tuổi vào viện vì đau bụng âm ỉ vùng hạ sườn phải 6 tháng nay, với tiền sử khỏe mạnh.Qua thăm khám 
+phát hiện các hội chứng và triệu chứng sau: 
+Tỉnh, tiếp xúc tốt, gcs 15 điểm.
+Không sốt, không vàng da.
+Đau bụng vùng hạ sườn phải.
+Siêu âm: Sỏi túi mật kích thường 3x5cm.Đường mật trong gan 2 bên không thấy sỏi. Ống mật chủ không giãn.
+CTM: HC 3.9T/L, HST: 115g/L, PLT: 189G/L.
+BC: 4,6G/L, NE: 73%.
+SHM: Bil TT/TP: 3,7/13.3umol/L
+Chẩn đoán: Sỏi túi mật
+Hướng điều trị:
+Điều trị nội khoa tích cực.
+Phẫu thuật nội soi cắt túi mật.
+Đơn thuốc: 
+1. NaCl 0,9% 500ml x 01 chai, truyền tĩnh mạch 30 giọt/phút.
+2. Papaverin x 02 ống, pha truyền tĩnh mạch.
+
+Đồng thời, đơn vị ghi nhận thêm các dữ liệu cụ thể cho trường hợp thứ năm:
+
+Bệnh nhân là một nam giới có tiền sử Bệnh mạch vành sau CABG, mổ lại, đến khám vì đau khớp gối phải và phát hiện tình cờ phình động mạch khoeo hai bên. Bệnh nhân có tình trạng sức khỏe tình trạng sức khỏe bình thường cho đến 2 tuần trước khi phát triển đau khớp gối phải sau khi đứng dậy một cách vụng về từ sàn nhà. đau khớp gối phải vẫn còn dai dẳng kể từ đó, nặng hơn khi gập và duỗi gối phải theo thời gian. Bệnh nhân đến một cơ sở chăm sóc cấp cứu 2 ngày trước, nơi đã chụp chụp x-quang gối phải. Tình cờ, hình ảnh của một động mạch khoeo phình có vôi hóa đã được phát hiện. Ngày hôm sau, bệnh nhân được giới thiệu và thực hiện siêu âm doppler hai chi dưới cho thấy một phình động mạch khoeo phải kích thước 2.6 cm x 2.8 cm bị có huyết khối một phần và một phình động mạch khoeo trái kích thước 1.9 cm x 2.2 cm. Bệnh nhân phủ nhận tiền sử đau bắp chân, triệu chứng claudication, đau khi nghỉ ngơi, bàn chân lạnh, ngón chân tím, hoặc mất màu bàn chân. Bệnh nhân được giới thiệu để tiếp tục khám và xét nghiệm.
+
+Tiếp theo, nội dung chi tiết của người bệnh thứ sáu được đính kèm dưới đây:
+
+Bệnh nhân nam, đã được theo dõi tại đây vì tình trạng ban đỏ và phù ở ngón chân thứ hai bên trái mãn tính. Bệnh nhân đã dùng nhiều đợt kháng sinh cho ngón chân thứ hai bên trái này. Bệnh nhân đã trải qua chụp mạch máu chi dưới trái 4 tháng trước. Do bệnh tắc nghẽn của bệnh nhân, đã xác định rằng nếu cần tái thông mạch, bệnh nhân sẽ cần phải phẫu thuật bắc cầu. Không may, các tĩnh mạch của bệnh nhân có kích thước rất nhỏ và không có tĩnh mạch nào phù hợp làm đường dẫn. Vì lý do này, tình trạng vết thương ngón chân mãn tính này đã được điều trị bảo tồn. Bệnh nhân sống độc lập và con gái đến đánh giá ngón chân trái của bệnh nhân vài lần mỗi tuần. Kể từ lần khám cuối, tình trạng đau hai chi dưới mãn tính của bệnh nhân ổn định. Bệnh nhân phủ nhận đau cách hồi hoặc đau khi nghỉ ngơi. Bệnh nhân có xuất hiện nhiều loét mới ở bàn chân trái. Bệnh nhân phủ nhận sốt hoặc dịch tiết từ bất kỳ vết thương nào trong số này. Bệnh nhân tiếp tục đi lại quãng đường ngắn mà không cần thiết bị hỗ trợ. Bệnh nhân đi khám cùng con gái hôm nay.
+
+Sau đó, bộ phận tiếp nhận tiến hành xem xét thông tin cho hồ sơ thứ bảy:
+
+Bệnh nhân là một nam giới đã được thăm khám tại phòng cấp cứu vài ngày trước. Bệnh nhân đã phẫu thuật cắt bỏ đĩa đệm vi mô L2-L3 bên trái tại một cơ sở khác và cảm thấy kể từ sau phẫu thuật, mỗi khi di chuyển, bệnh nhân bị đau lưng và chân đau dữ dội. Phẫu thuật khiến tình trạng của bệnh nhân trở nên tồi tệ hơn nhiều, vì vậy bệnh nhân đến đây để xin ý kiến phẫu thuật khác. Bệnh nhân được tái khám và mô tả rõ ràng là đau mặt trước đùi trái, dường như là đau vùng phân bố l3. phản xạ khó gợi lên hai bên. Đau lưng đau lưng nặng nề, dữ dội và bệnh nhân cảm thấy lưng kêu lách tách liên tục và nghe thấy tiếng kêu từ lưng khi cố gắng xoay. ct scan cột sống thắt lưng cho thấy có cặn canxi đáng kể ở khoang L2-L3 với khô ở đó và xoay l2 trên thân đốt sống l3 đáng kể với phình to khop liên mỏm l2-l3 bên phải rất đáng kể, và hẹp khop liên mỏm l2-l3 đáng kể, đủ để chèn ép rễ thần kinh l3 đi ra. mri cột sống thắt lưng mới cho thấy bằng chứng về sẹo so với áp lực dây chằng ở vùng L3 bên trái. Ít ở rễ thần kinh L4 bên trái. Bệnh nhân không có triệu chứng đau vùng phân bố ở L5 hoặc S1. đau cũng không lan xuống dưới gối, điều này cũng chỉ ra chỉ Bệnh lý rễ thần kinh L3. Tôi nghĩ bệnh nhân có cả đau cơ học và rễ thần kinh ở cột sống thắt lưng. biên độ vận động của hông gây ra đau hông đáng ngờ, cho thấy bệnh nhân có thể có một số bệnh lý từ đó. Dựa trên đánh giá phim ảnh rộng rãi, thảo luận với bệnh nhân, tôi nghĩ bệnh nhân chắc chắn sẽ được hưởng lợi từ phẫu thuật cắt bỏ lamina L2-L3, khám phá các rễ thần kinh L3 và L4 bên trái và cố định L3-L4 bằng hệ thống vít qua cuống. Điều này sẽ có thể làm giảm tư thế bất thường cũng như đau nặng nề mà bệnh nhân gặp phải, bao gồm cả đau mặt trước đùi, mặc dù tôi đã giải thích với bệnh nhân rằng điều này cũng có thể liên quan đến bệnh lý khớp háng. Bệnh nhân đến hôm nay để phẫu thuật theo kế hoạch.
+
+Cuối cùng, hệ thống trích xuất dữ liệu cho ca bệnh thứ tám để hoàn tất danh sách:
+
+bệnh nhân có tiền sử suy thận giai đoạn cuối sau ghép thận, suy tim có bảo tồn phân suất tống máu và rung nhĩ được giới thiệu đến vì hạ huyết áp và nhịp tim nhanh trong vài ngày kèm theo buồn nôn và nôn. Bệnh nhân đã được thăm khám tại bệnh động mạch vành và được phát hiện giảm thể tích máu và có lactate tăng là 3.9 nên đã yêu cầu nhập viện. Đáng chú ý, bệnh nhân gần đây đã nhập viện hai lần trước đó, một lần vì lâm sàng suy tim nặng lên do rung nhĩ kèm đáp ứng thất nhanh cần nhập ICU ngắn và một lần vì hạ huyết áp do lợi niệu quá mức. Bệnh nhân đã được xuất viện một tuần trước khi nhập viện lần này nhưng trong vòng một ngày sau khi xuất viện, bệnh nhân nhận thấy có chán ăn. Bệnh nhân cho biết sau đó đã bắt đầu nôn vài ngày trước và không giữ được thức ăn hoặc dịch kể từ đó. Bệnh nhân phủ nhận sốt hoặc tiêu chảy nhưng báo cáo mệt mỏi toàn thân. Không có tiếp xúc với người bệnh nào được biết đến. Bệnh nhân không có sốt hoặc run rẩy. Không có đau ngực hoặc tim đập nhanh/thúc mạnh. Có mệt mỏi đáng chú ý nhưng không có khó thở. Bệnh nhân không có đau bụng
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

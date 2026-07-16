@@ -1,0 +1,93 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+Hệ thống ghi nhận thông tin chi tiết về trường hợp đầu tiên như sau:
+
+Bệnh nhân là một phụ nữ trẻ với tiền sử bệnh rối loạn cảm xúc hai cực, tăng huyết áp, phẫu thuật đau dây thần kinh tọa, phẫu thuật C4-C5, viêm thực quản, đau lưng mãn tính, đến khám vì đau thắt lưng. Bệnh nhân cho biết lần đầu tiên nhận thấy đau lưng của mình nặng hơn vào thời điểm đó. Sau đó, bệnh nhân bị ngã do cơ chế vào xương cụt, và đau trở nên tồi tệ hơn đáng kể kể từ đó. Tại thời điểm đó, bệnh nhân đến khám và được thực hiện chụp cộng hưởng từ cột sống thắt lưng. Bệnh nhân được nhập viện để kiểm soát đau và được bác sĩ cột sống tư vấn đến khám bác sĩ vẹo cột sống ngoại trú. Bệnh nhân cũng được khuyên đến khám phòng khám giảm đau và bác sĩ chăm sóc chính. đau khó kiểm soát với phác đồ điều trị tại nhà, vì vậy bệnh nhân đến khám để đánh giá. Bệnh nhân mô tả đau ở vùng thắt lưng, lan xuống chân phải. Bệnh nhân cũng mô tả cảm giác đau âm ỉ ở đùi phải. Bệnh nhân phủ nhận bất kỳ tiểu không tự chủ về ruột hoặc bàng quang nào. Bệnh nhân báo cáo tình trạng giảm cảm giác kéo dài ở bên trái cơ thể, không thay đổi. Không có khiếu nại nào khác.
+
+Sau khi hoàn tất hồ sơ trên, bộ phận chuyên môn tiếp tục cập nhật dữ liệu cho ca bệnh kế tiếp:
+
+ 
+
+Thông tin trích lục từ hệ thống đối với hồ sơ thứ hai được ghi nhận cụ thể:
+
+Bệnh nhân là một phụ nữ trẻ được yêu cầu đánh giá vì tình trạng rối loạn cảm xúc lưỡng cực đang có biểu hiện trầm cảm nặng hơn trong vài tuần qua. Bệnh nhân không dùng thuốc đều đặn, một phần vì lo lắng về tăng cân. Bệnh nhân mô tả tâm trạng trầm cảm, khóc hàng ngày, cũng như ngủ rất ít, nói nhiều, và trải qua tư duy nhanh; ăn uống bình thường. Bệnh nhân lo lắng về gia đình nhưng không mô tả ảo tưởng. Không có tự sát hay ý định tự sát. Không có ảo giác gần đây nhưng bệnh nhân cho biết đã từng trải qua ảo thanh trong quá khứ. Bệnh nhân đề cập đến nhiều căng thẳng bao gồm việc chuyển nhà gần đây từ đến, khó khăn trong việc lấy lại tiền đặt cọc từ chủ nhà cũ, lo lắng cho người chị gái đang ốm tại, và cũng có đau sau tai nạn giao thông vào. Bệnh nhân nhiều lần khẳng định rằng cần phải nhập viện trong mười ngày để được giúp đỡ cần thiết. Khi đề xuất các lựa chọn thay thế như chương trình điều trị ban ngày, bệnh nhân khăng khăng rằng điều này sẽ không đủ. Bệnh nhân đã ly thân chồng nhưng nói rằng họ vẫn giữ mối quan hệ thân thiết và anh ấy giúp đỡ bệnh nhân. Bệnh nhân có một cô con gái làm việc tại và 2 người chị gái sống tại địa phương.
+
+Tiếp nối quy trình bàn giao, đơn vị thực hiện xem xét nội dung của trường hợp thứ ba:
+
+ 
+
+Chi tiết về mã số hồ sơ tiếp theo được đính kèm trong báo cáo này:
+
+
+Bệnh nhân nữ 20 tuổi, vào viện với lý do sốt cao, đau xương ức. Bệnh biểu hiện 3 tháng nay. Quá trình bệnh biểu hiện với các hội chứng và triệu chứng sau
+Hội chứng nhiễm khuẩn:
+Sốt cao 39.5  liên tục trong ngày, sốt nóng, có gai rét, không có cơn rét run, dùng thuốc hạ sốt (paracetamol dạng sủi) sốt đỡ ít.
+Môi khô, hơi thở hôi
+Bạch cầu: 5,8G/l
+ Hội chứng thiếu máu đẳng sắc mức độ nhẹ
+Hoa mắt, chóng mặt, người mệt mỏi
+Da xanh xao, niêm mạc nhợt, lưỡi nhợt, còn gai, nếp ấn răng không rõ, hãm lưỡi bình thường
+HC: 3,72T/l; HST: 111; MCV: 85,9; MCH: 29,7; MCHC: 354
+ Hội chứng xuất huyết do giảm tiểu cầu
+Xuất huyết tự nhiên dưới da đa hình thái, đa vị trí: mặt, thân mình, 2 cẳng chân. Các nốt xuất huyết đang thoái biến có màu xanh hoặc vàng.
+Không ngứa, không đau, không rát, ấn phiến kính không mất
+Xuất huyết niêm mạc: chảy máu chân răng
+TC: 73 G/l
+Hội chứng xâm lấn
+ấn đau xương ức
+Gan lách không to
+Blast máu ngoại vi dương tính với tỷ lệ cao: 54%. Có “khoảng trống bạch cầu”
+Diện tích bề mặt cơ thể = 1,39 m2.
+Chẩn đoán: Bệnh bạch cầu cấp dòng tủy thể M6 giai đoạn tái phát
+Tiên lượng: nặng
+Hướng xử trí:
+ Làm thêm các xét nghiệm:
+Làm tủy đồ để chẩn đoán xác định dòng, thể
+Xét nghiệm thêm acid uric. => cao phải điều trị giảm acid uric máu => đề phòng cơn đau dạng gout (Allopurinol (100 – 300mg/ngày, chia làm 2 lần)
+Làm nội soi dạ dày
+Nguyên tắc điều trị
+Dùng hóa chất liều cao dung nạp tối đa
+Dùng hóa chất kết hợp đánh vào các thời kỳ khác nhau của quá trình phân bào
+Điều trị tấn công dùng phác đồ 7+3 kết hợp điều trị củng cố có hệ thống bằng hoác hất mạnh + ghép tủy thự thận hoặc hóa chất mạnh + ghép tủy đồng loại
+Điều trị tích cực các biến chứng: nhiễm khuẩn, thiếu máu, xuất huyết
+Điều trị cụ thể: đơn 1 ngày
+Natriclorua 0,9% x 1000ml, truyền TM XL giọt/phút
+Alexan 100mg/5ml x 1 lọ, pha vào lọ Natriclorua 0,9%, Natriclorua 0,9%, dùng 7 ngày
+Farmorubincin 30mg x  2 lọ, pha vào lọ Natriclorua 0,9%, Natriclorua 0,9%, dùng 3 ngày
+Prizinton 8mg x 2 ống, tiêm tĩnh mạch trước khi truyền hóa chất 1h
+Glucose 5% x 500ml, truyền XL giọt/phút
+Fortex 25mg 2 viên, sáng 1 viên, chiều 1 viên
+Phinpovin 5g x 2 ống, pha vào glucose truyền XL giọt/phút
+Fosmicin 1g x 2 lọ, sáng 1g, chiều 1g, tiêm tĩnh mạch chậm
+Newferon 12,5% x 2 ống, sáng 1 ống, chiều 1 ống, tiêm tĩnh mạch chậm
+
+Kế tiếp là thông tin của hồ sơ thứ tư được hệ thống trích xuất tự động:
+
+ 
+
+Nội dung ghi nhận cho ca bệnh thứ năm được cập nhật chi tiết như sau:
+
+nam giới với tiền sử Bệnh trào ngược dạ dày thực quản, Suy giáp và được chẩn đoán mới U nội tiết nhập viện để theo dõi sau khi thực hiện hóa tắc mạch gan. Bệnh nhân ban đầu được chẩn đoán là ung thư Ung thư nội tiết tụy phân hóa kém pT3, N1,M1 sau khi nhập viện vì đau bụng. Bệnh nhân đã trải qua phẫu thuật cắt dạ dày bán phần, cắt tụy và cắt lách cùng với cắt bướu di căn gan. Hôm nay, bệnh nhân đã thực hiện hóa tắc mạch gan qua đường tiếp cận động mạch đùi XX. Kế hoạch ban đầu là tắc mạch thùy trái của gan nhưng trong quá trình thực hiện, nhận thấy có nhiều tăng sinh mạch máu của tổn thương hơn ở thùy phải, nên bên này đã được tắc mạch bằng hóa trị. Ngoài ra, một tăng đậm độ thuốc cản quang nhỏ cũng được thấy trong tĩnh mạch cửa nên chỉ tiêm hóa trị, không sử dụng gelfoam. Bệnh nhân bệnh nhân dung nạp thủ thuật tốt tốt, không có Tăng huyết áp. Vỏ bọc động mạch được rút ra và áp lực trực tiếp được áp dụng để cầm máu. cầm máu được thực hiện lúc 1:20 chiều. Bệnh nhân được hồi sức tại phòng hồi sức sau gây mê (PACU) và nhập khoa.
+
+Sau khi rà soát trường hợp trên, bộ phận tiếp nhận chuyển sang xử lý dữ liệu của hồ sơ cuối cùng:
+
+ 
+
+Thông tin chi tiết của trường hợp thứ sáu được ghi nhận đầy đủ tại đây:
+
+Tóm tắt, bệnh nhân là nữ, [age] tuổi, có tiền sử bệnh đáng chú ý gồm trầm cảm, lo âu, hiện đang rối loạn sử dụng cần sa và trong quá khứ rối loạn sử dụng rượu, đã được bạn gái đưa đến phòng cấp cứu từ văn phòng của nhà trị liệu sau khi bệnh nhân cho biết tình trạng tư tưởng tự sát xấu đi kèm theo kế hoạch nhảy trước tàu điện. Tại cuộc hẹn với nhà trị liệu chiều nay, bệnh nhân cho biết bà đang suy nghĩ tự sát và mô tả một kế hoạch nhảy trước tàu điện hoặc nhảy từ tòa nhà cao tầng. Bà cũng nói rằng bà đã nghĩ đến việc viết thư và vứt bỏ tài sản của mình. Điều này đã dẫn đến một cuộc gọi hội nghị giữa nhà trị liệu và bác sĩ tâm thần của bà, nơi bà đã tư tưởng và kế hoạch tự sát. Vào cuối cuộc gọi này, nhà trị liệu của bà đã mạnh mẽ đề nghị bà đến phòng cấp cứu hoặc bà sẽ liên hệ cảnh sát để đưa bà đi. Bệnh nhân cho biết bà đã có suy nghĩ tự sát và một mong muốn được chết một cách thụ động trong nhiều năm nhưng bắt đầu lên kế hoạch tự sát khoảng [duration] năm trước. Khi được hỏi chi tiết hơn về kế hoạch của mình, bệnh nhân cho biết bà chưa chọn tòa nhà hoặc ga tàu cụ thể nào để tự sát và bà chưa đến thăm bất kỳ địa điểm nào sẽ là một phần trong kế hoạch của mình. Bà nói rằng hai ngày trước, bà lo lắng rằng mình có thể thực hiện kế hoạch này, nhưng sau khi đi ngủ và đi làm, bà cảm thấy tốt hơn. Bà bày tỏ sự không muốn tự sát bằng cách cắt hoặc uống thuốc vì đau liên quan đến quá trình đó. Bà phủ nhận bất kỳ tiếp cận hoặc khả năng có được vũ khí. Bệnh nhân cho biết bà đã bỏ khoảng 4 ngày thuốc vào tuần trước nhưng sau đó đã tiếp tục dùng lại. Bệnh nhân chưa từng cố gắng tự sát trước đây. Bà đã từng cắt mình ở trường trung học cơ sở, mặc dù tần suất hành vi này giảm đáng kể ở trường trung học phổ thông. Trong đánh giá các hệ thống tâm thần, bệnh nhân cho biết các triệu chứng phù hợp với trầm cảm, bao gồm tâm trạng thấp và mất ngủ. Bà phủ nhận bất kỳ thay đổi cảm giác thèm ăn hoặc cân nặng. Bệnh nhân cho biết một số triệu chứng có thể phù hợp với hưng cảm nhẹ, cụ thể là không cần ngủ và có nhiều năng lượng, nhưng các giai đoạn này kéo dài dưới một ngày. Bệnh nhân cho biết các triệu chứng của lo âu kèm theo cơn hoảng loạn với tần suất cao nhất là [frequency] với các triệu chứng bao gồm khó thở, đau ngực, tim đập nhanh, buồn nôn. Bệnh nhân cũng mô tả suy ngẫm đáng kể cản trở giấc ngủ. Một ví dụ là ảo tưởng nơi bà kết hôn với bạn gái, có con và sau đó bạn gái của bà phản bội bà và sau đó bà phải nói với con cái của mình. Bệnh nhân phủ nhận triệu chứng phù hợp với tâm thần phân liệt. Bà phủ nhận ảo giác thính giác, ảo giác thị giác, hoặc hoang tưởng đáng kể. Bà cho biết tư tưởng tự sát như trên và phủ nhận hành vi tự sát. Diễn biến tại phòng cấp cứu/Thuốc đã dùng:
+
+Kết thúc danh sách trích lục, hệ thống ghi nhận thêm một trường hợp bổ sung cuối cùng:
+
+ 
+
+Chi tiết về hồ sơ cuối cùng trong danh sách bàn giao được cập nhật như sau:
+
+Bệnh nhân là một quý ông quen thuộc với Khoa Phẫu thuật Mạch máu. Bệnh nhân đã từng trải qua 3 lần bắc cầu chi dưới trái thất bại. Lần bắc cầu ban đầu là từ động mạch đùi chung đến động mạch popliteal trên gối với PTFE. Lần này kéo dài vài năm và sau đó tắc nghẽn cần phải cắt huyết khối, nhưng không thể cứu vãn được. Do đó, bệnh nhân đã trải qua lần bắc cầu đùi trước-mác trước trái lần hai với PTFE như là tĩnh mạch hiển lớn không đủ. Lần này cũng thất bại, sau đó bệnh nhân đã trải qua lần bắc cầu SM-AT khác với tĩnh mạch cánh tay. Lần này thất bại vào mùa hè năm ngoái, khi bệnh nhân ban đầu đến khám với một mạch nối bắc cầu thất bại. Tuy nhiên, trong thủ thuật ban đầu, chúng tôi đã thực hiện bắc cầu nối từ lần bắc cầu này đến động mạch AT xa hơn của ông ấy do hẹp lòng ra. Chúng tôi phát hiện ra rằng mạch nối thực tế bị tắc nghẽn. Bệnh nhân đã trải qua cắt huyết khối với nong mạch của graft tĩnh mạch và sửa chữa vá tĩnh mạch tại vị nối xa. Tuy nhiên, không lâu sau can thiệp này, lần bắc cầu này cũng thất bại. Bệnh nhân đã có một ca cắt cụt chi dưới phải, và bày tỏ rằng chất lượng cuộc sống của ông ấy sẽ bị suy giảm nghiêm trọng nếu ông ấy phải cắt cụt gối chi dưới trái. Do đó, lựa chọn duy nhất cho ống dẫn của ông ấy là tĩnh mạch của người hiến xác vì dòng chảy của ông ấy chỉ ở động mạch mác trước và ông ấy đã thất bại cả hai lần bắc cầu từ tĩnh mạch tuyến tiền liệt và tĩnh mạch cánh tay đến động mạch mác. Bệnh nhân được đưa vào phòng mổ để thực hiện phẫu thuật đã đề cập, một nỗ lực tái tưới máu, trong bối cảnh các lựa chọn hạn chế.
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

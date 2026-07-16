@@ -1,0 +1,142 @@
+Hệ thống Quản lý Bệnh viện 
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+BÁO CÁO TỔNG HỢP HỒ SƠ
+
+_________________________________________________
+Hồ sơ thứ 1
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân nữ 78 tuổi vào viện vì nói khó yếu nửa người trái 
+Tiền sử: tăng huyết áp 
+Bệnh sử: theo lời kể bệnh nhân và người nhà khoảng 06h00 ngày vào viện bệnh nhân ngủ dậy xuất hiện nói khó yếu nửa người trái đi đứng cầm nắm không vững ngoài ra không ho, không sốt vào viện .
+Tình trạng lúc vào 
+Bệnh nhân tỉnh, tiếp xúc được
+Glasgow 15 điểm 
+Thở khí phòng 
+Đồng tử hai bên kích thước, bên phải 2mm, 
+bên trái 2mm 
+Phản xạ ánh sáng (+)
+Giảm cảm giác nửa người trái 
+Nói khó 
+Tim đều, T1T2 rõ 
+Phổi thông khí được 
+Bụng mềm 
+NIHSS: 2đ 
+Mạch:90 lần/phút N,độ: 37,°C
+N.thở:19,0 lần/phút  HA: 140 /87 mmHg
+Chụp MRI
+Hình ảnh tụ máu dưới màng cứng bán cầu đại não hai bên. Theo dõi vài ổ vi xuất huyết thùy đỉnh phải.
+Hiện tại:
+Bệnh nhân tỉnh, tiếp xúc được 
+Glasgow 15 điểm 
+Thở khí phòng 
+Đồng tử hai bên kích thước, bên phải 2mm, 
+bên trái 2mm 
+Phản xạ ánh sáng (+)
+Giảm cảm giác nửa người trái 
+Nói khó 
+Đau đầu 
+Tim đều, T1T2 rõ 
+Phổi thông khí được 
+Bụng mềm 
+NIHSS: 2đ 
+Mạch:77 lần/phút N.độ: 37,0°C
+N.thở:15,0 lần/phút  HA: 135 /70 mmHg
+Diễn biến CLS:  
+HGB (Hemoglobin) *: 119 g/L 
+ APTT (Bệnh/Chứng) *: 0.94     
+PT - INR *: 1.03     
+PT (%) *: 96 % 
+ PT (s) *: 11.3 giây 
+ Định lượng Fibrinogen (Tên khác: Định lượng yếu tố I), phương pháp Clauss- phương pháp trực tiếp, bằng máy tự động: 3.32 g/L 
+ Kali (+): 2.8 mmol
+Hội chẩn ngoại xét phẫu thuật
+
+
+
+_________________________________________________
+Hồ sơ thứ 2
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân nam có tiền sử bệnh bạch cầu cấp dòng tủy (AML) chưa phân loại, đột biến NPM1 và đột biến EZH2 kèm bằng chứng u lympho hệ thần kinh trung ương. Bệnh nhân đã được hóa trị cảm ứng theo phác đồ 7+3, sau đó là 3 chu kỳ cytarabine tiêm tủy sống và tiếp tục điều trị củng cố bằng phác đồ MiDAC kết hợp methotrexate tiêm tủy sống. Tiền sử còn ghi nhận u ác của tuyến tiền liệt đã phẫu thuật cắt bỏ, tăng huyết áp và tăng lipid máu không đặc hiệu. 
+
+Hiện tại, bệnh nhân đến nhập viện để điều trị chu kỳ 2 phác đồ MiDAC (Myelodysplastic/Myeloproliferative neoplasms with isolated del(5q) or monosomal karyotype) và xét nghiệm đánh giá trực khuẩn kháng cồn-toan qua soi trực tiếp đờm. Trong đợt nằm viện đầu tiên để điều trị cảm ứng 7+3, diễn biến bệnh phức tạp với các biến chứng: sốt giảm bạch cầu trung tính, đông máu nội mạch lan tỏa (DIC), tai biến mạch máu não (CVA), viêm niêm mạc miệng họng nặng, nhiễm nấm Candida glabrata, viêm túi mật cấp và nhiễm trùng huyết do vi khuẩn VRE. Chụp cắt lớp vi tính (CT) lồng ngực trong đợt nhập viện đó cho thấy nhiều nốt mờ. Nội soi phế quản kèm bơm rửa phế quản - phế nang nhìn chung không ghi nhận bất thường, chỉ có ít dịch tiết không mủ. Các xét nghiệm soi trực tiếp tìm AFB (3 mẫu), xét nghiệm NAAT tìm vi khuẩn lao và nuôi cấy dịch rửa phế quản đều cho kết quả âm tính. Sau đó, có một mẫu bệnh phẩm ghi nhận sự hiện diện của trực khuẩn kháng cồn-toan với số lượng rất ít (hiếm gặp); tuy nhiên, nhuộm soi tìm vi khuẩn kháng cồn-axit (afb) lại cho kết quả âm tính với vi khuẩn kháng cồn-axit. Do kết quả soi AFB 3 mẫu và xét nghiệm NAAT tìm vi khuẩn lao đều âm tính nên không tiếp tục tiến hành thêm các thăm dò chẩn đoán. Mặc dù vậy, kết quả nuôi cấy đờm sau đó trả kết quả phát hiện AFB với số lượng hiếm. 
+
+Hiện tại, tình trạng chung của bệnh nhân khá tốt; không ghi nhận sốt, ớn lạnh, đổ mồ hôi đêm hay khó thở. Đợt ho duy nhất chỉ xảy ra trong lần nhiễm trùng đường hô hấp trên gần đây. Bệnh nhân không ghi nhận đau ngực, đau bụng, buồn nôn, nôn, tiêu chảy hay táo bón. Bệnh nhân khai có đau vùng thắt lưng bên trái thường xuất hiện sau chọc dò tủy sống, không có thêm đau khớp . Bệnh nhân không ghi nhận tiếp xúc với người bệnh lao, không đi du lịch gần đây, không tiếp xúc với người bị giam giữ, và không chắc nghiệm phản ứng lao tố trước đây đã từng dương tính hay chưa.
+
+_________________________________________________
+Hồ sơ thứ 3
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+tiền sử bệnh rối loạn lipid máu không điều trị và đau lưng mãn tính với phẫu thuật cắt bỏ đĩa đệm vi mô L5S1 do bệnh thoái hóa cột sống thắt lưng, bệnh nhân nhập viện vì một đợt mất trí nhớ với hỏi lặp lại và lời nói bình thường đáng lo ngại cho khả năng chuyển vị đại động mạch. Bệnh nhân đến cùng bạn trai, chị gái và một người bạn cung cấp phần lớn bệnh sử. Theo lời kể của chị gái, bệnh nhân đã thức nhiều đêm qua lo lắng về buổi hẹn hò trước đó với bạn trai hiện tại, trong đó cô ấy vừa lo lắng vừa hào hứng. Bệnh nhân khỏe sáng nay và đến gặp bạn trai lúc 10 giờ sáng, họ nói chuyện một lúc và đi dạo, và khi bệnh nhân chuẩn bị rời nhà anh ấy vào khoảng 12 giờ trưa, cô ấy nói rằng cô ấy cảm thấy không khỏe và cảm thấy muốn ngồi xuống. Sau đó, cô ấy liên tục hỏi bạn trai nhiều câu hỏi lặp lại, bao gồm cả việc tôi có lên lầu chưa và vừa có chuyện gì xảy ra. Thật vậy, để cố gắng khơi gợi trí nhớ, cô ấy đi lên cầu thang 3 tầng cầu thang, theo lời bạn trai là 10 đến 20 lần. Cô ấy cũng có khả năng nhớ sự kiện gần đây kém, quên đã đi xem game và thời gian, các khó khăn trong việc xác định thời gian của các sự kiện gần đây khác và rằng cuộc hẹn nha khoa của cô ấy đã bị hủy hôm nay và cô ấy phải đón con trai sau cuộc hẹn nha khoa của anh ấy. mất trí nhớ của cô ấy tiếp tục và vì lo ngại từ bạn trai rằng cô ấy có thể hạ đường huyết, anh ấy đã làm cho cô ấy một ít mì ống và cô ấy ăn một ít. Cô ấy tiếp tục hỏi lặp đi lặp lại với trí nhớ dài hạn bình thường và nói không biết mình đang ở đâu và đến đây bằng cách nào. Bạn trai của cô ấy mất trí nhớ và đưa ra dẫn lưu thủng tim, mà anh ấy cảm thấy có thể phù hợp với triệu chứng của cô ấy và do sự dai dẳng, cô ấy đã được đưa đến phòng cấp cứu để đánh giá. Tại đây, cô ấy tiếp tục hỏi lặp đi lặp lại và theo lời một người bạn đi cùng, cô ấy đã hỏi mình đang ở đâu hơn 30 lần. Cô ấy cũng dường như có hiểu biết một phần về các sự kiện gần đây, ước lượng thời gian sai, ví dụ như cô ấy đã đi chơi với bạn trai bao lâu, cô ấy nghĩ chỉ là 2 tuần nhưng thực tế là một tháng và cũng như thời điểm cô ấy phẫu thuật lưng gần đây, cô ấy nghĩ cũng gần đây nhưng không thể nói chính xác là khi nào. Cô ấy cũng ban đầu không nhớ tuổi của con trai mình. Cô ấy cũng lặp đi lặp lại rằng tôi dễ ngượng ngùng. lời nói có ý nghĩa của cô ấy và không có lỗi thay thế từ. Cô ấy cũng hành xử hơi ngây thơ và ngồi khoanh chân trên cáng. Đến khoảng, triệu chứng của cô ấy đã cải thiện đáng kể, cô ấy có thể nhớ được nhiều sự kiện và hỏi lặp đi lặp lại giảm đáng kể của cô ấy. Bệnh nhân phủ nhận căng thẳng hiện tại khác ngoài lo âu và sự phấn khích về mối quan hệ hiện tại của mình. Cô ấy cảm thấy tâm trạng ổn định và rằng mối quan hệ tốt đẹp. Không có quan hệ tình dục theo chu kỳ
+
+_________________________________________________
+Hồ sơ thứ 4
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân là một phụ nữ không có tiền sử bệnh đáng kể, đến khám hôm nay sau khi chụp cộng hưởng từ (mri) sọ não được thực hiện để đánh giá yếu nửa người bên phải cho thấy một dị thường. Bệnh nhân bắt đầu nhận thấy yếu ở tay phải khoảng 6 yếu trước; bệnh nhân tin rằng nó khởi phát đột ngột và không trở nên nặng hơn từ từ kể từ đó. Bệnh nhân cho biết đã trào ngược cà phê và gặp khó viết với tay phải. Bệnh nhân cũng nói rằng chân phải của mình hơi yếu hơn hơn chân trái. Bệnh nhân phủ nhận nhận thấy bất kỳ yếu mặt nào, nhưng, khi được hỏi về khe mi bên phải trông rộng hơn, bệnh nhân xác nhận rằng con gái của mình đã nhận thấy một số mất đối xứng mặt vài tuần trước. Ngoài ra, lời nói trở nên ngọng nghịu của bệnh nhân trong cùng khoảng thời gian. Bệnh nhân đã trải qua chụp cộng hưởng từ (mri) sọ não và được gửi đến phòng cấp cứu để đánh giá bởi bác sĩ chăm sóc chính. Bệnh nhân xác nhận bị đau đầu đau đầu bên trái dai dẳng trong vài yếu qua; cơn đau đầu không nghiêm trọng và không khởi phát đột ngột. Không có đau đầu thay đổi theo chu kỳ ngày đêm, và nó không liên quan đến buồn nôn và nôn hoặc mệt mỏi, uể oải. Bệnh nhân phủ nhận bất kỳ cứng cổ hoặc sợ ánh sáng nào. Bệnh nhân được nhập viện để đánh giá chẩn đoán thêm.
+
+_________________________________________________
+Hồ sơ thứ 5
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân là một phụ nữ lớn tuổi rất tốt bụng với tiền sử lâu dài của Hen phế quản, Bệnh trào ngược dạ dày thực quản và Viêm màng não do lao. Bệnh nhân đã trải qua thủ thuật LINX vào ngày, phẫu thuật diễn biến bình thường và bệnh nhân đã được xuất viện cùng ngày. Bệnh nhân đến phòng khám vào ngày để khám hậu phẫu lần đầu. Nhiều phàn nàn bao gồm chán ăn, do mất cảm giác thèm ăn và sợ ăn; ợ hơi và khó chịu khi uống/ăn đường uống quá mức. Bệnh nhân cho biết sau khi uống hoặc ăn một lượng nhỏ thức ăn, bệnh nhân gặp các đợt áp lực ổ bụng, nôn khan, trào ngược, khạc đờm với nước bọt và buồn nôn. Các đợt này cũng được kích hoạt bởi việc dùng thuốc vào ban đêm, khó chịu khiến bệnh nhân thức giấc trong nhiều giờ. Điều này xảy ra khoảng một lần mỗi ngày. triệu chứng bắt đầu 1 tuần sau phẫu thuật, bệnh nhân phủ nhận bất kỳ triệu chứng nào trong tuần đầu tiên, bệnh nhân cảm thấy khỏe mà không có lo ngại. Thông báo giảm 11 lbs sụt cân trong 2 tuần. Bệnh nhân đã đến một bệnh viện ngoài (OSH) với ăn uống qua đường miệng kém, đã được bù nước và bổ sung điện giải. Họ đã quyết định gửi bệnh nhân đến để tiếp tục chăm sóc và xem xét việc loại bỏ thiết bị Lynx của bệnh nhân.
+
+_________________________________________________
+Hồ sơ thứ 6
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân nữ không có tiền sử bệnh lý nào khác ngoài u xơ tử cung lành tính, đến phòng cấp cứu sau khi ngã sáng nay. Bệnh nhân cho biết trong vài năm qua, bà có tình trạng suy yếu và tê bì ở bàn tay trái ổn định, dẫn đến khó cầm nắm đồ vật, vặn nắp lọ bằng tay trái. Gần đây, bà đã đi và trở về vào đầu tháng. Bà đi lại khắp nơi và cảm thấy chân khỏe. Kể từ khi trở lại, bà bắt đầu cảm thấy chân trái của mình trở nên yếu. Bà báo cáo đi khập khiễng và có cảm giác cảm giác kéo lê chân. Bà đến khám hôm nay sau một lần ngã sáng nay khi bà thức dậy khỏi giấc ngủ vào thời gian bình thường, cố gắng đứng dậy từ giường và ngã quỵ xuống chân trái. Bà nói rằng chân không hỗ trợ đủ và ngã của bà dẫn đến chấn thương ở mắt cá chân trái. Ngoài đau mắt cá chân từ chấn thương, bà báo cáo rằng suy yếu ở cánh tay và chân không liên quan đến đau. Bà không có tiền sử các khiếm khuyết hoặc bệnh tật cấp tính nào khác. Bà không dùng thuốc hoặc chất gây ra rối loạn dáng đi. Bà không có tiền sử gia đình mắc các bệnh gây ra tê yếu giảm vận động thần kinh.
+
+_________________________________________________
+Hồ sơ thứ 7
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân là người người đã bỏ hút thuốc lá, ban đầu đến khám vì sụt cân và chụp cắt lớp vi tính (ct) lồng ngực cho thấy một khối khối vùng rốn phổi phải kích thước 6.0 x 4.9cm, lan đến vùng phế quản chính bên phải và dưới carina bên phải, một nốt phổi thùy dưới phải sau trong kích thước 1.2 cm, cũng như các đốm mờ hình sao không đều nhỏ rải rác và các nốt nhỏ 2-6 mm ở phổi phải, tổng thể nghi ngờ bệnh tân sinh. Bệnh nhân được khám tại phòng khám vào ngày để đánh giá ban đầu. Trong thời gian chờ đợi, nội soi phế quản kèm theo siêu âm nội soi phế quản (ebus) được thực hiện vào ngày và cho thấy các hạch hạch 11l, 4l, và 4r nhỏ và các hạch phì đại ở trạm 7, 10R và 11R. Sinh thiết kim nhỏ qua nội soi phế quản có dẫn đường siêu âm (EBUS-TBNA) của hạch trạm 7 và 11R cho thấy hạch 11R dương tính với ung thư biểu mô phù hợp với ung thư phổi không tế bào nhỏ, có khả năng là ung thư biểu mô tuyến. chụp cắt lớp phát xạ positron (pet) cho thấy một khối vùng rốn phổi phải bắt fdg mạnh phù hợp với tình trạng ác tính, hạch trung thất bắt fdg yếu gợi ý bệnh di căn, và tăng độ bắt ở lách, cũng gợi ý bệnh di căn. chụp cộng hưởng từ (mri) não cho thấy một vị trí tăng cường độ nhỏ ở thùy trán trái không rõ nguyên nhân, bệnh ác tính không được loại trừ. nội soi trung thất cổ được thực hiện vào ngày. sinh thiết hạch vùng cổ mức 2, 4 bên phải (4r), 4 bên trái (4l) và 7 âm tính với bệnh ác tính, giai đoạn lâm sàng IIB. Bệnh nhân đã phục hồi tốt mà không có đau hoặc bất kỳ thay đổi nào về triệu chứng. Bệnh nhân đến khám hiện tại để phẫu thuật cắt bỏ hoàn toàn.
+
+_________________________________________________
+Hồ sơ thứ 8
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân là một phụ nữ có tiền sử xơ cứng đa lan tỏa, hẹp cột sống, đái tháo đường, trầm cảm nhập viện từ bệnh viện ngoài do đau lưng dưới bên phải lan xuống chân phải. Trong tuần qua, bệnh nhân cho biết có đau và suy yếu ở chân phải. Bệnh nhân mô tả cảm giác cảm giác đau nhức ở phần trước của đùi và đau dữ dội ở phần sau của đùi lan xuống gối. đau bắt đầu từ vùng thắt lưng dưới và lan qua mông phải và xuống chân. Bệnh nhân cho biết có khó đi lại. Phủ nhận ngã. Bệnh nhân chưa từng có vấn đề chính xác như thế này trước đây, mặc dù khi được chẩn đoán hẹp cột sống, bệnh nhân có một số suy yếu hai chân cảm thấy khác với lần này. Bệnh nhân phủ nhận tiểu không tự chủ và đại tiện không tự chủ hoàn toàn, tuy nhiên gần đây có một đợt tiêu chảy và đã được điều trị bằng kháng sinh, và có một số đại tiện không tự chủ trong thời gian bị bệnh đó đã khỏi. Bệnh nhân có tiểu không tự chủ do buồn tiểu đột ngột từ trước, nhưng tình trạng này không thay đổi trong vài ngày qua. Tại phòng cấp cứu, dấu hiệu sinh tồn ban đầu: 99.7 88 19090 16 99 RA
+
+_________________________________________________
+Hồ sơ thứ 9
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+với ung thư trực tràng di căn, trước đó là giai đoạn III sp phẫu thuật cắt bỏ trực tràng-sigma, mở hậu môn nhân tạo vòng chuyển hướng, hiện đang điều trị hóa trị do đi ngoài ra máu đỏ tươi, mệt mỏi, và đau mông gây gây khó chịu khi ngồi. Bệnh nhân đã từng có máu đỏ tươi nhẹ với đi tiêu trong một thời gian khá dài, trước đó mô tả là các vệt trên giấy vệ sinh. Bệnh nhân cho biết chảy máu trực tràng hiện tại khác với tình trạng đó. Bệnh nhân xác định chảy máu trực tràng là triệu chứng chính. Trong đợt điều trị FOLFOX đầu tiên cách đây 5 tuần, bệnh nhân nhận thấy chảy máu đường hậu môn, tiêu chảy, và mệt mỏi rõ rệt hơn. Do đã từng điều trị hóa trị trước đó, bệnh nhân cho biết các triệu chứng này không phải là bất thường đối với ông sau điều trị, tuy nhiên ông nhận thấy chúng trước đây chưa bao giờ nghiêm trọng đến mức này và kéo dài lâu như vậy. Bệnh nhân báo cáo giảm sụt cân 25 pound (khoảng 11.3 kg) trong 3 tuần qua. Bệnh nhân cho biết ăn uống thường giảm với điều trị, nhưng trước đây ông có thể duy trì dinh dưỡng bằng thực phẩm giàu protein, đồ uống bổ sung và chất bổ sung. Ông cho rằng sụt cân gần đây là do tiêu chảy nghiêm trọng trong 3 tuần. Bệnh nhân cũng phàn nàn về ngứa và đau hậu môn nghiêm trọng thứ phát do lượng tiêu chảy đáng kể. Đáng chú ý, bệnh nhân gần đây đã nhập viện khoa Huyết học-Ung thư với triệu chứng chính là chảy máu đường hậu môn, và khoa Phẫu thuật Đại trực tràng cũng được tư vấn tại thời điểm đó do kết quả chụp cắt lớp vi tính tại bệnh viện nơi bệnh nhân ở trước đó cho thấy nghi ngờ có thủng chứa nhỏ, bên cạnh triệu chứng chính. Tình trạng này được cho là có thể liên quan đến hoại tử khối u. Tuy nhiên, do hematocrit ổn định và phần lớn khám bụng bình thường, tiến trình trong ổ bụng cấp tính đã được loại trừ, và bệnh nhân được điều trị bảo tồn, sau đó được xuất viện về nhà không lâu sau đó. Bệnh nhân đến phòng khám hôm nay để nhận chu kỳ FOLFOX thứ hai. Bệnh nhân đã nhận C1D1, nhưng sau đó phát triển tiêu chảy ra máu. Bệnh nhân đã nhập viện từ để hỗ trợ triệu chứng. Bệnh nhân đã nhận C1D15. Tuy nhiên, bệnh nhân không nhận được đợt FOLFOX thứ hai hôm nay vì được cho rằng đau của ông, cùng với mệt mỏi trầm trọng và sụt cân, làm dấy lên lo ngại về áp xe, rò, hoặc tiến triển tại chỗ của khối u. Một chụp cắt lớp vi tính bụng chậu khẩn cấp đã được đặt hôm nay. Kết quả đọc sơ bộ cho thấy: 1. sợi mỡ và bong khí được xác định trong hố ngồi củ và hố ngồi muỗi bên trái, gợi ý nhiễm trùng hoại tử và/hoặc thủng ruột trực tràng tại chỗ. Không có tràn dịch khu trú được xác định. 2. phù nề mô mềm trong mô quanh trực tràng liền kề với vị trí nối, đáng lo ngại cho sự tái phát của ung thư trực tràng, xét đến hấp thu fdg trên nghiên cứu pet-ct gần đây. 3. hạch bạch huyết sau động mạch chủ trái to đã hấp thu fdg mạnh trên nghiên cứu pet-ct gần đây, gợi ý di căn, sự suy giảm không đồng nhất của gan chủ yếu ở thì động mạch gần đỉnh, tuy nhiên không có di căn rời rạc nào được xác định. 4. di căn xương đốt sống T11 ổn định.
+
+_________________________________________________
+Hồ sơ thứ 10
+Mã số hồ sơ: ......
+Thời điểm tiếp nhận: ......
+Nội dung chi tiết: 
+
+Bệnh nhân là nam giới trẻ tuổi với tiền sử tâm thần phân liệt dạng hoang tưởng, nhập viện lần trước trong ba ngày tại, đến phòng cấp cứu yêu cầu nhập viện vì tiếng nói ngày càng lớn trong hai ngày trong bối cảnh ba ngày không tuân thủ điều trị thuốc. Bệnh nhân cực kỳ hoang tưởng trong quá trình phỏng vấn, với trả lời tối thiểu khi được hỏi và phản ứng với kích thích nội tại. Bệnh nhân cho biết mọi thứ đang diễn ra tốt đẹp, anh ấy là sinh viên học đêm tại, và rằng hai-ba ngày trước anh ấy nhận thấy mình bắt đầu nghe tiếng nói trở lại, điều mà anh ấy chưa nhận thấy trong nhiều năm. Anh ấy sẽ không nêu rõ họ nói gì, nhưng rằng nó không tệ. Phủ nhận họ bảo anh ấy tự làm hại bản thân. Báo cáo rằng anh ấy không tuân thủ điều trị thuốc seroquel trong khoảng ba ngày vì tôi bận. Phủ nhận bất kỳ rối loạn giấc ngủ, tâm trạng trầm cảm, thay đổi cảm giác thèm ăn, hoặc có vấn đề ở trường học hoặc với người khác. Rất ít nói trong cuộc phỏng vấn, tiếp tục nhấn mạnh, "Bạn chỉ cần cho tôi một giường thôi". Cho biết rằng trải nghiệm hiện tại của anh ấy khác với lần anh ấy ở đây lần trước vào, vì khi đó anh ấy phàn nàn về tư duy nhanh, điều mà anh ấy phủ nhận hiện tại. Phủ nhận bất kỳ sử dụng ma túy/rượu. Phủ nhận bất kỳ ý định tự sát hoặc cảm giác muốn tự làm hại bản thân. Đã cố gắng liên lạc với chị gái của anh ấy, không có ai trả lời. Bệnh nhân cho biết rằng chị gái của anh ấy biết anh ấy đã đến bệnh viện hôm nay.
+
+_________________________________________________
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

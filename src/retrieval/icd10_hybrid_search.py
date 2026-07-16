@@ -1,4 +1,5 @@
 import csv
+import json
 from pathlib import Path
 from langchain_community.retrievers import BM25Retriever
 from langchain_classic.retrievers.ensemble import EnsembleRetriever
@@ -7,6 +8,109 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 from pyvi import ViTokenizer
 from sentence_transformers import CrossEncoder
+import torch
+device = "cuda" if torch.cuda.is_available() else "cpu"
+print('device' , device)
+
+
+from openai import OpenAI
+import time
+
+OPENAI_API_KEY="dummy"
+client = OpenAI(api_key=OPENAI_API_KEY, base_url="http://localhost:8211/v1")
+llm_config = {
+    #"model": "Qwen/Qwen3.6-27B-FP8",
+    "model": "Qwen/Qwen3.5-9B",
+    "max_token": 4096,
+    "temperature": 0.0,
+}
+
+
+prompt_template = """You are an expert in medical ICD-10 coding.
+
+# Task
+Given a clinical text and a list of candidate ICD-10 codes, select all ICD-10 codes that are explicitly supported by the text.
+
+# Rules
+- Only choose codes from the provided candidate list.
+- Return a JSON list containing only the selected ICD-10 code strings.
+- If no candidate matches the text, return [].
+- If the text is meaningless, garbage, or not related to a patient's diagnosis or treatment, return [].
+- Do not infer diagnoses that are not explicitly mentioned.
+- Do not return explanations or any additional text.
+
+# Example
+
+Text:
+"Migrain tiền đình / Mất ngủ"
+
+Candidates:
+G43.9: Bệnh đau nửa đầu [migraine], không xác định
+J00: Nhiễm trùng đường hô hấp trên cấp tính
+D04: Ung thư biểu mô tại chỗ ở da
+
+Output:
+[
+  "G43.9"
+]
+
+---
+
+# Input
+
+Text:
+"{text}"
+
+Candidates:
+{candidates}
+
+# Output
+"""
+
+def get_response_for_single_chat(prompt):
+    start = time.time()
+    messages = [
+        {
+            "role": "user",
+            "content": prompt
+        }
+    ]
+
+    try:
+        response = client.chat.completions.create(
+            model=llm_config['model'],
+            temperature=llm_config['temperature'],
+            max_tokens=llm_config['max_token'],
+            messages = messages,
+            extra_body={"chat_template_kwargs": {"enable_thinking": False}}
+            # reasoning_effort="low"
+        )
+        # print(response)
+        response = response.choices[0].message.content
+    except Exception as e:
+        raise Exception(e)
+    return response
+
+def postprocess(s, icds):
+    if not isinstance(s, str):
+        return []
+    if ']' not in s:
+        return []
+    if '[' not in s:
+        return []
+    s = s[s.find('['): s.find(']') + 1]
+    try:
+        s = json.loads(s)
+        if not isinstance(s, list):
+            return []
+        for x in s:
+            if not isinstance(x, str):
+                return []
+            if x not in icds:
+                return []
+        return s
+    except:
+        return []
 
 def vietnamese_tokenizer(text: str) -> list[str]:
     return ViTokenizer.tokenize(text.lower()).split()
@@ -48,7 +152,7 @@ class Icd10HybridSearcher:
         )
         
         # 5. Setup CrossEncoder Reranker
-        self.reranker = CrossEncoder("BAAI/bge-reranker-v2-m3", max_length=512)
+        self.reranker = CrossEncoder("BAAI/bge-reranker-v2-m3", max_length=512,device=device)
 
     def _load_documents(self) -> list[Document]:
         """Load ICD-10 data into LangChain Documents."""
@@ -140,6 +244,50 @@ class Icd10HybridSearcher:
                 break
 
         return qualified
+
+    def get_qualified_icds_v2(
+        self,
+        query: str,
+        max_candidates: int = 5,
+    ) -> list[str]:
+        """Return ICD-10 codes that pass absolute and relative reranker cutoffs."""
+        e5_query = f"query: {query}"
+        candidates = self.ensemble_retriever.invoke(e5_query)
+
+        if not candidates:
+            return []
+
+        # Keep one representative per code before reranking, so aliases do not
+        # crowd out distinct ICD-10 alternatives.
+        unique_candidates = []
+        seen_icds = set()
+        for doc in candidates:
+            icd = doc.metadata.get("icd")
+            if not icd or icd in seen_icds:
+                continue
+            seen_icds.add(icd)
+            unique_candidates.append(doc)
+            if len(unique_candidates) == 20:
+                break
+
+        if not unique_candidates:
+            return []
+
+        candidates = []
+        for doc in unique_candidates:
+            assert doc.page_content.startswith("passage: ")
+            doc.page_content = doc.page_content[len("passage: "):]
+            icd = doc.metadata.get("icd")
+            candidates.append(f'{icd}: {doc.page_content}')
+
+        prompt = prompt_template.format(text=query, candidates="\n".join(candidates))
+        print('prompt', prompt)
+        response = get_response_for_single_chat(prompt)
+        print('response', response)
+        response = postprocess(response, seen_icds)
+        print('response_list', response)
+        return response
+
 
     def get_top_k_icds(self, query: str, k: int = 5) -> list[str]:
         """

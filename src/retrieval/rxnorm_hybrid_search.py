@@ -7,6 +7,110 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.documents import Document
 from sentence_transformers import CrossEncoder
 import re
+import json
+
+from openai import OpenAI
+import time
+
+OPENAI_API_KEY="dummy"
+client = OpenAI(api_key=OPENAI_API_KEY, base_url="http://localhost:8211/v1")
+llm_config = {
+    #"model": "Qwen/Qwen3.6-27B-FP8",
+    "model": "Qwen/Qwen3.5-9B",
+    "max_token": 4096,
+    "temperature": 0.0,
+}
+
+
+prompt_template = """You are an expert in medical RxNorm coding.
+
+# Task
+Given a clinical text and a list of candidate RxNorm concepts, select all RxNorm concepts that are explicitly mentioned or clearly supported by the text.
+
+# Rules
+- Only choose concepts from the provided candidate list.
+- Return a JSON list containing only the selected RxNorm concept IDs (RxCUI) as strings.
+- If no candidate matches the text, return [].
+- If the text is meaningless, garbage, or not related to a patient's medication, prescription, or treatment, return [].
+- Do not infer medications that are not explicitly mentioned.
+- Match the medication mentioned in the text with the most appropriate candidate concept.
+- Ignore dosage, strength, frequency, route, and formulation unless they are required to distinguish between candidate concepts.
+- Do not return explanations or any additional text.
+
+# Example
+
+Text:
+"guaifenesin ml po q6h:prn"
+
+Candidates:
+392085: Guaifenesin 800 mg oral tablet
+313782: acetaminophen 325 mg ORAL TABLET 
+1099279: Foster & Thrive Stool Softener 100mg Tablet
+
+Output:
+[
+  "392085"
+]
+
+---
+
+# Input
+
+Text:
+"{text}"
+
+Candidates:
+{candidates}
+
+# Output
+"""
+
+def get_response_for_single_chat(prompt):
+    start = time.time()
+    messages = [
+        {
+            "role": "user",
+            "content": prompt
+        }
+    ]
+
+    try:
+        response = client.chat.completions.create(
+            model=llm_config['model'],
+            temperature=llm_config['temperature'],
+            max_tokens=llm_config['max_token'],
+            messages = messages,
+            extra_body={"chat_template_kwargs": {"enable_thinking": False}}
+            # reasoning_effort="low"
+        )
+        # print(response)
+        response = response.choices[0].message.content
+    except Exception as e:
+        raise Exception(e)
+    return response
+
+def postprocess(s, acceptable):
+    if not isinstance(s, str):
+        return []
+    if ']' not in s:
+        return []
+    if '[' not in s:
+        return []
+    s = s[s.find('['): s.find(']') + 1].strip()
+    try:
+        s = json.loads(s)
+        print('json loads' , s, type(s))
+        if not isinstance(s, list):
+            return []
+        for x in s:
+            if not isinstance(x, str):
+                return []
+            if x not in acceptable:
+                return []
+        return s
+    except:
+        return []
+
 
 def preprocess_rxnorm_text(text: str) -> str:
     text = text.lower()
@@ -161,3 +265,44 @@ class RxNormHybridSearcher:
                 break
                 
         return qualified_rxcuis
+
+
+
+    def get_qualified_rxcuis_v2(self, query: str, max_candidates: int = 5) -> list[str]:
+        """Return ICD-10 codes that pass absolute and relative reranker cutoffs."""
+        clean_query = preprocess_rxnorm_text(query)
+        e5_query = f"query: {clean_query}"
+        candidates = self.ensemble_retriever.invoke(e5_query)
+        if not candidates:
+            return []
+
+        unique_candidates = []
+        seen_rxcuis = set()
+
+        for doc in candidates:
+            rxcui = doc.metadata.get("rxcui")
+            rxcui = str(rxcui)
+            if rxcui not in seen_rxcuis:
+                seen_rxcuis.add(rxcui)
+                unique_candidates.append(doc)
+            if len(unique_candidates) == 20:
+                break
+
+        if not unique_candidates:
+            return []
+
+        candidates = []
+        for doc in unique_candidates:
+            if doc.page_content.startswith("passage: "):
+                doc.page_content = doc.page_content[len("passage: "):]
+            rxcui = doc.metadata.get("rxcui")
+            candidates.append(f'{rxcui}: {doc.page_content}')
+
+        prompt = prompt_template.format(text=query, candidates="\n".join(candidates))
+        print('prompt', prompt)
+        response = get_response_for_single_chat(prompt)
+        print('response', response, type(response))
+        response = postprocess(response, seen_rxcuis)
+        print('seen_rxcuis', seen_rxcuis)
+        print('response_list', response)
+        return response

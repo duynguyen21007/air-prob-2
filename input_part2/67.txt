@@ -1,0 +1,76 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+DANH SÁCH CÁC CA BỆNH
+
+Phần I: Nhóm hồ sơ đợt 1
+
+1.1. Ghi nhận trường hợp thứ nhất:
+
+nam bệnh nhân nam với tiền sử bệnh lý nhồi máu cơ tim không ST chênh lên trước đó trong bối cảnh điều trị ung thư dạ dày vào năm, đặt stent động mạch vành nhánh LAD x4. Bệnh nhân đã tiến triển tốt kể từ đó nhưng trong tuần qua, ông ấy nhận thấy khó thở và cảm giác thắt ngực khi gắng sức sau khi đi bộ 1 dặm. Ông ấy không có triệu chứng khi nghỉ ngơi hoặc ban đêm. thử nghiệm gắng sức dương tính với triệu chứng ở mức độ gắng sức thấp mà không có thiếu máu cơ tim do gắng sức bởi điện tâm đồ hoặc siêu âm tim. Ông ấy được giới thiệu để thông tim để đánh giá thêm, cho thấy bệnh mạch vành. Phẫu thuật tim mạch được tư vấn để đánh giá cầu nối chủ vành. Bệnh nhân được xuất viện khỏi bệnh viện và tái khám tại phòng khám để thảo luận về lựa chọn phẫu thuật. Phẫu thuật được khuyến nghị để giảm nguy cơ nhồi máu cơ tim và/hoặc tử vong của bệnh nhân. Bệnh nhân cho biết ông ấy không có thay đổi nào đối với tiền sử bệnh lý của mình kể từ lần khám cuối. Không có thay đổi thuốc. Ông ấy đã ngừng hút thuốc lá và uống rượu hoàn toàn trong 3 tuần qua theo chỉ dẫn của chúng tôi. Bệnh nhân phủ nhận bất kỳ sự thay đổi triệu chứng của bệnh nhân, không có phát ban và không có đau khi nghỉ ngơi.
+
+..................................................
+
+1.2. Ghi nhận trường hợp thứ hai:
+
+Bệnh nhân nam 54 tuổi vào viện vì chướng bụng + khó thở. Qua thăm khám phát hiện các triệu chứng và hội chứng sau:
+-Hội chứng suy tế bào gan:
++  vàng da niêm , bụng trướng, phù nhẹ 2 chi dưới, ăn uống kém, mất ngủ
++ PT 31%, Alb 18g/L, Pro: 61 g/L
++ Bill TT/TP: 12.5/55.2 umol/L
+-không tuần hoàn bàng hệ cửa chủ, không trĩ
+– Hội chứng thiếu máu mãn mức độ nhẹ: 
++ da niêm hồng nhợt, chóng mặt khi đi lại
++ HC: 2.65 T/L, HST: 95g/L, TC 38 g/L
+-Tiền sử:
++Uống rượu 20 năm, mỗi ngày 300ml, ngưng 2 năm.
++Xơ gan phát hiện 2 năm, từ lúc phát hiện đã nhập viện điều trị 4 lần.
+Chẩn đoán:   Xơ gan child C do rượu biến chứng RLĐM-Thiếu máu mãn mức độ nhẹ 
+Hướng điều trị: 
+Giảm áp lực tĩnh mạch cửa
+– Ngừa xuất huyết
+– Ngừa hôn mê gan
+– Chống stress
+– Kiểm soát đường huyết
+Đơn thuốc: 
+1 Albumin human 20% 50ml x2 TTM XX g/p
+2 Insulin mixtard (cân nhắc hạ đường huyết ban đêm) Sáng 04 đv Chiều 04 đv       3 Furosemid 40mg 1 viên x 2 uống
+4 Spironolacton 25mg 4 viên uống
+5  Enpovid 3B 2 viên x 2 uống
+6  Duphalac 1 gói x 2 uống
+7 Tiểu cầu đậm đặc 4UI (dưới tc 20000 -> truyền) TTM XX giọt/phút 
+
+
+..................................................
+
+1.3. Ghi nhận trường hợp thứ ba:
+
+Bệnh nhân nữ với tiền sử tim mạch phức tạp, suy tim tâm thu nặng đang dùng liều cao thuốc lợi tiểu, tăng huyết áp, bệnh thận mạn, bệnh phổi tắc nghẽn mạn tính, bệnh mạch máu ngoại biên nhập viện để bắt đầu lọc máu do phù và khó thở ngày càng nặng. Bệnh nhân gần đây đã được xuất viện sau khi nhập viện vì khó thở, tăng cân và suy thận nặng lên. Bệnh nhân đã được lợi tiểu tích cực với một số cải thiện. Bệnh nhân đã được bác sĩ thận thăm khám và nhận thấy bệnh nhân bị quá tải thể tích nặng và cần phải lọc máu khẩn cấp. Kế hoạch vào thời điểm đó là nhập viện và bắt đầu lọc máu. Bác sĩ đã cố gắng liên lạc với bệnh nhân qua điện thoại nhưng đường dây bị hỏng và không thể liên lạc được. Cuối cùng, bệnh nhân đã được liên lạc và đến viện lúc 12 giờ đêm. Tại khoa, bệnh nhân cho biết đang khỏe. Bệnh nhân phàn nàn về một số khó chịu ở ngực. Bệnh nhân cũng cho biết có khó thở khi gắng sức. Bệnh nhân cũng tiếp tục cảm thấy rất mệt mỏi. Bệnh nhân có chảy máu trực tràng qua hậu môn nhưng cho biết đây là vấn đề cũ và không nhiều máu.
+
+..................................................
+
+Phần II: Nhóm hồ sơ đợt 2
+
+2.1. Ghi nhận trường hợp thứ tư:
+
+Bệnh nhân có tiền sử viêm tụy cấp với nhiều đợt xảy ra sau uống rượu (ngộ độc rượu), đã từng nhập viện vì các đợt này. Tiền sử khác ghi nhận tăng triglyceride máu đơn thuần, bệnh trào ngược dạ dày- thực quản không có viêm thực quản, đã cắt ruột thừa nhiều năm trước không biến chứng, gãy ngón tay bên trái trong quá khứ không ghi nhận biến chứng, và rối loạn lo âu mạn tính không biệt định
+
+..................................................
+
+2.2. Ghi nhận trường hợp thứ năm:
+
+Bệnh nhân nam, [y.o.m.], có tiền sử ung thư biểu mô tế bào thận di căn, đến khám vì đau hông phải cấp tính trên nền mãn tính. Bệnh nhân đang trong buổi hẹn định kỳ tại và trên đường đến buổi hẹn tiết niệu thì dừng lại để đi vệ sinh. Bệnh nhân mất thăng bằng khi cố gắng mở cửa bị khóa và nghe tiếng 'rắc' ở bên phải. Sau đó, bệnh nhân phát triển đau và không thể đi lại. Cần lưu ý, bệnh nhân có các tổn thương tiêu xương ở mào chậu phải và xương đùi gần phải, và đã được khoa Chấn thương Chỉnh hình đánh giá vào ngày, người đã đề nghị xem xét cố định dự phòng bằng đinh nội tủy cho tổn thương xương đùi. Kế hoạch vào thời điểm đó là thực hiện ct sinh học cơ học với phân tích độ cứng cấu trúc để hỗ trợ quyết định này, nhưng chưa được thực hiện tại thời điểm này. đau của bệnh nhân đã có từ đầu, nhưng dần dần trở nên tồi tệ hơn và kèm theo sức mạnh giảm và khả năng đi lại ở bên đó, cho đến hôm nay khi nó trở nên. đau tại thời điểm này lan tỏa từ bẹn đến nách. Bệnh nhân có thể chịu lực một phần ở bên phải kể từ khi xảy ra sự cố, nhưng nó gây ra đau nghiêm trọng. Bệnh nhân phủ nhận mất sức mạnh, cảm giác, tiểu không tự chủ đường tiết niệu hoặc ruột, mất cảm giác vùng yên ngựa. Nếu không, bệnh nhân cảm thấy khá khỏe.
+
+..................................................
+
+2.3. Ghi nhận trường hợp thứ sáu:
+
+Bệnh nhân là người quen thuộc với khoa, tiền sử bệnh đáng kể gồm type 1 nang đường mật chủ, tụy chia đôi phẫu thuật cắt bỏ ống mật bằng nội soi qua đường hầm robot, tạo hình gan vị tràng Roux-en-Y, hẹp đường mật chủ cần nong bóng và đặt PTBD, nhập khoa cấp cứu vì đau bụng tại vị trí dẫn lưu và sốt rét run. Bệnh nhân đã nhập viện nhiều lần gần đây bao gồm: nhập viện từ để điều trị rối loạn chức năng dẫn lưu đường mật qua da và viêm đường mật, xuất viện từ khoa cấp cứu vào ngày để điều trị đau bụng hố chậu trái không rõ nguyên nhân, và nhập viện lại từ với viêm đường mật tái phát. Lần nhập viện gần nhất diễn biến với nhiều lần cố gắng bịt PTBD dẫn đến chức năng gan và đau bụng tăng lên, cũng như thực hiện nong ống mật của đoạn hẹp HJ với đặt PTBD mới vào ngày. Bệnh nhân được xuất viện vào ngày trong tình trạng tình trạng ổn định. Bệnh nhân tái nhập khoa cấp cứu 8 giờ sau đó với đau bụng và buồn nôn và được xuất viện sau một thời gian theo dõi. Hôm nay, bệnh nhân đến khoa cấp cứu và báo cáo đau khi ấn và ban đỏ quanh vị trí dẫn lưu. Bệnh nhân báo cáo đau bụng tại vị trí dẫn lưu ngày càng nặng bắt đầu từ nửa đêm qua với sốt rét run kèm theo. Bệnh nhân cũng báo cáo buồn nôn không có nôn. Bệnh nhân đã rỉ một lượng nhỏ dịch mật từ quanh vị trí dẫn lưu và báo cáo nước tiểu sẫm màu hơn trong 4 ngày qua.
+
+..................................................
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

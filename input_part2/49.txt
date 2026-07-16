@@ -1,0 +1,69 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+
+Lúc 07h00:
+Tiếp nhận và trích lục hồ sơ bệnh nhân thứ nhất:
+
+Bệnh nhân nam là một người có tiền sử bệnh đáng kể gồm Bệnh mạch vành đặt stent mạch vành (DES) vào động mạch LAD vào năm, Tăng huyết áp, rối loạn lipid máu, suy tụy ngoại tiết mạn tính, Viêm khớp thoái hóa khớp háng nặng, tắc nghẽn tĩnh mạch và bệnh thận mạn cận biên, đến phòng cấp cứu sau khi ngã cách đây 1 tuần. Bệnh nhân chỉ nói tiếng và vợ cũ của ông đang ở cạnh giường để hỗ trợ dịch thuật. Bệnh nhân đang trong tình trạng tình trạng sức khỏe thông thường cho đến một tuần trước khi ông trượt ngã khi đang tắm. Ông không ngã xuống đất và có thể tự giữ mình. Không có va đầu hoặc mất ý thức. Tuy nhiên, kể từ đó, ông đã không thể đi lại hoặc không thể chịu lực trên chân phải (RLE). Ông mô tả đau của mình là có cường độ, chủ yếu khu trú ở vùng hông-bẹn phải và gối phải. Ông đã được thăm khám tại đây vào chiều nay vì đau này và được giới thiệu đến phòng cấp cứu để đánh giá thêm. Đáng chú ý, bệnh nhân đã được bác sĩ đánh giá trong quá khứ về khả năng phẫu thuật thay khớp háng toàn phần (THA) nhưng đã hoãn lại. Ông đã được tiêm cả hông và gối, lần cuối cùng là vào và, tương ứng. Tại phòng cấp cứu, dấu hiệu sinh tồn ban đầu là: 99.3, 96, 169/81, 18, 98% RA.
+
+
+Lúc 07h45:
+Cập nhật thông tin và ghi nhận dữ liệu cho ca bệnh thứ hai:
+
+Theo yêu cầu từ Dr.: nam giới, tuổi, có tiền sử bệnh mạch vành đã phẫu thuật bắc cầu mạch vành (CABG): LIMA đến LAD, SVG tuần tự đến OM bên trái, SVG đến dPDA bên phải, đặt stent Promus vào graft OM bên trái, đái tháo đường, tăng huyết áp, rối loạn lipid máu nhập viện vì đau ngực khi gắng sức kèm theo khó thở nhẹ bắt đầu từ. Bệnh nhân tạm thời ổn và có thể đi lại được quãng đường 100 mét mà không có triệu chứng tim mạch giới hạn. Bệnh nhân cho biết đặc điểm của cảm giác đè ép ngực tương tự như các các biến cố mạch vành trước đây của ông, khiến ông tìm kiếm sự chăm sóc y tế tại nơi đó, sau khi được đánh giá ban đầu, ông đã được chuyển đến đây để điều trị thêm. Bệnh nhân phủ nhận đau khi nghỉ ngơi hoặc khó thở. Phủ nhận các triệu chứng liên quan, bao gồm buồn nôn hoặc nôn. Bệnh nhân tuân thủ điều trị thuốc và phủ nhận các triệu chứng tim mạch khác, bao gồm tim đập nhanh/không đều, chóng mặt, cảm giác choáng váng, sắp ngất hoặc ngất. Bệnh nhân phủ nhận vấn đề chảy máu và không có dự kiến phẫu thuật hoặc thủ thuật nào.
+
+
+Lúc 08h30:
+Xem xét và bàn giao chi tiết về trường hợp thứ ba:
+
+Bệnh nhân là một phụ nữ dễ chịu với tiền sử polyp đại tràng, gần đây nhất đã trải qua phẫu thuật cắt bỏ một phần đại tràng phải với nối tiếp đại tràng-hồi tràng tại, hiện là ngày hậu phẫu thứ 14, với diễn biến phức tạp bởi tắc ruột. Bà đã được nhập lại hai lần vào cơ sở này trong hai tuần qua, điều trị bảo tồn và xuất viện về nhà. Bà được xuất viện gần đây nhất vào hôm qua, và ăn được từng miếng nhỏ của chế độ ăn thông thường khi bà bắt đầu có buồn nôn và đau bụng, tương tự như các đợt trước. Bà phủ nhận nôn, sốt hoặc run rẩy. Bà ghi nhận tiếp tục có xì hơi, và lần đi tiêu cuối cùng của bà là hôm qua, hơi lỏng với máu dính nhẹ sau khi lau. Bà ghi nhận tiền sử trĩ, thỉnh thoảng chảy máu. Bà phủ nhận lượng đáng kể chảy máu, chóng mặt hoặc suy yếu. Bà phủ nhận tiểu khó hoặc các triệu chứng nhiễm trùng đường tiết niệu khác. Bà đã hơi bực bội bởi diễn biến hậu phẫu và được giới thiệu đến một cơ sở khác để xin ý kiến thứ hai. Ngoài ra, bà đã tự giới hạn việc sử dụng thuốc giảm đau theo toa và có một số khó khăn trong táo bón trong vài tuần qua nhưng không dùng thuốc điều trị táo bón.
+
+
+Lúc 09h15:
+Hệ thống ghi nhận bổ sung nội dung cho hồ sơ bệnh nhân thứ tư:
+
+Bệnh nhân LHM đến phòng cấp cứu với tình trạng yếu nửa người bên phải và mất cảm giác tiến triển, 48 giờ sau khi xuất viện với chẩn đoán đa rễ thần kinh bệnh từ thoái hóa đốt sống cổ. Vui lòng tham khảo ghi chú Thần kinh trước đó để biết thêm chi tiết về lần trình bày đó. Tóm lại, bệnh nhân trải qua 2 ngày khó khăn khi đi lại tiến triển bao gồm nghiêng về bên phải. Bệnh nhân đã trải qua chụp cắt lớp vi tính não không cản quang không cho thấy đột quỵ cấp tính và chụp cộng hưởng từ cột sống cổ cho thấy tình trạng xấu đi so với trước đó của bệnh thoái hóa đốt sống cổ đã biết mà không có thay đổi tín hiệu tủy sống. triệu chứng của bệnh nhân được cho là do bệnh lý rễ thần kinh cổ nhiều tầng tiến triển và bệnh nhân đã được cho về nhà với vòng cổ mềm, bệnh nhân đã đeo vào ban đêm. Sáng nay, bệnh nhân thức dậy với tình trạng yếu nặng trên toàn bộ bên phải cơ thể, nói rằng nó cảm thấy như thể tử vong và không thể di chuyển. Bệnh nhân không thể tự ra khỏi giường và không thể đi lại. Tại thời điểm đó, bệnh nhân quyết định quay trở lại phòng cấp cứu sáng nay. Không có cải thiện so với lần trước nào xảy ra. Bệnh nhân tiếp tục phủ nhận đau ở bất cứ đâu và tiếp tục phủ nhận các triệu chứng của chèn ép tủy sống. Bệnh nhân tiểu tiện sáng nay và có đi tiêu vào buổi sáng. Bệnh nhân không có chấn thương nào đến đầu hoặc cổ trong 48 giờ qua. Bệnh nhân phủ nhận sốt rét, nhìn đôi, chóng mặt, rối loạn phát âm hoặc khó nuốt. Không có khó khăn trong ngôn ngữ, định hướng, không có các đợt mức độ tỉnh táo nào.
+
+
+Lúc 10h00:
+Trích lục dữ liệu hành chính liên quan đến ca bệnh thứ năm:
+
+Bệnh nhân mắc bệnh thận mạn, tăng huyết áp vô căn (nguyên phát) và đái tháo đường, tiền sử sản khoa G10P6, kèm theo bệnh nền bệnh lý thận do đái tháo đường và bệnh thận do tăng huyết áp, không suy thận.
+
+
+Lúc 10h45:
+Hoàn tất cập nhật thông tin cho trường hợp thứ sáu:
+
+Bệnh nhân nữ 50 tuổi, tiền sử mổ sỏi mật 2 lần. Vào viện vì đau bụng vùng hạ sườn phải, kèm sốt 38.5 độộ. Qua thăm khám
+phát hiện các hội chứng và triệu chứng sau: 
+Tỉnh, tiếp xúc tốt, GCS 15.
+Sốt 38.5 độ, da vàng, củng mạc mắt vàng.
+Đau bụng vùng HSP, đau thành cơn, lan ra sau lưng, lên vai trái,
+Tiểu tiện nước tiểu màu vàng sậm, đại tiện bình thường. 
+Cận lâm sàng:
+CTM: HC 3.8T/L, HST 119g/L, PLT 199G/L.
+BC: 12G/L, NE: 85%.
+Sinh hóa máu: Bil TT/TP: 22/33 umol/L                      AST/ALT: 115/30 U/L                              
+Siêu âm: Túi mật đã cắt, đường mật trong gan 2 bên có sỏi kích thước lớn nhất 15x25mm. Ống mật chủ giãn đường kính 22mm.
+MRI: túi mật đã cắt, sỏi trong gan 2 bên, đường kính lớn nhất 16x25mm. 
+Ống mật chủ giãn, đường kính 21mm.
+Chẩn đoán: Nhiễm trùng đường mật do sỏi đường mật trong gan 2 bên/ Bệnh nhân đã mổ sỏi mật 2 lần.
+Hướng điều trị:
+Kháng sinh phối hợp.
+Giảm đau.
+Mổ nội sỏi tán sỏi đường mật.
+Đơn thuốc: 
+1. NaCl 0,9% 500ml x 02 chai, truyền tĩnh mạch 50 giọt/phút.
+2. Sulbactam  x 02 lọ, pha truyền tĩnh mạch.
+3. Ciprofloxaxin x 01 chai, truyền tĩnh mạch 30 giọt/phút.
+4. Glucose 500ml x 02 chai, truyền tĩnh mạch 50 giọt/phút.
+5. Papaverin x 02 ống, pha truyền tĩnh mạch.
+6. Paracetamol 500mg x 01 chai, truyền tĩnh mạch 60 giọt/phút, khi sốt >38.5 độ.
+
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)

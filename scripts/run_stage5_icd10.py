@@ -11,8 +11,9 @@ sys.path.append(str(BASE_DIR))
 from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
 from src.retrieval import Icd10HybridSearcher
 
-STAGE4_DIR = DATA_DIR / "stage4_rxnorm"
-STAGE5_DIR = DATA_DIR / "stage5_icd10"
+#STAGE4_DIR = DATA_DIR / "stage4_rxnorm"
+STAGE4_DIR = DATA_DIR.parent / "find_entities"
+STAGE5_DIR = DATA_DIR / "stage5_icd10_llm"
 STAGE5_DIR.mkdir(parents=True, exist_ok=True)
 
 class CompactPositionEncoder(json.JSONEncoder):
@@ -61,6 +62,7 @@ def run_stage5():
     searcher = Icd10HybridSearcher(str(data_csv_path), str(chroma_persist_dir))
 
     json_files = list(STAGE4_DIR.glob("*.json"))
+    lookup = {}
     for in_file in tqdm(json_files, desc="Processing Stage 5 ICD-10"):
         doc_id = in_file.stem
         out_file = STAGE5_DIR / f"{doc_id}.json"
@@ -82,14 +84,19 @@ def run_stage5():
                 diagnoses.add(ent["text"])
                 
         # 2. Get ICD-10 candidates that pass reranker qualification rules
-        lookup = {}
+
         if diagnoses:
             for diag in diagnoses:
+                if diag in lookup:
+                    continue
+                """
                 qualified_icds = searcher.get_qualified_icds(
                     diag,
                     margin=0.05,
                     absolute_threshold=0.5,
                 )
+                """
+                qualified_icds = searcher.get_qualified_icds_v2(diag)
                 if qualified_icds:
                     lookup[diag] = qualified_icds
                 

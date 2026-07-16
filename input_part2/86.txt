@@ -1,0 +1,71 @@
+Hệ thống Quản lý Bệnh viện
+Ngày xuất báo cáo: ...
+Người xuất: ...
+
+TÓM TẮT TÌNH HÌNH KHÁM BỆNH BẢO HIỂM Y TẾ
+
+- Thông tin hồ sơ 1:
+
+Bệnh nhân là một phụ nữ tay phải thuận tuổi, dễ chịu, đến khám hôm nay, chuyển từ bệnh viện bên ngoài, với gãy cả hai nhánh trên và dưới xương mu trái và gãy khuỷu tay phải qua lồi cầu (loại supra-condylar). Bệnh nhân cho biết khi đang ở nhà, bệnh nhân vấp phải dây dẫn khí oxy, và ngã trực tiếp vào bên trái. Bệnh nhân cảm thấy đau và sưng tức thời ở khuỷu tay trái và thêm vào đó là đau ở hông trái. Bệnh nhân không tự đứng dậy được. Bệnh nhân ngã xuống trong gần 2 giờ trước khi được tìm thấy và gọi cấp cứu, bệnh nhân được đưa đến để đánh giá thêm. Tại đó, chụp x-quang không chuẩn bị vùng chậu và chi trên trái được thực hiện và cho thấy một gãy xương cánh tay bên trái loại trên lồi cầu bên cạnh một gãy nhánh trên và dưới xương mu bên trái. Bệnh nhân được chuyển đến để đánh giá và điều trị thêm bởi phẫu thuật chỉnh hình. Bệnh nhân hiện tại phủ nhận bất kỳ tê bì hoặc dị cảm nào ở các chi trên và chi dưới bên trái. Bệnh nhân xác nhận đau chỉ ở khuỷu tay trái và hông/bẹn trái. Bệnh nhân phủ nhận gây thương tích bất kỳ khớp hoặc chi nào khác. Bệnh nhân phủ nhận bất kỳ mất ý thức nào. Bệnh nhân tin rằng mình đập đầu.
+
+ 
+
+- Thông tin hồ sơ 2:
+
+Bệnh nhân là một phụ nữ mắc suy thận giai đoạn cuối đang chạy thận nhân tạo với rò trực tràng-bàng quang đến khám để quản lý trước phẫu thuật dự kiến cắt đại tràng sigma vào ngày mai với tạo lỗ nối hồi tràng và có thể cắt bỏ lỗ rò. Bệnh nhân được điều trị bảo tồn tại [tên cơ sở y tế] vào đầu [tháng/thời gian] vì viêm túi thừa thủng với áp xe khu trú, sau đó tái nhập viện vài tuần sau đó với triệu chứng tái phát và được phát hiện có nhiễm trùng đường tiết niệu đã được điều trị. Bệnh nhân tái nhập viện vào [ngày/tháng] sau khi xuất hiện dịch từ catheter foley có mủ và có thể có phân. Một áp xe lớn có thể dẫn lưu cũng được phát hiện tại thời điểm này cùng với rò giữa áp xe và bàng quang. Áp xe được dẫn lưu bởi [tên bác sĩ/chuyên khoa] và tắc ruột bằng gastrografin của đại tràng cho thấy thông thương tự do giữa áp xe và đại tràng. Bệnh nhân cũng gần đây đã nhập viện khoa nội từ [ngày/tháng] đến [ngày/tháng] vì quá tải dịch, và được nhóm của chúng tôi theo dõi trong thời gian nhập viện để có thể phẫu thuật sửa chữa tại thời điểm đó. Cuối cùng, quyết định để bệnh nhân nghỉ ngơi vài tuần trước khi phẫu thuật. Khuyến nghị tiếp tục đặt ống thông Foley để giảm áp bàng quang. dẫn lưu từ áp xe vẫn còn tại chỗ. Bệnh nhân có tiền sử suy thận giai đoạn cuối thứ phát do ngộ độc lithium, gần đây mới chuyển sang chạy thận nhân tạo khoảng một tháng trước và đã chạy thận màng bụng trong nhiều năm trước đó. Hiện đang chạy thận. Ngoài ra, bệnh nhân cảm thấy khỏe và không có khó thở. Phủ nhận đau bụng, buồn nôn, nôn, tiêu chảy, táo bón, đau ngực, khó thở hoặc tim đập nhanh/cảm giác tim đập mạnh.
+
+ 
+
+- Thông tin hồ sơ 3:
+
+ệnh nhân nam, 40 tuổi, vào viện với lý do chán ăn, sợ mỡ, vàng da, bụng to nhanh. Bệnh diễn biến 3 năm nay. Quá trình bệnh diễn biến với các triệu chứng và hội chứng sau:
+ HC suy chức năng gan:
+Mệt mỏi, khả năng tập trung công việc giảm, mất ngủ, gầy sút cân (khoảng 3kg/tháng)
+ Da sạm, vàng, củng mạc mắt vàng, tóc dễ gãy và rụng, nước tiểu vàng, hiện tại số lượng 2000ml/ngày (sử dụng 1 viên lasix + 4 viên aldactol/ngày)
+ Sao mạch, bàn tay son, phù 2 chi dưới: phù mềm, trắng, ấn lõm.
+ RLTH: chán ăn, sợ mỡ, bụng âm ách khó tiêu, phân lỏng.
+  Xét nghiệm: CTM
+HC: 3,35T/l; HST: 95 g/l; BC: 2,78 G/l; TC: 90 G/l
+SHM: 
+Protein: 58g/l;         Abumin 23.2 g/l                                         Bilirubin tp 120 umol/l;                 Bilirubin tt 90 umol/l; 
+Bilirubin gt 30 umol/l 
+AST (GOT) 340 U/l;         ALT (GPT) 78 U/l
+ HC tăng áp lực tĩnh mạch cửa:
+Lách to dưới bờ sườn 3cm, bờ sắc, bề mặt nhẵn, mật độ chắc
+Tuần hoàn bàng hệ trên rốn
+Cổ trướng ít
+Xét nghiệm dịch cổ trướng: dịch thấm: không màu, trong, Protein: 18,4 g/l; Rivalta (-)
+Siêu âm: tĩnh mạch cửa: 1.5 cm; lách khá lớn.
+  Triệu chứng thay đổi hình thái gan:
+Gan không sờ thấy
+Siêu âm: nhu mô gan không đồng nhất, bề mặt nhấp nhô, gan teo
+ Tiền sử bản thân:
+Phát hiện HBsAg (+) năm 2008
+Uống rượu ít, không thường xuyên
+Hiện tại ngày thứ 6 sau khi vào viện: còn mệt mỏi, ăn kém, da vàng, bụng nhỏ lại, nước tiểu màu vàng số lượng 2000ml/24h, đại tiện phân lỏng,Mạch 80 lần/phút, HA: 120/70mmHg, tần số thở 18 lần/phút, nhiệt độ: 36 độ 6.
+Chẩn đoán: Xơ gan Chil C do viêm gan B.
+Hướng điều trị: 
+Dextrose 5% x 500ml, truyền TM XL giọt/ phút 
+Philpovin 5g x 2 ống, pha vào glucose 5%, truyền TM XL giọt/ phút. 
+RB 25 x 4 viên, uống sáng 2 viên, chiều 2 viên. 
+Human albumin 20% x 50ml, truyền TM XX giọt/ phút, dùng đến khi xét nghiệm Albumin máu > 30g/l 
+Lasix 40mg x 1 viên, uống sáng, dùng đến khi hết phù và hết cổ trướng 
+Aldacton 25mg x 4 viên, uống sáng 2 viên, chiều 2 viên, dùng đến khi hết phù và hết cổ trướng 
+
+
+ 
+
+- Thông tin hồ sơ 4:
+
+Bệnh nhân là nam giới, đang làm việc tại nhà thì bị thương do cưa tròn gây chấn thương ở bàn tay trái, các ngón giữa, nhẫn và út. Bệnh nhân được chuyển đến [PLACEHOLDER] và được đưa vào phòng mổ. Ngón giữa tay trái bị cắt cụt hoàn toàn ở mức xương đốt giữa, được hoàn thành trong phòng mổ và tái tạo bằng vạt tiến triển tại chỗ ở mặt lưng. Ngón nhẫn tay trái có tổn thương phân đoạn của cả hai bó mạch thần kinh và gân gấp duỗi ngón sâu (FDP). Động mạch quay ngón được nối bằng ghép tĩnh mạch từ mu bàn chân trái và động mạch quay ngón út được nối trực tiếp, cả hai dây thần kinh được nối bằng ống nối thần kinh NeuraGen. Động mạch quay ngón út tay trái được nối trực tiếp và cả hai dây thần kinh ngón được nối bằng ống nối thần kinh NeuraGen. Các gân FDP được khâu nối xa vào các thanh kim loại của cả ngón nhẫn và ngón út bên phải và thanh kim loại được đặt trong bao gân làm vật liệu đệm để tạo bao gân mới. Bệnh nhân được khâu vết thương phức tạp hình sao ở cả ngón nhẫn và ngón út, vết rách lòng bàn tay xa và vết rách ở mặt quay. Bệnh nhân đến phòng khám Bàn tay hôm nay để tái khám, không có triệu chứng mới; bệnh nhân phủ nhận sốt rét. Bệnh nhân đang tập nâng tay tốt, và đã vận động các ngón vận động các ngón tối thiểu. Bệnh nhân phủ nhận tình trạng đau hoặc sưng tăng lên; phủ nhận dịch tiết trên băng hoặc bất kỳ dấu hiệu nào của nhiễm trùng.
+
+ 
+
+- Thông tin hồ sơ 5:
+
+Bệnh nhân nam với tiền sử cắt bỏ u u nguyên bào thần kinh đệm qua sọ, hóa trị, và cyberknife, hiện tại có liệt nửa người bên phải và suy dinh dưỡng tại nhà, được phát hiện có dấu hiệu u nguyên bào thần kinh đệm tiến triển. Theo vợ của bệnh nhân, ông sống cùng bà và hai người con trai. Cho đến vài tuần trước, ông có thể có thể đi lại độc lập và thực hiện các hoạt động sinh hoạt hàng ngày (adls). Khoảng hai tuần trước, ông có thể đi ăn tối với bạn bè, đi xem hòa nhạc và đọc báo. Sau đó, ông bắt đầu kéo lê chân. Ông tiếp tục suy giảm trong khoảng 10 ngày qua. Ông rất không vững khi đi lại. Vợ ông khuyên ông không nên ra khỏi giường mà không có sự giúp đỡ của bà nhưng ông vẫn cố gắng rời giường. Ông không thể sử dụng khung tập đi. Ông có hai hoặc ba lần ngã, chủ yếu từ tư thế ngồi, nhưng cũng đánh đầu một lần. Ông chủ yếu có liệt nửa người bên phải ngày càng nặng hơn mặc dù đôi khi có hồi phục một phần sức mạnh. Ông cũng phát triển thay đổi tính cách, ít nói hơn, mất tập trung khi làm việc, và giảm tốc độ xử lý tư duy. Vợ ông lo lắng về co giật. Ông có nhiều đợt tiểu không tự chủ và một đợt phân không tự chủ. Ông cũng có khó nuốt bằng tay trái và vợ ông cần phải cho ông ăn. Bà lo lắng về việc chăm sóc ông tại nhà và quan tâm đến Chăm sóc giảm nhẹ, có thể là chăm sóc tại nhà.
+
+Báo cáo được trích xuất tự động từ hệ thống
+
+Người in báo cáo
+(Ký và ghi rõ họ tên)
