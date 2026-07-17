@@ -1,0 +1,134 @@
+[
+  {
+    "text": "tăng huyết áp",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [
+      "isHistorical"
+    ],
+    "candidates": [],
+    "position": [
+      53,
+      66
+    ]
+  },
+  {
+    "text": "hóa trị",
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      105,
+      112
+    ]
+  },
+  {
+    "text": "ho",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      165,
+      167
+    ]
+  },
+  {
+    "text": "đau lưng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      174,
+      182
+    ]
+  },
+  {
+    "text": "phim chụp CT",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      227,
+      239
+    ]
+  },
+  {
+    "text": "tổn thương tiêu xương lan tỏa",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      249,
+      278
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      279,
+      282
+    ]
+  },
+  {
+    "text": "đa u tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      291,
+      305
+    ]
+  },
+  {
+    "text": "Định lượng IgA",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      325,
+      339
+    ]
+  },
+  {
+    "text": "tăng cao",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      340,
+      348
+    ]
+  },
+  {
+    "text": "đa u tuỷ xương",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      360,
+      374
+    ]
+  },
+  {
+    "text": "tổn thương ổ tiêu xương lan tỏa",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      438,
+      469
+    ]
+  },
+  {
+    "text": "Đa u tủy xương",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      485,
+      499
+    ]
+  }
+]

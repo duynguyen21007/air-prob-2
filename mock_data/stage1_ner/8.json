@@ -1,0 +1,178 @@
+[
+  {
+    "text": "chọc hút",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      84,
+      92
+    ]
+  },
+  {
+    "text": "bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      93,
+      103
+    ]
+  },
+  {
+    "text": "nốt tuyến giáp thùy trái",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      108,
+      132
+    ]
+  },
+  {
+    "text": "nốt tuyến giáp thùy trái",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      190,
+      214
+    ]
+  },
+  {
+    "text": "1 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      233,
+      237
+    ]
+  },
+  {
+    "text": "xét nghiệm tế bào học",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      334,
+      355
+    ]
+  },
+  {
+    "text": "bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      382,
+      392
+    ]
+  },
+  {
+    "text": "phù",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      477,
+      480
+    ]
+  },
+  {
+    "text": "khó nuốt",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [],
+    "position": [
+      568,
+      576
+    ]
+  },
+  {
+    "text": "khó thở",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [],
+    "position": [
+      578,
+      585
+    ]
+  },
+  {
+    "text": "khàn tiếng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [
+      "isNegated"
+    ],
+    "candidates": [],
+    "position": [
+      591,
+      601
+    ]
+  },
+  {
+    "text": "nốt tuyến giáp trái",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      683,
+      702
+    ]
+  },
+  {
+    "text": "nốt tuyến giáp trái",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      787,
+      806
+    ]
+  },
+  {
+    "text": "bất thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      816,
+      826
+    ]
+  },
+  {
+    "text": "nốt tuyến giáp trái",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      875,
+      894
+    ]
+  },
+  {
+    "text": "Nốt tuyến giáp thùy trái",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      916,
+      940
+    ]
+  },
+  {
+    "text": "1 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      959,
+      963
+    ]
+  }
+]

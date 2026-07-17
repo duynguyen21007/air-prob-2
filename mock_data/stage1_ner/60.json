@@ -1,0 +1,72 @@
+[
+  {
+    "text": "Trào ngược dạ dày thực quản",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      149,
+      176
+    ]
+  },
+  {
+    "text": "trào ngược mức độ nhẹ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      254,
+      275
+    ]
+  },
+  {
+    "text": "Chẩn đoán hình ảnh",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      590,
+      608
+    ]
+  },
+  {
+    "text": "không cho thấy thoát vị hoành",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      623,
+      652
+    ]
+  },
+  {
+    "text": "thoát vị cạnh thực quản khá lớn",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      694,
+      725
+    ]
+  },
+  {
+    "text": "bao gồm đáy vị và một phần của lớp băng cuốn lên lồng ngực",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      756,
+      814
+    ]
+  },
+  {
+    "text": "bình thường",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      866,
+      877
+    ]
+  }
+]

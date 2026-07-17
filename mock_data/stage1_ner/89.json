@@ -1,0 +1,132 @@
+[
+  {
+    "text": "nội soi mật tuỵ ngược dòng (ERCP)",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      53,
+      86
+    ]
+  },
+  {
+    "text": "octreotide",
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      206,
+      216
+    ]
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      223,
+      229
+    ]
+  },
+  {
+    "text": "Tuột sonde dẫn lưu ổ bụng",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      346,
+      371
+    ]
+  },
+  {
+    "text": "nhiễm Clostridioides difficile",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      665,
+      695
+    ]
+  },
+  {
+    "text": "nhiễm trùng",
+    "type": "CHẨN_ĐOÁN",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      700,
+      711
+    ]
+  },
+  {
+    "text": "flagyl",
+    "type": "THUỐC",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      742,
+      748
+    ]
+  },
+  {
+    "text": "sưng nề",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      1171,
+      1178
+    ]
+  },
+  {
+    "text": "đỏ",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      1180,
+      1182
+    ]
+  },
+  {
+    "text": "ống dẫn lưu bị tuột ra",
+    "type": "TRIỆU_CHỨNG",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      1184,
+      1206
+    ]
+  },
+  {
+    "text": "15,24 cm",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      1207,
+      1215
+    ]
+  },
+  {
+    "text": "siêu âm",
+    "type": "TÊN_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      1327,
+      1334
+    ]
+  },
+  {
+    "text": "không phát hiện huyết khối tĩnh mạch sâu",
+    "type": "KẾT_QUẢ_XÉT_NGHIỆM",
+    "assertions": [],
+    "candidates": [],
+    "position": [
+      1337,
+      1377
+    ]
+  }
+]

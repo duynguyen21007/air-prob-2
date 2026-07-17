@@ -1,8 +1,7 @@
-# Plan files
-viettel_ai_race_analysis_2f6b473d.plan.md
-
 # Environment
 .env
+.venv/
+venv/
 
 # Python
 __pycache__/
@@ -13,4 +12,11 @@ __pycache__/
 data/
 output/
 output-zip/
-example_output.json
+gt/
+*.zip
+
+#docs
+docs-and-utils/
+
+# Model weights (vLLM docker volume)
+model/

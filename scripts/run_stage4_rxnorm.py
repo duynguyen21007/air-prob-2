@@ -1,8 +1,7 @@
 import sys
 import os
 import json
-import time
-import requests
+
 from pathlib import Path
 from tqdm import tqdm
 
@@ -11,11 +10,9 @@ BASE_DIR = Path(__file__).parent.parent
 sys.path.append(str(BASE_DIR))
 
 from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
-from src.gemini_client import generate_structured_response
-from src.schema import RxNormCleanResponse
-from src.prompts.stage4_rxnorm import STAGE4_SYSTEM_PROMPT, STAGE4_USER_PROMPT_TEMPLATE
+from src.retrieval.rxnorm_hybrid_search import RxNormHybridSearcher
 
-STAGE3_DIR = DATA_DIR / "stage3_assertions"
+STAGE1_DIR = DATA_DIR / "stage1_ner"
 STAGE4_OUT_DIR = DATA_DIR / "stage4_rxnorm"
 
 
@@ -51,79 +48,56 @@ class CompactPositionEncoder(json.JSONEncoder):
             return json.dumps(o, ensure_ascii=False)
 
 
-def get_rxnorm_id(clean_name):
-    # Call RxNorm REST API
-    url = f"https://rxnav.nlm.nih.gov/REST/rxcui.json?name={clean_name}"
-    try:
-        resp = requests.get(url, timeout=10)
-        resp.raise_for_status()
-        data = resp.json()
-        id_group = data.get("idGroup", {})
-        rxnorm_ids = id_group.get("rxnormId", [])
-        if rxnorm_ids:
-            return rxnorm_ids[0]
-    except Exception as e:
-        print(f"RxNorm API error for '{clean_name}': {e}")
-    return None
-
-
 def run_stage4():
     STAGE4_OUT_DIR.mkdir(parents=True, exist_ok=True)
     
-    for doc_id in tqdm(SAMPLE_IDS, desc="Processing Stage 4 RxNorm"):
-        stage3_file = STAGE3_DIR / f"{doc_id}.json"
+    data_csv_path = BASE_DIR / "data_rxnorm.csv"
+    chroma_persist_dir = DATA_DIR / "chroma_rxnorm_db"
+    
+    print("Initializing RxNorm Hybrid Searcher...")
+    searcher = RxNormHybridSearcher(str(data_csv_path), str(chroma_persist_dir))
+    
+    json_files = list(STAGE1_DIR.glob("*.json"))
+    lookup = {}
+    for stage1_file in tqdm(json_files, desc="Processing Stage 4 RxNorm"):
+        doc_id = stage1_file.stem
         out_file = STAGE4_OUT_DIR / f"{doc_id}.json"
         
-        if not stage3_file.exists():
-            print(f"Warning: Stage 3 output {stage3_file} does not exist. Skipping.")
+        if not stage1_file.exists():
+            print(f"Warning: Stage 1 output {stage1_file} does not exist. Skipping.")
             continue
             
         if out_file.exists():
             print(f"Skipping {doc_id} as it is already processed.")
             continue
             
-        with open(stage3_file, "r", encoding="utf-8") as f:
-            stage3_data = json.load(f)
+        with open(stage1_file, "r", encoding="utf-8") as f:
+            stage1_data = json.load(f)
             
         # Extract THUỐC entities
-        thuoc_entities = [ent for ent in stage3_data if ent["type"] == "THUỐC"]
+        thuoc_entities = [ent for ent in stage1_data if ent["type"] == "THUỐC"]
         
-        lookup = {}
         if thuoc_entities:
             raw_drugs = [ent["text"] for ent in thuoc_entities]
-            # Deduplicate for prompt
             raw_drugs = list(set(raw_drugs))
             
-            prompt = STAGE4_USER_PROMPT_TEMPLATE.format(
-                drugs_json=json.dumps(raw_drugs, ensure_ascii=False, indent=2)
-            )
-            
-            try:
-                parsed_response = generate_structured_response(
-                    prompt=prompt,
-                    response_schema=RxNormCleanResponse,
-                    system_instruction=STAGE4_SYSTEM_PROMPT
-                )
-                for item in parsed_response.drugs:
-                    lookup[item.original_text] = item.clean_name
-            except Exception as e:
-                print(f"Error calling Gemini for document {doc_id}: {e}")
+            for drug in raw_drugs:
+                if drug in lookup:
+                    continue
+                rxcuis = searcher.get_qualified_rxcuis_v2(drug)
+                if rxcuis:
+                    lookup[drug] = rxcuis[:5]
                 
         # Now rebuild entities with candidates
         entities = []
-        for ent in stage3_data:
+        for ent in stage1_data:
             new_ent = dict(ent) # Make a copy
             if new_ent["type"] == "THUỐC":
-                clean_name = lookup.get(new_ent["text"])
-                if clean_name:
-                    rxcui = get_rxnorm_id(clean_name)
-                    if rxcui:
-                        new_ent["candidates"] = [rxcui]
-                    else:
-                        new_ent["candidates"] = []
+                rxcuis = lookup.get(new_ent["text"])
+                if rxcuis:
+                    new_ent["candidates"] = rxcuis
                 else:
                     new_ent["candidates"] = []
-                time.sleep(0.1) # Be nice to RxNorm API
             
             entities.append(new_ent)
             

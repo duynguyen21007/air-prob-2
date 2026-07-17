@@ -6,21 +6,22 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
 # Paths
 BASE_DIR = Path(__file__).parent.parent
 CONFIG_PATH = BASE_DIR / "config.yaml"
 INPUT_DIR = BASE_DIR / "input"
 DATA_DIR = BASE_DIR / "data"
+MOCK_DATA_DIR = BASE_DIR / "mock_data"
 
 # Load config
 with open(CONFIG_PATH, "r", encoding="utf-8") as f:
     config = yaml.safe_load(f)
 
 SAMPLE_IDS = config.get("sample_ids", [])
-MODEL_NAME = config.get("model", "gemini-2.5-flash")
-TEMPERATURE = config.get("temperature", 0.1)
-MAX_RETRIES = config.get("max_retries", 3)
-RETRY_BASE_DELAY = config.get("retry_base_delay", 2.0)
-RPM_LIMIT = config.get("rpm_limit", 15)
+
+# vLLM configuration (via OpenAI-compatible API)
+VLLM_BASE_URL = os.getenv("VLLM_BASE_URL", "http://localhost:8211/v1")
+VLLM_API_KEY = os.getenv("VLLM_API_KEY", "dummy")
+VLLM_MODEL = os.getenv("VLLM_MODEL", "Qwen/Qwen3.5-9B")
+VLLM_MAX_TOKENS = int(os.getenv("VLLM_MAX_TOKENS", "4096"))
+VLLM_TEMPERATURE = float(os.getenv("VLLM_TEMPERATURE", "0.0"))

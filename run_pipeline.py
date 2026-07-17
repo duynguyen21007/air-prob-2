@@ -3,8 +3,8 @@ import sys
 
 stages = [
     "scripts/run_stage1_ner.py",
-    "scripts/run_stage2_classify.py",
-    "scripts/run_stage3_assertions.py",
+    # "scripts/run_stage2_classify.py",   # Skipped: classification done in Stage 1
+    # "scripts/run_stage3_assertions.py", # Skipped: assertions set to [] by default
     "scripts/run_stage4_rxnorm.py",
     "scripts/run_stage5_icd10.py",
     "scripts/run_stage6_merge.py"

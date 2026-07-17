@@ -1,6 +1,6 @@
-# Viettel AI Race 2026 — Baseline Pipeline
+# Viettel AI Race 2026 — Pipeline
 
-Staged LLM pipeline for clinical entity extraction using Google Gemini.
+Staged LLM pipeline for clinical entity extraction using vLLM + hybrid retrieval.
 
 ## Setup
 
@@ -10,68 +10,45 @@ Staged LLM pipeline for clinical entity extraction using Google Gemini.
 pip install -r requirements.txt
 ```
 
-### 2. Configure API key
+### 2. Start vLLM server (Docker)
+
+```bash
+docker run -d --name vllm-qwen3.5-9b --gpus '"device=6"' -p 8211:8000 -v $(pwd)/model:/root/.cache/huggingface --ipc=host vllm/vllm-openai:v0.21.0-cu129 --model Qwen/Qwen3.5-9B --dtype bfloat16 --gpu-memory-utilization 0.4 --trust-remote-code --max-model-len 16000 --max-num-seqs 1
+```
+
+### 3. Configure environment
 
 ```bash
 cp .env.example .env
 ```
 
-Edit `.env` and set your `GEMINI_API_KEY` from [Google AI Studio](https://aistudio.google.com/apikey).
+Edit `.env` to match your vLLM server settings (defaults point to `http://localhost:8211/v1`).
 
-### 3. Verify installation
+> **Mock / Offline Mode**: If you do not have a GPU or vLLM server running, set `MOCK_LLM=true` in `.env`. The pipeline will automatically use pre-saved responses in `mock_data/stage1_ner/` and local vector search reranking to run end-to-end.
+
+### 4. Build retrieval indexes (one-time)
 
 ```bash
-python -c "from src.gemini_client import client; print('OK')"
+python scripts/build_icd10_index.py
+python scripts/build_rxnorm_index.py
 ```
 
-This checks that the project scaffold and Gemini client import correctly. If `GEMINI_API_KEY` is set, the client is ready for API calls in later stages.
+### 5. Run pipeline
 
-### Configuration
-
-`config.yaml` controls sample set and model settings:
-
-```yaml
-sample_ids: [0, 1, 2, 3, 5]
-model: gemini-3.1-flash-lite
-temperature: 0.1
+```bash
+python run_pipeline.py
 ```
 
 ## Pipeline Stages
 
 | Stage | Task | Script | Output |
 |-------|------|--------|--------|
-| 1 | NER — extract entity text + position via XML tagging | `run_stage1_ner.py` | `data/stage1_ner/` |
-| 2 | Classify — assign entity type | `run_stage2_classify.py` | `data/stage2_classify/` |
-| 3 | Assertions — negation/family/historical | `run_stage3_assertions.py` | `data/stage3_assertions/` |
-| 4 | RxNorm — drug code linking (hybrid LLM+API) | `run_stage4_rxnorm.py` | `data/stage4_rxnorm/` |
-| 5 | ICD-10 — diagnosis code linking (LLM direct) | `run_stage5_icd10.py` | `data/stage5_icd10/` |
+| 1 | NER — extract entity text + position + type via vLLM | `run_stage1_ner.py` | `data/stage1_ner/` |
+| 2 | Classify — assign entity type (skipped, done in Stage 1) | `run_stage2_classify.py` | — |
+| 3 | Assertions — negation/family/historical (skipped, set to []) | `run_stage3_assertions.py` | — |
+| 4 | RxNorm — drug code linking (hybrid BM25 + dense + LLM reranking) | `run_stage4_rxnorm.py` | `data/stage4_rxnorm/` |
+| 5 | ICD-10 — diagnosis code linking (hybrid BM25 + dense + LLM reranking) | `run_stage5_icd10.py` | `data/stage5_icd10/` |
 | 6 | Merge — filter, sort, output final contest JSON | `run_stage6_merge.py` | `output/` |
-
-## Usage
-
-```bash
-# Stage 1: Extract entities using XML tagging for precise character mapping
-python scripts/run_stage1_ner.py
-
-# Stage 2: Classify entity types
-python scripts/run_stage2_classify.py
-
-# Stage 3: Detect assertions (negation/family/historical)
-python scripts/run_stage3_assertions.py
-
-# Stage 4: Map THUỐC to RxNorm CUIs
-python scripts/run_stage4_rxnorm.py
-
-# Stage 5: Map CHẨN_ĐOÁN to ICD-10 codes
-python scripts/run_stage5_icd10.py
-
-# Stage 6: Final merge, sort, and cleanup
-python scripts/run_stage6_merge.py
-
-# Review any stage
-python scripts/review_stage.py --stage 1 --id 1
-python scripts/review_stage.py --stage 6 --summary
-```
 
 ## Entity Types
 
@@ -93,7 +70,7 @@ Follows contest specification — bare JSON array per file:
         "text": "metoprolol 25mg po bid",
         "type": "THUỐC",
         "candidates": ["866924"],
-        "assertions": ["isHistorical"],
+        "assertions": [],
         "position": [53, 75]
     }
 ]
@@ -103,9 +80,11 @@ Follows contest specification — bare JSON array per file:
 
 ```
 input/          # Source clinical notes (100 files)
-data/           # Per-stage pipeline outputs
+data/           # Per-stage pipeline outputs (ignored by git)
+mock_data/      # Pre-saved mock Stage 1 responses (tracked in git)
 output/         # Final contest JSON (Stage 6)
-src/            # Shared code (config, Gemini client, schemas, prompts)
-scripts/        # Runner + review scripts
-config.yaml     # Sample IDs, model, temperature
+src/            # Shared code (config, LLM client, retrieval, schemas)
+scripts/        # Runner scripts + index builders
+config.yaml     # Sample IDs
+.env            # vLLM server and mock mode configuration
 ```
