@@ -24,8 +24,6 @@ cp .env.example .env
 
 Edit `.env` to match your vLLM server settings (defaults point to `http://localhost:8211/v1`).
 
-> **Mock / Offline Mode**: If you do not have a GPU or vLLM server running, set `MOCK_LLM=true` in `.env`. The pipeline will automatically use pre-saved responses in `mock_data/stage1_ner/` and local vector search reranking to run end-to-end.
-
 ### 4. Build retrieval indexes (one-time)
 
 ```bash
@@ -35,9 +33,20 @@ python scripts/build_rxnorm_index.py
 
 ### 5. Run pipeline
 
+**Standard Mode (with vLLM server running):**
 ```bash
 python run_pipeline.py
 ```
+
+**Mock / Offline Mode (without LLM server):**
+```bash
+python run_pipeline.py --mock
+```
+
+> **How Mock Mode Works**:
+> - **Stage 1 (NER)**: Uses pre-saved entity responses from `mock_data/stage1_ner/`.
+> - **Stages 4 & 5 (RxNorm & ICD-10)**: Uses your local BM25 + BGE CrossEncoder reranker (`BAAI/bge-reranker-v2-m3`) without calling an LLM server.
+> - **Stage 6 (Merge)**: Merges everything and outputs final contest JSON to `output/`.
 
 ## Pipeline Stages
 
@@ -86,5 +95,5 @@ output/         # Final contest JSON (Stage 6)
 src/            # Shared code (config, LLM client, retrieval, schemas)
 scripts/        # Runner scripts + index builders
 config.yaml     # Sample IDs
-.env            # vLLM server and mock mode configuration
+.env            # vLLM server configuration
 ```

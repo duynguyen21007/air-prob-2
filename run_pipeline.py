@@ -1,5 +1,7 @@
-import subprocess
+import os
 import sys
+import argparse
+import subprocess
 
 stages = [
     "scripts/run_stage1_ner.py",
@@ -11,12 +13,26 @@ stages = [
 ]
 
 def main():
+    parser = argparse.ArgumentParser(description="Run full clinical entity pipeline")
+    parser.add_argument("--mock", action="store_true", help="Run entire pipeline in mock/offline mode (without LLM server)")
+    args = parser.parse_args()
+
+    if args.mock:
+        os.environ["MOCK_LLM"] = "true"
+        print("\n" + "="*60)
+        print(" RUNNING PIPELINE IN MOCK / OFFLINE MODE (NO LLM SERVER)")
+        print("="*60 + "\n")
+
     for stage in stages:
         print(f"\n{'='*50}")
         print(f"Running {stage}...")
         print(f"{'='*50}\n")
         
-        result = subprocess.run([sys.executable, stage])
+        cmd = [sys.executable, stage]
+        if args.mock:
+            cmd.append("--mock")
+
+        result = subprocess.run(cmd)
         
         if result.returncode != 0:
             print(f"\n[ERROR] {stage} failed with exit code {result.returncode}.")

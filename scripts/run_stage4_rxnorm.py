@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+import argparse
 
 from pathlib import Path
 from tqdm import tqdm
@@ -9,7 +10,7 @@ from tqdm import tqdm
 BASE_DIR = Path(__file__).parent.parent
 sys.path.append(str(BASE_DIR))
 
-from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
+from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR, MOCK_LLM
 from src.retrieval.rxnorm_hybrid_search import RxNormHybridSearcher
 
 STAGE1_DIR = DATA_DIR / "stage1_ner"
@@ -48,13 +49,22 @@ class CompactPositionEncoder(json.JSONEncoder):
             return json.dumps(o, ensure_ascii=False)
 
 
-def run_stage4():
+def run_stage4(is_mock=False):
     STAGE4_OUT_DIR.mkdir(parents=True, exist_ok=True)
+    use_mock = is_mock or MOCK_LLM or os.getenv("MOCK_LLM", "false").lower() in ("true", "1", "yes")
     
     data_csv_path = BASE_DIR / "data_rxnorm.csv"
     chroma_persist_dir = DATA_DIR / "chroma_rxnorm_db"
     
-    print("Initializing RxNorm Hybrid Searcher...")
+    if not chroma_persist_dir.exists():
+        print(f"ChromaDB not found at {chroma_persist_dir}! Please run `python scripts/build_rxnorm_index.py` first.")
+        return
+
+    if use_mock:
+        print("[MOCK MODE] Stage 4 RxNorm using local BGE CrossEncoder reranking (without LLM)")
+    else:
+        print("[LLM MODE] Stage 4 RxNorm using vLLM candidate reranking")
+
     searcher = RxNormHybridSearcher(str(data_csv_path), str(chroma_persist_dir))
     
     json_files = list(STAGE1_DIR.glob("*.json"))
@@ -84,7 +94,17 @@ def run_stage4():
             for drug in raw_drugs:
                 if drug in lookup:
                     continue
-                rxcuis = searcher.get_qualified_rxcuis_v2(drug)
+                try:
+                    if use_mock:
+                        # Non-LLM local BGE CrossEncoder reranking
+                        rxcuis = searcher.get_qualified_rxcuis(drug, margin=0.05, absolute_threshold=0.0)
+                    else:
+                        # vLLM reranker
+                        rxcuis = searcher.get_qualified_rxcuis_v2(drug)
+                except Exception as e:
+                    print(f"Warning: Reranking failed for '{drug}' ({e}). Falling back to local search.")
+                    rxcuis = searcher.get_qualified_rxcuis(drug, margin=0.05, absolute_threshold=0.0)
+                    
                 if rxcuis:
                     lookup[drug] = rxcuis[:5]
                 
@@ -106,4 +126,8 @@ def run_stage4():
             f.write(CompactPositionEncoder().encode(entities) + "\n")
 
 if __name__ == "__main__":
-    run_stage4()
+    parser = argparse.ArgumentParser(description="Run Stage 4 RxNorm Retrieval")
+    parser.add_argument("--mock", action="store_true", help="Run in mock mode (using local BGE reranker without LLM)")
+    args = parser.parse_args()
+
+    run_stage4(is_mock=args.mock)

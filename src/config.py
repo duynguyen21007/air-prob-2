@@ -25,3 +25,6 @@ VLLM_API_KEY = os.getenv("VLLM_API_KEY", "dummy")
 VLLM_MODEL = os.getenv("VLLM_MODEL", "Qwen/Qwen3.5-9B")
 VLLM_MAX_TOKENS = int(os.getenv("VLLM_MAX_TOKENS", "4096"))
 VLLM_TEMPERATURE = float(os.getenv("VLLM_TEMPERATURE", "0.0"))
+
+# Mock mode flag (run pipeline without LLM server)
+MOCK_LLM = os.getenv("MOCK_LLM", "false").lower() in ("true", "1", "yes")

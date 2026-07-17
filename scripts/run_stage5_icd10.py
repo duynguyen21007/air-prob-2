@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+import argparse
 from pathlib import Path
 from tqdm import tqdm
 
@@ -8,7 +9,7 @@ from tqdm import tqdm
 BASE_DIR = Path(__file__).parent.parent
 sys.path.append(str(BASE_DIR))
 
-from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR
+from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR, MOCK_LLM
 from src.retrieval import Icd10HybridSearcher
 
 STAGE4_DIR = DATA_DIR / "stage4_rxnorm"
@@ -46,19 +47,25 @@ class CompactPositionEncoder(json.JSONEncoder):
             return json.dumps(o, ensure_ascii=False)
 
 
-def run_stage5():
+def run_stage5(is_mock=False):
     if not STAGE4_DIR.exists():
         print("Stage 4 output not found. Please run stage 4 first.")
         return
+
+    use_mock = is_mock or MOCK_LLM or os.getenv("MOCK_LLM", "false").lower() in ("true", "1", "yes")
 
     data_csv_path = BASE_DIR / "data_icds.csv"
     chroma_persist_dir = DATA_DIR / "chroma_icd10_db"
     
     if not chroma_persist_dir.exists():
-        print("ChromaDB not found! Please run `python scripts/build_icd10_index.py` first.")
+        print(f"ChromaDB not found at {chroma_persist_dir}! Please run `python scripts/build_icd10_index.py` first.")
         return
         
-    print("Initializing Icd10HybridSearcher...")
+    if use_mock:
+        print("[MOCK MODE] Stage 5 ICD-10 using local BGE CrossEncoder reranking (without LLM)")
+    else:
+        print("[LLM MODE] Stage 5 ICD-10 using vLLM candidate reranking")
+
     searcher = Icd10HybridSearcher(str(data_csv_path), str(chroma_persist_dir))
 
     json_files = list(STAGE4_DIR.glob("*.json"))
@@ -88,7 +95,17 @@ def run_stage5():
             for diag in diagnoses:
                 if diag in lookup:
                     continue
-                qualified_icds = searcher.get_qualified_icds_v2(diag)
+                try:
+                    if use_mock:
+                        # Non-LLM local BGE CrossEncoder reranking
+                        qualified_icds = searcher.get_qualified_icds(diag, margin=0.05, absolute_threshold=0.0)
+                    else:
+                        # vLLM reranker
+                        qualified_icds = searcher.get_qualified_icds_v2(diag)
+                except Exception as e:
+                    print(f"Warning: Reranking failed for '{diag}' ({e}). Falling back to local search.")
+                    qualified_icds = searcher.get_qualified_icds(diag, margin=0.05, absolute_threshold=0.0)
+
                 if qualified_icds:
                     lookup[diag] = qualified_icds
                 
@@ -110,4 +127,8 @@ def run_stage5():
             f.write(CompactPositionEncoder().encode(entities) + "\n")
 
 if __name__ == "__main__":
-    run_stage5()
+    parser = argparse.ArgumentParser(description="Run Stage 5 ICD-10 Retrieval")
+    parser.add_argument("--mock", action="store_true", help="Run in mock mode (using local BGE reranker without LLM)")
+    args = parser.parse_args()
+
+    run_stage5(is_mock=args.mock)

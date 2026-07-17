@@ -2,6 +2,7 @@ import sys
 import os
 import json
 import shutil
+import argparse
 import traceback
 from pathlib import Path
 from tqdm import tqdm
@@ -10,7 +11,7 @@ from tqdm import tqdm
 BASE_DIR = Path(__file__).parent.parent
 sys.path.append(str(BASE_DIR))
 
-from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR, MOCK_DATA_DIR
+from src.config import SAMPLE_IDS, INPUT_DIR, DATA_DIR, MOCK_DATA_DIR, MOCK_LLM
 from src.llm_client import get_response_for_single_chat
 
 
@@ -110,7 +111,6 @@ class CompactPositionEncoder(json.JSONEncoder):
                 items.append(f'{indent * (indent_level + 1)}"{k}": {encoded_value}')
             return "{\n" + ",\n".join(items) + "\n" + indent * indent_level + "}"
         elif isinstance(o, list):
-            # Keep short lists of primitives (like position) on one line
             if all(isinstance(item, (int, float)) for item in o):
                 return "[" + ", ".join(json.dumps(item) for item in o) + "]"
             # Keep short lists of strings (like assertions or candidates) on one line
@@ -207,10 +207,13 @@ def process_text(text):
     return result
 
 
-def run_stage1():
+def run_stage1(is_mock=False):
     STAGE1_OUT_DIR.mkdir(parents=True, exist_ok=True)
-    mock_mode = os.getenv("MOCK_LLM", "false").lower() in ("true", "1", "yes")
-    
+    use_mock = is_mock or MOCK_LLM or os.getenv("MOCK_LLM", "false").lower() in ("true", "1", "yes")
+
+    if use_mock:
+        print("[MOCK MODE] Stage 1 NER using pre-saved responses from mock_data/stage1_ner")
+
     for doc_id in tqdm(SAMPLE_IDS, desc="Processing Stage 1 NER"):
         in_file = INPUT_DIR / f"{doc_id}.txt"
         out_file = STAGE1_OUT_DIR / f"{doc_id}.json"
@@ -223,12 +226,14 @@ def run_stage1():
         if out_file.exists():
             print(f"Skipping {doc_id} as it is already processed.")
             continue
-            
-        # If in mock mode or mock_file exists and out_file doesn't, copy mock file
-        if mock_file.exists() and mock_mode:
-            print(f"Using pre-saved mock response for document {doc_id}.")
-            shutil.copy(mock_file, out_file)
-            continue
+
+        # Mock mode handling
+        if use_mock:
+            if mock_file.exists():
+                shutil.copy(mock_file, out_file)
+                continue
+            else:
+                print(f"Warning: Mock file {mock_file} not found. Will attempt LLM execution.")
 
         with open(in_file, "r", encoding="utf-8") as f:
             source_text = f.read()
@@ -243,11 +248,15 @@ def run_stage1():
         except Exception as e:
             # Fallback to mock file if available upon LLM error
             if mock_file.exists():
-                print(f"LLM error for document {doc_id}. Falling back to pre-saved mock data.")
+                print(f"LLM error for document {doc_id} ({e}). Falling back to pre-saved mock file.")
                 shutil.copy(mock_file, out_file)
             else:
                 print(f"Error processing document {doc_id}: {e}")
 
 
 if __name__ == "__main__":
-    run_stage1()
+    parser = argparse.ArgumentParser(description="Run Stage 1 NER")
+    parser.add_argument("--mock", action="store_true", help="Run in mock mode (without LLM server)")
+    args = parser.parse_args()
+    
+    run_stage1(is_mock=args.mock)
