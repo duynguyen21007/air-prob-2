@@ -13,7 +13,6 @@ data/
 output/
 output-zip/
 gt/
-*.zip
 
 #docs
 docs-and-utils/
